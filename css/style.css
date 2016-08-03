@@ -898,8 +898,38 @@ height: 100%
   text-align: center;
 }
 
+.instagram{
+  background-color: white;
+}
 
 
+.instagram h1{
+    font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 20px;
+  color: #e50051;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 80px 80px;s
+}
+
+.instagram h1 span{
+  font-weight: 700;
+}
+
+.btn-instagram{
+  background-color: #e50051;
+  color: white;
+  margin-top: 40px;
+    margin-bottom: 40px;
+
+
+}
+
+.btn-instagram:hover{
+  background-color: #000;
+  color: #e50051;
+}
 
 
 /*menu*/
