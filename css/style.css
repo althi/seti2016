@@ -649,6 +649,7 @@ footer h3{
 }
 
 .copyrights{
+
   font-family: 'Open Sans', sans-serif;
   background-color: #000;
   color: #54585b; 
@@ -934,7 +935,101 @@ height: 100%
 
 /*menu*/
 
+.navbar-seti{
+
+  background-color: rgba(46,41,78,0.9);
+  text-transform: uppercase;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   padding-top: 5px;
+   padding-bottom: 5px;
+
+}
+
+.navbar-seti li{
+  padding-right: 10px;
+
+}
+
+.roquetContainer{
+
+  width: 400px;
+  height: augto;
+}
 
 
+.rocket{
+    background-image: url("../img/roquet.svg");
+    display: inline-block;
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: inherit;
+    position:absolute;
+    background-size: 500px auto;
+
+    left: 0;
+    z-index: 1;
+}
+
+.linkHome{color: #F72AA2}
+.linkPalestrantes{color:#D90368;}
+.linkPatrocinadores{color:#78C0E0;}
+.linkLocalizacao{color:#AB00C1;}
+.linkOevento{color:#FFD400;}
+
+.contato{
+  background-color: #fcfbf9;
+  padding-bottom: 300px;
+  height: 900px;
+  background-image: url("../img/footer.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size:  100% auto;
+  padding-top: 200px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  z-index: 2;
+}
+
+.contato h1{
+font-weight: 600;
+
+}
 
 
+.palestrantes{
+
+  background-color: white;
+  background-image: url("../img/palestrantes.svg");
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+  padding-bottom: 10px;
+  height: auto;
+  
+
+
+}
+
+
+.palestrantes h1{
+    font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 20px;
+  color: #e50051;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 80px 80px;s
+}
+
+.palestrantes h1 span{
+  font-weight: 700;
+}
+
+.palestrantes p{
+  font-size: 16px;
+  color: black;
+  line-height: 30px;
+  font-weight: 300;
+}

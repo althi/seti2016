@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>SETI - Semana de Tecnologia da Informação</title>
+  <title>III SETI - Semana de Tecnologia da Informação</title>
   <meta name="description" content="A Semana de Tecnologia da Informação (SETI) é um evento que ocorre anualmente no departamento de Ciência da Computação (DCC) da Universidade Federal de Lavras (UFLA). O event será entre os dias 17 e 23 de Outubro de 2015.">
   <meta name="author" content="Vincent Garreau" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -13,6 +13,7 @@
 <!--estilos-->
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
  <link rel="stylesheet" type="text/css" href="css/menu_topexpand.css" />
+ <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <!--[if IE]>
 
 
@@ -20,8 +21,6 @@
 
   
   <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-     <link href='http://fonts.googleapis.com/css?family=Dosis:700' rel='stylesheet' type='text/css'>
   
 <script language="JavaScript" type="text/javascript">
 var hora = Math.floor((Math.random() * 4) + 1);
@@ -44,13 +43,52 @@ document.write(exibe);
 
 
 <!-- particles.js container -->
-        <div id="particles-js" ></div> 
+        <div id="particles-js"></div> 
 
-      
+      <!-- Fixed navbar -->
+    <nav class="navbar  navbar-fixed-top navbar-seti">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active linkHome"><a href="#home">Home</a></li>
+            <li><a href="#oEvento" class="linkOevento">O evento</a></li>
+            <li><a href="#palestrantes"class="linkPalestrantes">Palestrantes</a></li>
+            <li><a href="#about"class="linkLocalizacao">Localização</a></li>
+            <li><a href="#contact"class="linkPatrocinadores">Patrocinadores</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programação <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Segunda-feira</a></li>
+                <li><a href="#">Terça-feira</a></li>
+                <li><a href="#">Quarta-feira</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Default</a></li>
+            <li><a href="../navbar-static-top/">Static top</a></li>
+            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
 
 
-        <section id="sec-1" class="no-padding home">
+
+        <section id="sec-1" class="no-padding home" id="home">
             <div class="containerHome container center">
                 <div class="row">    
                      <img src="img/logotipo.svg" class="image-title" ALT="lototipo do SETI">
@@ -59,7 +97,6 @@ document.write(exibe);
             <h2><spam class="glyphicon glyphicon-calendar"> </spam> 17 a 23 de Outubro de 2016 <spam class="glyphicon glyphicon-map-marker"></spam> Universidade Federal de Lavras</h2>
 
           <div class="call4action">
-					   <a href="#palestrante" class="btn btn-lg btn-palestrante">Quero ser palestrante</a>
 					   <a href="#patrocinador" class="btn btn-lg btn-patrocinador">Quero ser patrocinador</a>
               <a href="#video" class="btn btn-lg btn-video hidden-sm hidden-xs">Video do SETI 2015</a>
           </div>
@@ -68,7 +105,7 @@ document.write(exibe);
     </section>
 		
     <section class="oevento oeventoBG">
-      <div class="containerOevento container">
+      <div class="containerOevento container"id="oEvento">
         <div class="center"><h1>a <span>semana de TI</span></h1></div>
           <div class="media">
             <div class="media-left hidden-sm hidden-xs">
@@ -76,8 +113,8 @@ document.write(exibe);
                 <img src="img/astronaut.svg" alt="astronauta">
               </a>
             </div>
-            <div class="media-body oeventoImagem">
-            <p>A Semana de Tecnologia da Informação (SETI) é um evento que ocorre anualmente no departamento de Ciência da Computação (DCC) da Universidade Federal de Lavras (UFLA) e já pode ser considerado um dos maiores eventos de tecnologia do Sul de Minas. Na edição de 2014, o evento atingiu 500 participantes inscritos, presentes em mais de 30 palestras e 10 minicursos. A edição de 2015, o atingiu 700 participantes. Em 2016 esperamos atingir um público ainda maior, já que o evento está consolidado, pelo excelente feedback que tivemos na última edição.
+            <div class="media-body oeventoImagem" >
+            <p>A Semana de Tecnologia da Informação (SETI) é um evento que ocorre anualmente no departamento de Ciência da Computação (DCC) da Universidade Federal de Lavras (UFLA) e já pode ser considerado um dos maiores eventos de tecnologia do Sul de Minas. Na edição de 2014, o evento atingiu 500 participantes inscritos, presentes em mais de 30 palestras e 10 minicursos. A edição de 2015, o atingiu 700 participantes.
                   </p>
             </div>
           </div>
@@ -106,11 +143,24 @@ document.write(exibe);
                 <p>Para este ano de 2016, levaremos ao público participante à uma grande viagem entre as principais tendências da área da tecnologia, como contato com o mercado de trabalho, além de proporcionar uma oportunidade de crescimento profissional e acadêmico dos participantes. Serão realizadas palestras, minicursos, debates, mesas redondas, estandes de empresas e outras atividades.</p>
           </div>
         </div>
+
+        <div class="media">
+          <div class="center hidden-sm hidden-xs">
+ 
+          </div>
+          <div class="media-body oeventoImagem">
+                <h1>Edições</h1>
+                <a type="button" class="btn btn-lg btn-proposta" href="http://goo.gl/forms/6UFHUhZB1L" target="_blank">Edição 2014</a>
+                <a type="button" class="btn btn-lg btn-proposta" href="http://goo.gl/forms/6UFHUhZB1L" target="_blank">Edição 2015</a>
+          </div>
+        </div>
+
+            
     </section>
 
 
 <img class="divisor" src="img/divisor_pb.svg" alt="Divisao da sessão">
-    <section class="aufla">
+    <section class="palestrantes" id="palestrantes">
       <div class="container auflacontainer">
         <h1 class="text-center">Os <span>Palestrantes</span></h1>
 
@@ -118,7 +168,7 @@ document.write(exibe);
 
         <!--palestrante-->
         <div class="col-md-3 palestranteDiv">
-          <div><img src="img/palestrantes/andrepaulovich.jpg" class="img-responsive"></div>
+          <div><img src="img/palestrantes/andrepaulovich_2.jpg" class="img-responsive"></div>
           <div class="nomePalestrante">André Paulovich</div>
           <div><p class="palestranteEmpresa">CI&T</p></div>
           <div><p class="tituloPalestra">Aqui vem o titulo da plestra cooL! Muito massa</p></div>
@@ -132,7 +182,7 @@ document.write(exibe);
 
         <!--palestrante-->
         <div class="col-md-3 palestranteDiv">
-          <div><img src="img/palestrantes/brunocastro.jpg" class="img-responsive"></div>
+          <div><img src="img/palestrantes/brunocastro_2.jpg" class="img-responsive"></div>
           <div class="nomePalestrante">Bruno Castro</div>
           <div><p class="palestranteEmpresa">CI&T</p></div>
           <div><p class="tituloPalestra">Projetando interfaces imersivas</p></div>
@@ -146,7 +196,7 @@ document.write(exibe);
 
         <!--palestrante-->
         <div class="col-md-3 palestranteDiv">
-          <div><img src="img/palestrantes/cesar.jpg" class="img-responsive"></div>
+          <div><img src="img/palestrantes/cesar_2.jpg" class="img-responsive"></div>
           <div class="nomePalestrante">César Augusto</div>
           <div><p class="palestranteEmpresa">Instituto de Pesquisas Eldorado</p></div>
           <div><p class="tituloPalestra">OpenSource Java</p></div>
@@ -160,7 +210,7 @@ document.write(exibe);
 
         <!--palestrante-->
         <div class="col-md-3 palestranteDiv">
-          <div><img src="img/palestrantes/ricardo.jpg" class="img-responsive"></div>
+          <div><img src="img/palestrantes/ricardo_2.jpg" class="img-responsive"></div>
           <div class="nomePalestrante">Ricardo Roquim</div>
           <div><p class="palestranteEmpresa">Sydle</p></div>
           <div><p class="tituloPalestra">Boas práticas de usabilidade na web</p></div>
@@ -174,8 +224,8 @@ document.write(exibe);
 
         <!--palestrante-->
         <div class="col-md-3 palestranteDiv">
-          <div><img src="img/palestrantes/andrepaulovich.jpg" class="img-responsive"></div>
-          <div class="nomePalestrante">André Paulovich</div>
+          <div><img src="img/palestrantes/PaulaMartucci.jpg" class="img-responsive"></div>
+          <div class="nomePalestrante">Paula Martucci</div>
           <div><p class="palestranteEmpresa">CI&T</p></div>
           <div><p class="tituloPalestra">Aqui vem o titulo da plestra cooL! Muito massa</p></div>
           <div class="text-center">
@@ -185,7 +235,45 @@ document.write(exibe);
           </div>
         </div>        
 
+        <!--palestrante-->
+        <div class="col-md-3 palestranteDiv">
+          <div><img src="img/palestrantes/VanessaMeTonini.jpg" class="img-responsive"></div>
+          <div class="nomePalestrante">Vanessa Me Tonini</div>
+          <div><p class="palestranteEmpresa">CI&T</p></div>
+          <div><p class="tituloPalestra">Aqui vem o titulo da plestra cooL! Muito massa</p></div>
+          <div class="text-center">
+            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+          </div>
+        </div>      
 
+        <!--palestrante-->
+        <div class="col-md-3 palestranteDiv">
+          <div><img src="img/palestrantes/ViniciusBorriello.jpg" class="img-responsive"></div>
+          <div class="nomePalestrante">Vinícius Borriello</div>
+          <div><p class="palestranteEmpresa">CI&T</p></div>
+          <div><p class="tituloPalestra">Aqui vem o titulo da plestra cooL! Muito massa</p></div>
+          <div class="text-center">
+            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+          </div>
+        </div>      
+
+        <!--palestrante-->
+        <div class="col-md-3 palestranteDiv">
+          <div><img src="img/palestrantes/barbara.jpg" class="img-responsive"></div>
+          <div class="nomePalestrante">Bárbara</div>
+          <div><p class="palestranteEmpresa">LEMAF</p></div>
+          <div><p class="tituloPalestra">Aqui vem o titulo da plestra cooL! Muito massa</p></div>
+          <div class="text-center">
+            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+          </div>
+        </div>      
+  
 
       </div>
     </section>
@@ -197,7 +285,7 @@ document.write(exibe);
         <p>A <a href="http://www.ufla.br">Universidade Federal de Lavras</a> possui a maior pontuação entre as universidades de MG e é apontada como a 3ª melhor universidade do Brasil, segundo dados de 2014 do Inep/MEC. Conta com 23 cursos de graduação e 25 de pós-graduação. Em um dia normal de aula, passam pelo campus da UFLA cerca de 13 mil pessoas.</p>
         <p>O <a href="http://www.dcc.ufla.br">Departamento de Ciência da Computação</a> (DCC/UFLA) é o principal responsável pelos cursos de Bacharelado em Ciência da Computação(BCC) e o Bacharelado em Sistemas de Informação (BSI) da UFLA, por oito cursos de Pós-Graduação Lato-Sensu e o Mestrado em Ciência da Computação. O DCC também possui grande participação no curso de Engenharia de Controle e Automação e será o principal responsável pelo curso de Engenharia da Computação. Os ex-alunos do DCC destacam-se por atuar em empresas nacionais e internacionais, universidades federais, além de construir iniciativas empreendedoras.
         </p>
-        <p>O Departamento possui atualmente 4 laboratórios de Computação, 1 Laboratório de Eletrônica, 1 Laboratório de Sistemas Digitais e um anfiteatro com capacidade para 180 pessoas. A Semana de Tecnologia da Informação acontecerá nas dependências do DCC. </p>
+        <p>O Departamento possui atualmente 4 laboratórios de Computação, 1 Laboratório de Eletrônica, 1 Laboratório de Sistemas Digitais e um anfiteatro com capacidade para 200 pessoas. A Semana de Tecnologia da Informação acontecerá nas dependências do DCC. </p>
       </div>
     </section>
 
@@ -250,7 +338,7 @@ document.write(exibe);
     <section class="palestrante" id="palestrante">
       <div class="container center containerPalestrante">
         
-        <h1>conheça os <span>palestrantes</span></h1>
+        <h1>Dúvidas sobre a <span>SETI?</span></h1>
         <div class="row hidden-sm hidden-xs">
 
           <div class="col-md-4"><img src="img/preparese.svg" alt="Prepare-se"></div>
@@ -261,24 +349,28 @@ document.write(exibe);
 
       <div class="row">
         <div class="col-lg-4">
-
           <h2>Prepare-se</h2>
-          <p>Você tem alguma palestra ou ideia de fazer uma? Gostaria de palestrar em um evento de tecnologia? Essa é a sua oportunidade de transmitir os seus conhecimentos à uma galera que é apaixonada por T.I. Prepare a sua oratória e venha fazer parte da SETI! </p>
+          <p>O evento ocorre durante 7 dias, com programação das 8 da manhã às 11 da noite!</p>
         </div><!-- /.col-lg-4 -->
+
         <div class="col-lg-4">
 
-          <h2>Acomodação</h2>
-          <p>Como a SETI é um evento gratuito, infelizmente os palestrantes são voluntários. A não ser em casos específicos em que as empresas financiam a vinda de seus funcionários para palestrar. Como forma de apoio, ficamos responsáveis por seu transporte e acomodação em hotel da UFLA!</p>
+          <h2>Custo</h2>
+          <p>100% free! As inscrições para as palestras serão gratuitas. Para os mini-cursos, a inscrição será realizada mediante a doação de 3kg de alimentos não perecíveis que serão doados (legal, não?).</p>
         </div><!-- /.col-lg-4 -->
+
         <div class="col-lg-4">
     
-          <h2>ENJOY!</h2>
-          <p>A experiência de estar presente em um evento de tecnologia como a SETI só lhe trará benefícios: networking & divulgação de sua carreira, ideias, projetos e produtos. Estaremos com um time para deixar tudo registrado em forma de fotografias e videos!</p>
+          <h2>Certificado?</h2>
+          <p>Com certeza! Após a realização do evento, todos terão certificado de participação de acordo com as palestras assistidas.
+
+         </p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
 
-      <a type="button" class="btn btn-lg btn-proposta" href="http://goo.gl/forms/6UFHUhZB1L" target="_blank">Submeter proposta de palestra</a>
+
+  
 
       </div>
     </section>
@@ -325,9 +417,13 @@ document.write(exibe);
 
       <div class="col-md-12 organizacao">
         <h1>Apoio</h1>
-     <div class="col-md-offset-3 col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/ufla.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
-     <div class=" col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/casadocodigo.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
-     <div class=" col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/sebrae.jpg" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     <div class="col-md-1"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/ufla.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     <div class=" col-md-1"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/casadocodigo.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     <div class=" col-md-1"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/sebrae.svg" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     <div class=" col-md-1"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/nintec.svg" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     <div class=" col-md-1"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/thoughtworks.svg" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     <div class=" col-md-1"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/inbatec.svg" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     
      
      <!--<div class="col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/novatec.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
      <div class="col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/caelum.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>-->
@@ -350,16 +446,14 @@ document.write(exibe);
      </div>
     </div>
 
-
-    <div class="row">
+        <div class="row">
         <div class="col-md-6">
           <h1>Contato</h1>
           <h3><strong>setiufla</strong>@gmail.com</h3>
- 
         </div>
         <div class="col-md-6">
 
-          <h2>#setiufla</h2>
+        <h2>#setiufla</h2>
         <a href="http://facebook.com/setiufla"><i class="fa fa-3x fa-facebook-official"></i></a>
         <a href="http://instagram.com/setiufla"><i class="fa fa-3x fa-instagram"></i></a>
         <a href="http://twitter.com/setiufla"><i class="fa fa-3x fa-twitter-square"></i></a>
@@ -367,10 +461,23 @@ document.write(exibe);
         </div>
      </div> 
 
+
+
   </div>
 
 </footer>
 
+
+<div class="roquetContainer hidden-xs hidden-sm">
+
+  <span class="rocket"></span>
+
+</div>
+
+
+  <div class="contato hidden-xs hidden-sm">
+
+  </div>
 
   <div class="copyrights">
     <div class="container text-center">
