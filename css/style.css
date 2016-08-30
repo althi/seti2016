@@ -905,7 +905,7 @@ height: 100%
 
 
 .instagram h1{
-    font-family: 'Open Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   letter-spacing: 20px;
   color: #e50051;
@@ -952,9 +952,8 @@ height: 100%
 }
 
 .roquetContainer{
-
   width: 400px;
-  height: augto;
+  height: auto;
 }
 
 
@@ -978,6 +977,8 @@ height: 100%
 .linkPatrocinadores{color:#78C0E0;}
 .linkLocalizacao{color:#AB00C1;}
 .linkOevento{color:#FFD400;}
+.linkBlog{color:#49a09d;}
+
 
 .contato{
   background-color: #fcfbf9;
@@ -986,7 +987,7 @@ height: 100%
   background-image: url("../img/footer.svg");
   background-repeat: no-repeat;
   background-position: center top;
-  background-size:  100% auto;
+  background-size:  100% ;
   padding-top: 200px;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -1033,3 +1034,63 @@ font-weight: 600;
   line-height: 30px;
   font-weight: 300;
 }
+
+
+.btn-inscricao{
+  font-size:12px;
+  line-height:16px;
+  border: 2px solid;
+  padding:8px 15px;
+}
+
+
+.btn-outlined {
+    border-radius: 0;
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+            transition: all 0.3s;
+}
+
+.btn-outlined.btn-inscricao {
+    background: none;
+    color: #D90368;
+  border-color: #D90368;
+}
+
+.btn-outlined.btn-inscricao:hover,
+.btn-outlined.btn-inscricao:active {
+    color: #FFF;
+    background: #D90368;
+    border-color: #D90368;
+}
+
+.dropdown-menu{
+  background-color: rgba(46,41,78,0.9);
+  text-transform: uppercase;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+.blog{
+
+
+background: #5f2c82; /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #5f2c82 , #49a09d); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #5f2c82 , #49a09d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+.blog h1{
+   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 20px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 80px 80px;s
+}
+
+
+

@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
  <link rel="stylesheet" type="text/css" href="css/menu_topexpand.css" />
  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+ <link rel="stylesheet" type="text/css" href="css/animate.css" />
     <!--[if IE]>
 
 
@@ -23,18 +24,25 @@
   <!-- Latest compiled and minified CSS -->
   
 <script language="JavaScript" type="text/javascript">
-var hora = Math.floor((Math.random() * 4) + 1);
-var exibe = '<link rel="stylesheet" href="css/horizon.css" />';
-if (hora==1) {
-exibe = '<link rel="stylesheet" href="css/calmDarya.css />';
-} else if(hora==2){
-exibe = '<link rel="stylesheet" href="css/shadowNight.css" />';
-} else if(hora==3){
+var css = Math.floor((Math.random() * 4) + 1);
+var exibe = '<link rel="stylesheet" href="css/deepSpace.css" />';
+
+
+
+if (css==1) {
 exibe = '<link rel="stylesheet" href="css/deepSpace.css" />';
-}else if(hora==4){
+} else if(css==2){
+exibe = '<link rel="stylesheet" href="css/shadowNight.css" />';
+} else if(css==3){
+exibe = '<link rel="stylesheet" href="css/deepSpace.css" />';
+}else if(css==4){
 exibe = '<link rel="stylesheet" href="css/horizon.css" />';
 }
+else{
+  exibe = '<link rel="stylesheet" href="css/horizon.css" />';
+}
 document.write(exibe);
+console.log(exibe);
 </script>
 
 </head>
@@ -61,25 +69,27 @@ document.write(exibe);
             <li class="active linkHome"><a href="#home">Home</a></li>
             <li><a href="#oEvento" class="linkOevento">O evento</a></li>
             <li><a href="#palestrantes"class="linkPalestrantes">Palestrantes</a></li>
-            <li><a href="#about"class="linkLocalizacao">Localização</a></li>
+            <li><a href="#aUfla"class="linkLocalizacao">Localização</a></li>
+            <li><a href="#blog"class="linkBlog">Blog</a></li>
             <li><a href="#contact"class="linkPatrocinadores">Patrocinadores</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programação <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Segunda-feira</a></li>
-                <li><a href="#">Terça-feira</a></li>
-                <li><a href="#">Quarta-feira</a></li>
+                <li><a href="#">(17/10) Segunda-feira</a></li>
+                <li><a href="#">(18/10) Terça-feira</a></li>
+                <li><a href="#">(19/10) Quarta-feira</a></li>
+                <li><a href="#">(20/10) Quinta-feira</a></li>
+                <li><a href="#">(21/10) Sexta-feira</a></li>
+                <li><a href="#">(22/10) Sábado</a></li>
                 <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
+                <li class="dropdown-header">Eventos Paralelos</li>
+                <li><a href="#">Seminário do Mestrado</a></li>
+                <li><a href="#">Seminário do grupo de estudos em Engenharia de Software</a></li>
               </ul>
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+            <li> <a href="#" class="btn btn-outlined btn-inscricao btn-sm" data-wow-delay="0.7s">Inscreva-se</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -91,12 +101,11 @@ document.write(exibe);
         <section id="sec-1" class="no-padding home" id="home">
             <div class="containerHome container center">
                 <div class="row">    
-                     <img src="img/logotipo.svg" class="image-title" ALT="lototipo do SETI">
+                     <img src="img/logotipo.svg" class="image-title wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s" ALT="lototipo do SETI">
                 </div>
-            <h1>III Semana de Tecnologia da Informação</h1>
-            <h2><spam class="glyphicon glyphicon-calendar"> </spam> 17 a 23 de Outubro de 2016 <spam class="glyphicon glyphicon-map-marker"></spam> Universidade Federal de Lavras</h2>
+            <h2 class="wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s"><spam class="fa fa-calendar"> </spam> 17 a 23 de Outubro de 2016  <spam class="fa fa-map-marker"></spam> Universidade Federal de Lavras</h2>
 
-          <div class="call4action">
+          <div class="call4action wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">
 					   <a href="#patrocinador" class="btn btn-lg btn-patrocinador">Quero ser patrocinador</a>
               <a href="#video" class="btn btn-lg btn-video hidden-sm hidden-xs">Video do SETI 2015</a>
           </div>
@@ -106,7 +115,7 @@ document.write(exibe);
 		
     <section class="oevento oeventoBG">
       <div class="containerOevento container"id="oEvento">
-        <div class="center"><h1>a <span>semana de TI</span></h1></div>
+        <div class="center"><h1>a <span>semana</span></h1></div>
           <div class="media">
             <div class="media-left hidden-sm hidden-xs">
               <a href="#">
@@ -148,8 +157,8 @@ document.write(exibe);
           <div class="center hidden-sm hidden-xs">
  
           </div>
-          <div class="media-body oeventoImagem">
-                <h1>Edições</h1>
+          <div class="media-body oeventoImagem center">
+                <h1>Edições anteriores</h1>
                 <a type="button" class="btn btn-lg btn-proposta" href="http://goo.gl/forms/6UFHUhZB1L" target="_blank">Edição 2014</a>
                 <a type="button" class="btn btn-lg btn-proposta" href="http://goo.gl/forms/6UFHUhZB1L" target="_blank">Edição 2015</a>
           </div>
@@ -167,7 +176,7 @@ document.write(exibe);
 
 
         <!--palestrante-->
-        <div class="col-md-3 palestranteDiv">
+        <div class="col-md-3 palestranteDiv wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
           <div><img src="img/palestrantes/andrepaulovich_2.jpg" class="img-responsive"></div>
           <div class="nomePalestrante">André Paulovich</div>
           <div><p class="palestranteEmpresa">CI&T</p></div>
@@ -181,7 +190,7 @@ document.write(exibe);
  
 
         <!--palestrante-->
-        <div class="col-md-3 palestranteDiv">
+        <div class="col-md-3 palestranteDiv wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
           <div><img src="img/palestrantes/brunocastro_2.jpg" class="img-responsive"></div>
           <div class="nomePalestrante">Bruno Castro</div>
           <div><p class="palestranteEmpresa">CI&T</p></div>
@@ -195,7 +204,7 @@ document.write(exibe);
 
 
         <!--palestrante-->
-        <div class="col-md-3 palestranteDiv">
+        <div class="col-md-3 palestranteDiv wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
           <div><img src="img/palestrantes/cesar_2.jpg" class="img-responsive"></div>
           <div class="nomePalestrante">César Augusto</div>
           <div><p class="palestranteEmpresa">Instituto de Pesquisas Eldorado</p></div>
@@ -209,7 +218,7 @@ document.write(exibe);
 
 
         <!--palestrante-->
-        <div class="col-md-3 palestranteDiv">
+        <div class="col-md-3 palestranteDiv wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
           <div><img src="img/palestrantes/ricardo_2.jpg" class="img-responsive"></div>
           <div class="nomePalestrante">Ricardo Roquim</div>
           <div><p class="palestranteEmpresa">Sydle</p></div>
@@ -223,7 +232,7 @@ document.write(exibe);
 
 
         <!--palestrante-->
-        <div class="col-md-3 palestranteDiv">
+        <div class="col-md-3 palestranteDiv wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
           <div><img src="img/palestrantes/PaulaMartucci.jpg" class="img-responsive"></div>
           <div class="nomePalestrante">Paula Martucci</div>
           <div><p class="palestranteEmpresa">CI&T</p></div>
@@ -236,7 +245,7 @@ document.write(exibe);
         </div>        
 
         <!--palestrante-->
-        <div class="col-md-3 palestranteDiv">
+        <div class="col-md-3 palestranteDiv wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
           <div><img src="img/palestrantes/VanessaMeTonini.jpg" class="img-responsive"></div>
           <div class="nomePalestrante">Vanessa Me Tonini</div>
           <div><p class="palestranteEmpresa">CI&T</p></div>
@@ -249,7 +258,7 @@ document.write(exibe);
         </div>      
 
         <!--palestrante-->
-        <div class="col-md-3 palestranteDiv">
+        <div class="col-md-3 palestranteDiv wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
           <div><img src="img/palestrantes/ViniciusBorriello.jpg" class="img-responsive"></div>
           <div class="nomePalestrante">Vinícius Borriello</div>
           <div><p class="palestranteEmpresa">CI&T</p></div>
@@ -262,7 +271,7 @@ document.write(exibe);
         </div>      
 
         <!--palestrante-->
-        <div class="col-md-3 palestranteDiv">
+        <div class="col-md-3 palestranteDiv wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
           <div><img src="img/palestrantes/barbara.jpg" class="img-responsive"></div>
           <div class="nomePalestrante">Bárbara</div>
           <div><p class="palestranteEmpresa">LEMAF</p></div>
@@ -368,11 +377,21 @@ document.write(exibe);
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
+      </div>
+    </section>
 
 
-  
+    <section class="blog" id="blog">
+
+      <div class="container center">
+
+        <h1>Blog</h1>
+        
 
       </div>
+      
+
+
     </section>
 
 
@@ -417,12 +436,12 @@ document.write(exibe);
 
       <div class="col-md-12 organizacao">
         <h1>Apoio</h1>
-     <div class="col-md-1"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/ufla.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
-     <div class=" col-md-1"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/casadocodigo.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
-     <div class=" col-md-1"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/sebrae.svg" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
-     <div class=" col-md-1"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/nintec.svg" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
-     <div class=" col-md-1"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/thoughtworks.svg" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
-     <div class=" col-md-1"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/inbatec.svg" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     <div class="col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/ufla.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     <div class=" col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/casadocodigo.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     <div class=" col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/sebrae.svg" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     <div class=" col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/nintec.svg" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     <div class=" col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/thoughtworks.svg" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     <div class=" col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/inbatec.svg" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
      
      
      <!--<div class="col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/novatec.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
@@ -521,6 +540,13 @@ document.write(exibe);
   
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script src="js/bootstrap.js"></script>
+      <script src="js/parallax.js"></script>
+      <script src="js/wow.js"></script>
+      <script>
+        new WOW().init();
+    </script>
+
+
 
 <!-- stats.js -->
 <script>
