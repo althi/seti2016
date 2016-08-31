@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="seti">
 <head>
   <meta charset="utf-8">
   <title>III SETI - Semana de Tecnologia da Informação</title>
@@ -9,12 +9,14 @@
   <link rel="stylesheet" media="screen" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-
 <!--estilos-->
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
  <link rel="stylesheet" type="text/css" href="css/menu_topexpand.css" />
  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
  <link rel="stylesheet" type="text/css" href="css/animate.css" />
+
+<script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+<script src="js/seti.js"></script>
     <!--[if IE]>
 
 
@@ -46,7 +48,7 @@ console.log(exibe);
 </script>
 
 </head>
-<body>
+<body ng-controller="setiController">
 
 
 
@@ -101,7 +103,7 @@ console.log(exibe);
         <section id="sec-1" class="no-padding home" id="home">
             <div class="containerHome container center">
                 <div class="row">    
-                     <img src="img/logotipo.svg" class="image-title wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s" ALT="lototipo do SETI">
+                     <img src="img/logotipo.svg" class="image-title"  ALT="lototipo do SETI">
                 </div>
             <h2 class="wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s"><spam class="fa fa-calendar"> </spam> 17 a 23 de Outubro de 2016  <spam class="fa fa-map-marker"></spam> Universidade Federal de Lavras</h2>
 
@@ -119,7 +121,7 @@ console.log(exibe);
           <div class="media">
             <div class="media-left hidden-sm hidden-xs">
               <a href="#">
-                <img src="img/astronaut.svg" alt="astronauta">
+                <img src="img/astronaut.svg" alt="astronauta" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s" >
               </a>
             </div>
             <div class="media-body oeventoImagem" >
@@ -135,7 +137,7 @@ console.log(exibe);
             </div>
             <div class="media-left hidden-sm hidden-xs ">
             <a href="#">
-              <img src="img/satelite.svg" alt="satelite">
+              <img src="img/satelite.svg" alt="satelite" class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s" >
             </a>
           </div>
         </div>
@@ -144,7 +146,7 @@ console.log(exibe);
         <div class="media">
           <div class="media-left hidden-sm hidden-xs">
             <a href="#">
-              <img src="img/foguete.svg" alt="foguete">
+              <img src="img/foguete.svg" alt="foguete" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s" >
             </a>
           </div>
           <div class="media-body oeventoImagem">
@@ -172,117 +174,19 @@ console.log(exibe);
     <section class="palestrantes" id="palestrantes">
       <div class="container auflacontainer">
         <h1 class="text-center">Os <span>Palestrantes</span></h1>
-
-
-
+       
         <!--palestrante-->
-        <div class="col-md-3 palestranteDiv wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
-          <div><img src="img/palestrantes/andrepaulovich_2.jpg" class="img-responsive"></div>
-          <div class="nomePalestrante">André Paulovich</div>
-          <div><p class="palestranteEmpresa">CI&T</p></div>
-          <div><p class="tituloPalestra">Aqui vem o titulo da plestra cooL! Muito massa</p></div>
+        <div class="col-md-3 palestranteDiv wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s" ng-repeat="palestrante in palestrantes">
+          <div><img src="img/palestrantes/{{palestrante.foto}}.jpg" class="img-responsive"></div>
+          <div class="nomePalestrante">{{palestrante.name}}</div>
+          <div><p class="palestranteEmpresa">{{palestrante.place}}</p></div>
+          <div><p class="tituloPalestra">{{palestrante.tituloPalestra}}</p></div>
           <div class="text-center">
-            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
-            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
-            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+            <a href="{{palestrante.linkedin}}"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="{{palestrante.twitter}}"><i class="fa fa-twitter-square fa-2x"></i></a>
+            <a href="{{palestrante.website}}"><i class="fa fa-home fa-2x"></i></a>
           </div>
         </div>
- 
-
-        <!--palestrante-->
-        <div class="col-md-3 palestranteDiv wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
-          <div><img src="img/palestrantes/brunocastro_2.jpg" class="img-responsive"></div>
-          <div class="nomePalestrante">Bruno Castro</div>
-          <div><p class="palestranteEmpresa">CI&T</p></div>
-          <div><p class="tituloPalestra">Projetando interfaces imersivas</p></div>
-          <div class="text-center">
-            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
-            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
-            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
-          </div>
-        </div>
-
-
-        <!--palestrante-->
-        <div class="col-md-3 palestranteDiv wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
-          <div><img src="img/palestrantes/cesar_2.jpg" class="img-responsive"></div>
-          <div class="nomePalestrante">César Augusto</div>
-          <div><p class="palestranteEmpresa">Instituto de Pesquisas Eldorado</p></div>
-          <div><p class="tituloPalestra">OpenSource Java</p></div>
-          <div class="text-center">
-            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
-            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
-            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
-          </div>
-        </div>
-
-
-        <!--palestrante-->
-        <div class="col-md-3 palestranteDiv wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
-          <div><img src="img/palestrantes/ricardo_2.jpg" class="img-responsive"></div>
-          <div class="nomePalestrante">Ricardo Roquim</div>
-          <div><p class="palestranteEmpresa">Sydle</p></div>
-          <div><p class="tituloPalestra">Boas práticas de usabilidade na web</p></div>
-          <div class="text-center">
-            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
-            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
-            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
-          </div>
-        </div>
-
-
-        <!--palestrante-->
-        <div class="col-md-3 palestranteDiv wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
-          <div><img src="img/palestrantes/PaulaMartucci.jpg" class="img-responsive"></div>
-          <div class="nomePalestrante">Paula Martucci</div>
-          <div><p class="palestranteEmpresa">CI&T</p></div>
-          <div><p class="tituloPalestra">Aqui vem o titulo da plestra cooL! Muito massa</p></div>
-          <div class="text-center">
-            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
-            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
-            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
-          </div>
-        </div>        
-
-        <!--palestrante-->
-        <div class="col-md-3 palestranteDiv wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
-          <div><img src="img/palestrantes/VanessaMeTonini.jpg" class="img-responsive"></div>
-          <div class="nomePalestrante">Vanessa Me Tonini</div>
-          <div><p class="palestranteEmpresa">CI&T</p></div>
-          <div><p class="tituloPalestra">Aqui vem o titulo da plestra cooL! Muito massa</p></div>
-          <div class="text-center">
-            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
-            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
-            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
-          </div>
-        </div>      
-
-        <!--palestrante-->
-        <div class="col-md-3 palestranteDiv wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
-          <div><img src="img/palestrantes/ViniciusBorriello.jpg" class="img-responsive"></div>
-          <div class="nomePalestrante">Vinícius Borriello</div>
-          <div><p class="palestranteEmpresa">CI&T</p></div>
-          <div><p class="tituloPalestra">Aqui vem o titulo da plestra cooL! Muito massa</p></div>
-          <div class="text-center">
-            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
-            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
-            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
-          </div>
-        </div>      
-
-        <!--palestrante-->
-        <div class="col-md-3 palestranteDiv wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
-          <div><img src="img/palestrantes/barbara.jpg" class="img-responsive"></div>
-          <div class="nomePalestrante">Bárbara</div>
-          <div><p class="palestranteEmpresa">LEMAF</p></div>
-          <div><p class="tituloPalestra">Aqui vem o titulo da plestra cooL! Muito massa</p></div>
-          <div class="text-center">
-            <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
-            <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
-            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
-          </div>
-        </div>      
-  
 
       </div>
     </section>
@@ -537,6 +441,7 @@ console.log(exibe);
 
     <script src="js/classie.js"></script>
     <script src="js/main.js"></script>
+  
   
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script src="js/bootstrap.js"></script>
