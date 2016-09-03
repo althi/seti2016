@@ -104,7 +104,7 @@ seti.controller('setiController', function setiController($scope) {
       facebook: 'https://www.facebook.com/gvasconcelos2',
       twitter: '',
       linkedin: 'https://br.linkedin.com/in/guilherme-vasconcelos-742a4238',
-      website: 'www.hmbautomcao.com.br',
+      website: 'www.hmƒbautomcao.com.br',
       foto: 'breve'
     }, {
       name: 'Venícios Gustavo Santos',
@@ -225,8 +225,8 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'breve'
     }, {
       name: 'Serena Fernandes',
-      place: '',
-      tituloPalestra: 'Mulheres na Tecnologia (Palestra)',
+      place: 'AvenueCode',
+      tituloPalestra: 'Mulheres na Tecnologia',
       facebook: '',
       twitter: '',
       linkedin: '',

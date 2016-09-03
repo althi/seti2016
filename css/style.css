@@ -182,6 +182,7 @@ section{
 .overlay-ground {
     width: 100%;
     overflow: hidden;
+    height: auto;
 }
 
 section{	
@@ -1104,5 +1105,14 @@ background: linear-gradient(to top, #5f2c82 , #49a09d); /* W3C, IE 10+/ Edge, Fi
 }
 
 
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
