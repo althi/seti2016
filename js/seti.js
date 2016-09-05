@@ -170,27 +170,18 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: '',
       website: '',
       foto: 'raphaelbastos'
-    }, {
-      name: 'Bruno Donizette',
-      place: '',
-      tituloPalestra: 'Neo4 o que? Sua vida repleta de grafos!',
-      facebook: '',
-      twitter: '',
-      linkedin: 'www.linkedin.com/in/bdonizetisilva',
-      website: '',
-      foto: 'brunodonizette'
-    }, {
+    },  {
       name: 'Daniela Gibertoni',
-      place: '',
-      tituloPalestra: '',
+      place: 'Fatec Taquaritinga',
+      tituloPalestra: 'UX Design - A Experiência do Usuário ',
       facebook: '',
       twitter: '',
-      linkedin: '',
-      website: '',
+      linkedin: 'https://br.linkedin.com/in/daniela-gibertoni-8362a1100',
+      website: 'https://br.linkedin.com/in/daniela-gibertoni-8362a1100',
       foto: 'danielagibertoni'
     }, {
       name: 'Carlos Lauff',
-      place: '',
+      place: 'Class365',
       tituloPalestra: 'Desvendando o Azure: a nuvem da Microsoft',
       facebook: 'facebook.com/tiolauff ',
       twitter: '@callauff',
@@ -198,23 +189,14 @@ seti.controller('setiController', function setiController($scope) {
       website: 'class365.com.br',
       foto: 'carloslauff'
     }, {
-      name: 'Sérgio Augusto Rodrigues',
-      place: '',
+      name: 'Sérgio Rodrigues',
+      place: 'LOCAWEB',
       tituloPalestra: 'Internet of Things: More software less hardware.',
       facebook: 'https://www.facebook.com/sergioaugrod',
       twitter: '',
       linkedin: 'https://www.linkedin.com/in/sergioaugrod',
       website: ' www.sergioaugrod.com.br',
       foto: 'sergioaugusto'
-    }, {
-      name: 'Camilla Gomes',
-      place: '',
-      tituloPalestra: '',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: 'camillagomes'
     }, {
       name: 'Rodolfo Dias',
       place: 'INATEL',
@@ -224,15 +206,6 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: '',
       website: '',
       foto: 'rodolfodias'
-    }, {
-      name: 'Sérgio Cruz Passos',
-      place: '',
-      tituloPalestra: '',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: 'sergiocruz'
     }, {
       name: 'Serena Fernandes',
       place: 'AvenueCode',
@@ -244,7 +217,7 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'serenafernandes'
     }, {
       name: 'Vicente de Luca',
-      place: '',
+      place: 'Zendesk',
       tituloPalestra: 'Do DCC-UFLA ao Vale do Silício - trajetória de um ex-canelada',
       facebook: '',
       twitter: '',
@@ -279,15 +252,6 @@ seti.controller('setiController', function setiController($scope) {
       website: 'http://lattes.cnpq.br/0161357943312722',
       foto: 'ramongomes'
     }, {
-      name: 'Maria Clara Silva Santana',
-      place: '',
-      tituloPalestra: 'Progressive Web Apps: ao infinito e além!',
-      facebook: '',
-      twitter: '@olarclara',
-      linkedin: '',
-      website: 'medium.com/@mariaclarasantana',
-      foto: 'mariasilva'
-    }, {
       name: 'Yan Magalhães Leite',
       place: 'mLearn',
       tituloPalestra: 'Testes pra que te quero',
@@ -296,25 +260,7 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: 'https://br.linkedin.com/in/yanmagalhaes',
       website: '',
       foto: 'yanmagalhaes'
-    }, {
-      name: 'Maria Beatriz Saraiva Nogueira',
-      place: '',
-      tituloPalestra: '3dsudio e animaçao de personagenX desempenho mayaem animaçoes',
-      facebook: 'beatriz.design/facebook.com',
-      twitter: '',
-      linkedin: 'httt://linkedin.com.br',
-      website: '',
-      foto: 'mariasaraiva'
-    }, {
-      name: 'Felipe de Padua',
-      place: '',
-      tituloPalestra: 'Oportunidades e Experiência de Trabalho Freelance',
-      facebook: 'https://www.facebook.com/felipe.padua.5',
-      twitter: '',
-      linkedin: 'https://br.linkedin.com/in/felipepadua1',
-      website: '',
-      foto: 'felipedepadua'
-    }, {
+    },   {
       name: 'Giancarlo Lacerda',
       place: '',
       tituloPalestra: 'Inteligência e Performance em marketing digital',
