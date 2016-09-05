@@ -24,7 +24,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: 'https://www.facebook.com/camilabastoss',
       linkedin: 'https://www.facebook.com/camilabastoss',
       website: 'https://www.facebook.com/camilabastoss',
-      foto: 'breve'
+      foto: 'camilabastos'
     }, {
       name: 'Paula Martucci',
       place: 'PerSolutio',
@@ -42,7 +42,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: 'https://www.linkedin.com/company/innervision-ltda?trk=biz-companies-cym',
       linkedin: 'https://br.linkedin.com/in/guilherme-timoteo-819037a',
       website: 'https://www.linkedin.com/company/innervision-ltda?trk=biz-companies-cym',
-      foto: 'breve'
+      foto: 'guilhermetimoteo'
     }, {
       name: 'Bruno Castro',
       place: 'CI&T',
@@ -72,13 +72,13 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'barbaraoliveira'
     }, {
       name: 'Cesar Augusto Nogueira',
-      place: 'breve',
+      place: '',
       tituloPalestra: 'OpenSource Java',
       facebook: 'fb.com/cesarnog',
       twitter: '@cesarnogcps',
       linkedin: 'https://www.linkedin.com/in/cesarnog',
       website: 'http://cesarnogueira.me',
-      foto: 'breve'
+      foto: 'cesar'
     }, {
       name: 'Vinicius Borrielo',
       place: '',
@@ -87,7 +87,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '',
       linkedin: '',
       website: '',
-      foto: 'breve'
+      foto: 'vinicius'
     }, {
       name: 'Guilherme Razgriz Magalhães',
       place: '',
@@ -96,7 +96,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '',
       linkedin: '',
       website: '',
-      foto: 'breve'
+      foto: 'razgriz'
     }, {
       name: 'Guilherme Vasconcelos',
       place: '',
@@ -104,8 +104,13 @@ seti.controller('setiController', function setiController($scope) {
       facebook: 'https://www.facebook.com/gvasconcelos2',
       twitter: '',
       linkedin: 'https://br.linkedin.com/in/guilherme-vasconcelos-742a4238',
+<<<<<<< HEAD
       website: 'www.hmƒbautomcao.com.br',
       foto: 'breve'
+=======
+      website: 'www.hmbautomcao.com.br',
+      foto: 'vasconcelos'
+>>>>>>> 649af67cc71f61dc7e41058211c4de09fd4603af
     }, {
       name: 'Venícios Gustavo Santos',
       place: '',
@@ -114,7 +119,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '',
       linkedin: 'https://br.linkedin.com/in/venicios',
       website: '',
-      foto: 'breve'
+      foto: 'venicios'
     }, {
       name: 'Lays Rodrigues Silva',
       place: '',
@@ -123,7 +128,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '@lays147 ',
       linkedin: '',
       website: 'laysrodriguesdev.wordpress.com',
-      foto: 'breve'
+      foto: 'laysrodrigues'
     }, {
       name: 'Lucas Ricoy',
       place: '',
@@ -132,7 +137,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '@lricoy',
       linkedin: 'https://www.linkedin.com/#lricoy',
       website: 'medium.com/@lricoy',
-      foto: 'breve'
+      foto: 'lucasricoy'
     }, {
       name: 'Sérgio Cruz Passos',
       place: '',
@@ -141,7 +146,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '@scpassos',
       linkedin: 'linkedin.com/in/scpassos ',
       website: 'www.take.net',
-      foto: 'breve'
+      foto: 'sergiocruz'
     }, {
       name: 'André Curvello',
       place: '',
@@ -150,7 +155,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '',
       linkedin: '',
       website: '',
-      foto: 'breve'
+      foto: 'curvello'
     }, {
       name: 'Raphael Bastos',
       place: '',
@@ -159,7 +164,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '',
       linkedin: '',
       website: '',
-      foto: 'breve'
+      foto: 'raphaelbastos'
     }, {
       name: 'Bruno Donizette',
       place: '',
@@ -168,7 +173,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '',
       linkedin: 'www.linkedin.com/in/bdonizetisilva',
       website: '',
-      foto: 'breve'
+      foto: 'brunodonizette'
     }, {
       name: 'Daniela Gibertoni',
       place: '',
@@ -177,7 +182,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '',
       linkedin: '',
       website: '',
-      foto: 'breve'
+      foto: 'danielagibertoni'
     }, {
       name: 'Carlos Lauff',
       place: '',
@@ -186,7 +191,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '@callauff',
       linkedin: 'https://br.linkedin.com/in/carloslauff ',
       website: 'class365.com.br',
-      foto: 'breve'
+      foto: 'carloslauff'
     }, {
       name: 'Sérgio Augusto Rodrigues',
       place: '',
@@ -195,7 +200,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '',
       linkedin: 'https://www.linkedin.com/in/sergioaugrod',
       website: ' www.sergioaugrod.com.br',
-      foto: 'breve'
+      foto: 'sergioaugusto'
     }, {
       name: 'Camilla Gomes',
       place: '',
@@ -204,7 +209,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '',
       linkedin: '',
       website: '',
-      foto: 'breve'
+      foto: 'camillagomes'
     }, {
       name: 'Rodolfo Dias',
       place: '',
@@ -213,7 +218,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: 'twitter.com/r_mdias',
       linkedin: '',
       website: '',
-      foto: 'breve'
+      foto: 'rodolfodias'
     }, {
       name: 'Sérgio Cruz Passos',
       place: '',
@@ -222,7 +227,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '',
       linkedin: '',
       website: '',
-      foto: 'breve'
+      foto: 'sergiocruz'
     }, {
       name: 'Serena Fernandes',
       place: 'AvenueCode',
@@ -231,7 +236,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '',
       linkedin: '',
       website: '',
-      foto: 'breve'
+      foto: 'serenafernandes'
     }, {
       name: 'Vicente de Luca',
       place: '',
@@ -240,7 +245,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '',
       linkedin: 'https://www.linkedin.com/in/vicente-de-luca-21728355',
       website: '',
-      foto: 'breve'
+      foto: 'vicentedeluca'
     }, {
       name: 'Bruno Donizeti da Silva',
       place: '',
@@ -249,7 +254,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '',
       linkedin: 'https://br.linkedin.com/in/bdonizetisilva',
       website: '',
-      foto: 'breve'
+      foto: 'brunodonizeti'
     }, {
       name: 'Marlon da Silva',
       place: '',
@@ -258,7 +263,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '@marlondasilva',
       linkedin: '',
       website: 'http://lattes.cnpq.br/9331509602982993',
-      foto: 'breve'
+      foto: 'marlondasilva'
     }, {
       name: 'Ramon Gomes Costa',
       place: '',
@@ -267,7 +272,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '',
       linkedin: '',
       website: 'http://lattes.cnpq.br/0161357943312722',
-      foto: 'breve'
+      foto: 'ramongomes'
     }, {
       name: 'Maria Clara Silva Santana',
       place: '',
@@ -276,7 +281,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '@olarclara ',
       linkedin: '',
       website: 'medium.com/@mariaclarasantana',
-      foto: 'breve'
+      foto: 'mariasilva'
     }, {
       name: 'Yan Magalhães Leite',
       place: '',
@@ -285,7 +290,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: 'https://twitter.com/yaanmagale',
       linkedin: 'https://br.linkedin.com/in/yanmagalhaes',
       website: '',
-      foto: 'breve'
+      foto: 'yanmagalhaes'
     }, {
       name: 'Maria Beatriz Saraiva Nogueira',
       place: '',
@@ -294,7 +299,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '',
       linkedin: 'httt://linkedin.com.br',
       website: '',
-      foto: 'breve'
+      foto: 'mariasaraiva'
     }, {
       name: 'Felipe de Padua',
       place: '',
@@ -303,7 +308,16 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '',
       linkedin: 'https://br.linkedin.com/in/felipepadua1',
       website: '',
-      foto: 'breve'
+      foto: 'felipedepadua'
+    }, {
+      name: 'Giancarlo Lacerda',
+      place: '',
+      tituloPalestra: 'Inteligência e Performance em marketing digital',
+      facebook: ' http://www.facebook.com/giancarlo.almeidalacerda',
+      twitter: '',
+      linkedin: 'http://br.linkedin.com/in/giancarlolacerda',
+      website: '',
+      foto: 'giancarlolacerda'
     }
   ];
 });
