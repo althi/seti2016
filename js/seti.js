@@ -16,9 +16,17 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: 'https://www.linkedin.com/in/ricardoroquim',
       website: ' http://www.ricardoroquim.com.br/',
       foto: 'ricardoroquim'
+    },{
+      name: 'André Paulovich',
+      place: 'CI&T',
+      tituloPalestra: 'Boas práticas de usabilidade na web',
+      twitter: 'http://twitter.com/',
+      linkedin: 'https://www.linkedin.com/in/ricardoroquim',
+      website: ' http://www.ricardoroquim.com.br/',
+      foto: 'andrepaulovich'
     }, {
       name: 'Camila Bastos',
-      place: 'UFLA/DCC Mestrado',
+      place: 'UFLA',
       tituloPalestra: 'Compreensão de Software utilizando técnicas de visualização',
       facebook: 'https://www.facebook.com/camilabastoss',
       twitter: 'https://www.facebook.com/camilabastoss',
@@ -104,13 +112,10 @@ seti.controller('setiController', function setiController($scope) {
       facebook: 'https://www.facebook.com/gvasconcelos2',
       twitter: '',
       linkedin: 'https://br.linkedin.com/in/guilherme-vasconcelos-742a4238',
-<<<<<<< HEAD
       website: 'www.hmƒbautomcao.com.br',
-      foto: 'breve'
-=======
+      foto: 'breve',
       website: 'www.hmbautomcao.com.br',
       foto: 'vasconcelos'
->>>>>>> 649af67cc71f61dc7e41058211c4de09fd4603af
     }, {
       name: 'Venícios Gustavo Santos',
       place: '',
@@ -131,7 +136,7 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'laysrodrigues'
     }, {
       name: 'Lucas Ricoy',
-      place: '',
+      place: 'Foxus',
       tituloPalestra: 'Desenvolvimento de Aplicativos Híbridos (Mobile/Desktop/Web)',
       facebook: 'facebook.com/lricoy',
       twitter: '@lricoy',
@@ -140,13 +145,13 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'lucasricoy'
     }, {
       name: 'Sérgio Cruz Passos',
-      place: '',
+      place: 'Take.net',
       tituloPalestra: 'Bots são os novos apps',
       facebook: 'facebook.com/spassos',
       twitter: '@scpassos',
       linkedin: 'linkedin.com/in/scpassos ',
       website: 'www.take.net',
-      foto: 'sergiocruz'
+      foto: 'sergiopassos'
     }, {
       name: 'André Curvello',
       place: '',
@@ -212,7 +217,7 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'camillagomes'
     }, {
       name: 'Rodolfo Dias',
-      place: '',
+      place: 'INATEL',
       tituloPalestra: 'The Front-End Power',
       facebook: '',
       twitter: 'twitter.com/r_mdias',
@@ -278,13 +283,13 @@ seti.controller('setiController', function setiController($scope) {
       place: '',
       tituloPalestra: 'Progressive Web Apps: ao infinito e além!',
       facebook: '',
-      twitter: '@olarclara ',
+      twitter: '@olarclara',
       linkedin: '',
       website: 'medium.com/@mariaclarasantana',
       foto: 'mariasilva'
     }, {
       name: 'Yan Magalhães Leite',
-      place: '',
+      place: 'mLearn',
       tituloPalestra: 'Testes pra que te quero',
       facebook: 'https://www.facebook.com/yaanmagalhaes ',
       twitter: 'https://twitter.com/yaanmagale',
