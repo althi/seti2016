@@ -80,7 +80,7 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'barbaraoliveira'
     }, {
       name: 'Cesar Augusto Nogueira',
-      place: '',
+      place: 'Instituto de Pesquisas Eldorado',
       tituloPalestra: 'OpenSource Java',
       facebook: 'fb.com/cesarnog',
       twitter: '@cesarnogcps',
@@ -130,7 +130,7 @@ seti.controller('setiController', function setiController($scope) {
       place: '',
       tituloPalestra: 'Teimosia, Campus Party e KDE',
       facebook: ' laysrodrigues147',
-      twitter: '@lays147 ',
+      twitter: '@lays147',
       linkedin: '',
       website: 'laysrodriguesdev.wordpress.com',
       foto: 'laysrodrigues'
@@ -160,7 +160,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '',
       linkedin: '',
       website: '',
-      foto: 'curvello'
+      foto: 'andrecurvelo'
     }, {
       name: 'Raphael Bastos',
       place: '',
@@ -260,15 +260,24 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: 'https://br.linkedin.com/in/yanmagalhaes',
       website: '',
       foto: 'yanmagalhaes'
-    },   {
+    }, {
       name: 'Giancarlo Lacerda',
-      place: '',
+      place: 'Best - Marketing de Performance',
       tituloPalestra: 'Inteligência e Performance em marketing digital',
       facebook: ' http://www.facebook.com/giancarlo.almeidalacerda',
       twitter: '',
       linkedin: 'http://br.linkedin.com/in/giancarlolacerda',
       website: '',
       foto: 'giancarlolacerda'
+    }, {
+      name: 'Guilherme Seabra',
+      place: 'PrimeCode',
+      tituloPalestra: 'Mundo SAP - Carreira, Mercado, Oportunidades e Tecnologias',
+      facebook: 'https://www.facebook.com/guilherme.maia.39',
+      twitter: 'https://twitter.com/guilhermemaias1',
+      linkedin: 'https://www.linkedin.com/in/guilherme-henrique-maia-seabra-6b9b4364?trk=nav_responsive_tab_profile',
+      website: '',
+      foto: 'guilhermeseabra'
     }
   ];
 });
