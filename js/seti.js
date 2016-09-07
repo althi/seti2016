@@ -17,6 +17,14 @@ seti.controller('setiController', function setiController($scope) {
       website: ' http://www.ricardoroquim.com.br/',
       foto: 'ricardoroquim'
     },{
+      name: 'Rubem Saldanha',
+      place: 'Intel',
+      tituloPalestra: 'A Internet das Coisas que eu posso criar',
+      twitter: '',
+      linkedin: '',
+      website: ' ',
+      foto: 'RubemSaldanha'
+    },{
       name: 'André Paulovich',
       place: 'CI&T',
       tituloPalestra: 'Boas práticas de usabilidade na web',
@@ -24,7 +32,43 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: 'https://www.linkedin.com/in/ricardoroquim',
       website: ' http://www.ricardoroquim.com.br/',
       foto: 'andrepaulovich'
+    },{
+      name: 'Sérgio Rodrigues',
+      place: 'Locaweb',
+      tituloPalestra: 'Internet of Things: More software less hardware.',
+      facebook: 'https://www.facebook.com/sergioaugrod',
+      twitter: '',
+      linkedin: 'https://www.linkedin.com/in/sergioaugrod',
+      website: ' www.sergioaugrod.com.br',
+      foto: 'sergioaugusto'
+    },  {
+      name: 'Serena Fernandes',
+      place: 'AvenueCode',
+      tituloPalestra: 'Mulheres na Tecnologia',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'serenafernandes'
     }, {
+      name: 'Vicente de Luca',
+      place: 'Zendesk',
+      tituloPalestra: 'Do DCC-UFLA ao Vale do Silício - trajetória de um ex-canelada',
+      facebook: '',
+      twitter: '',
+      linkedin: 'https://www.linkedin.com/in/vicente-de-luca-21728355',
+      website: '',
+      foto: 'vicentedeluca'
+    },{
+      name: 'Rodolfo Dias',
+      place: 'Inatel',
+      tituloPalestra: 'The Front-End Power',
+      facebook: '',
+      twitter: 'twitter.com/r_mdias',
+      linkedin: '',
+      website: '',
+      foto: 'rodolfodias'
+    },{
       name: 'Camila Bastos',
       place: 'UFLA',
       tituloPalestra: 'Compreensão de Software utilizando técnicas de visualização',
@@ -79,6 +123,15 @@ seti.controller('setiController', function setiController($scope) {
       website: 'https://br.linkedin.com/in/b%C3%A1rbara-oliveira-753077a3',
       foto: 'barbaraoliveira'
     }, {
+      name: 'Aline Antunes Dias',
+      place: 'Equals',
+      tituloPalestra: 'O papel do PO em times Scrum',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'alineantunesdias'
+    },  {
       name: 'Cesar Augusto Nogueira',
       place: 'Instituto de Pesquisas Eldorado',
       tituloPalestra: 'OpenSource Java',
@@ -97,7 +150,7 @@ seti.controller('setiController', function setiController($scope) {
       website: '',
       foto: 'vinicius'
     }, {
-      name: 'Guilherme Razgriz Magalhães',
+      name: 'Guilherme Razgriz',
       place: '',
       tituloPalestra: '',
       facebook: '',
@@ -105,6 +158,15 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: '',
       website: '',
       foto: 'razgriz'
+    }, {
+      name: 'Yan Magalhães Leite',
+      place: 'mLearn',
+      tituloPalestra: 'Testes pra que te quero',
+      facebook: 'https://www.facebook.com/yaanmagalhaes ',
+      twitter: 'https://twitter.com/yaanmagale',
+      linkedin: 'https://br.linkedin.com/in/yanmagalhaes',
+      website: '',
+      foto: 'yanmagalhaes'
     }, {
       name: 'Guilherme Vasconcelos',
       place: '',
@@ -188,43 +250,7 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: 'https://br.linkedin.com/in/carloslauff ',
       website: 'class365.com.br',
       foto: 'carloslauff'
-    }, {
-      name: 'Sérgio Rodrigues',
-      place: 'LOCAWEB',
-      tituloPalestra: 'Internet of Things: More software less hardware.',
-      facebook: 'https://www.facebook.com/sergioaugrod',
-      twitter: '',
-      linkedin: 'https://www.linkedin.com/in/sergioaugrod',
-      website: ' www.sergioaugrod.com.br',
-      foto: 'sergioaugusto'
-    }, {
-      name: 'Rodolfo Dias',
-      place: 'INATEL',
-      tituloPalestra: 'The Front-End Power',
-      facebook: '',
-      twitter: 'twitter.com/r_mdias',
-      linkedin: '',
-      website: '',
-      foto: 'rodolfodias'
-    }, {
-      name: 'Serena Fernandes',
-      place: 'AvenueCode',
-      tituloPalestra: 'Mulheres na Tecnologia',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: 'serenafernandes'
-    }, {
-      name: 'Vicente de Luca',
-      place: 'Zendesk',
-      tituloPalestra: 'Do DCC-UFLA ao Vale do Silício - trajetória de um ex-canelada',
-      facebook: '',
-      twitter: '',
-      linkedin: 'https://www.linkedin.com/in/vicente-de-luca-21728355',
-      website: '',
-      foto: 'vicentedeluca'
-    }, {
+    },  {
       name: 'Bruno Donizeti da Silva',
       place: '',
       tituloPalestra: 'NoSQL: Bancos de dados de grafo e Neo4j',
@@ -251,15 +277,6 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: '',
       website: 'http://lattes.cnpq.br/0161357943312722',
       foto: 'ramongomes'
-    }, {
-      name: 'Yan Magalhães Leite',
-      place: 'mLearn',
-      tituloPalestra: 'Testes pra que te quero',
-      facebook: 'https://www.facebook.com/yaanmagalhaes ',
-      twitter: 'https://twitter.com/yaanmagale',
-      linkedin: 'https://br.linkedin.com/in/yanmagalhaes',
-      website: '',
-      foto: 'yanmagalhaes'
     }, {
       name: 'Giancarlo Lacerda',
       place: 'Best - Marketing de Performance',

@@ -1024,7 +1024,17 @@ font-weight: 600;
   color: #e50051;
   font-size: 20px;
   text-transform: uppercase;
-  padding: 80px 80px;s
+  padding-top: 80px;
+}
+
+
+.palestrantes h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #e50051;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-bottom:  80px;
 }
 
 .palestrantes h1 span{
