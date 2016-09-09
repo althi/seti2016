@@ -1,0 +1,391 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Casper 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-15 23:17-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:20
+msgid ""
+"We tried searching for what you were looking for, but didn&apos;t find "
+"anything. Please use the search form below."
+msgstr ""
+
+#: archive.php:27
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:30
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: archive.php:33
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:36
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:39
+msgid "Asides"
+msgstr ""
+
+#: archive.php:42
+msgid "Galleries"
+msgstr ""
+
+#: archive.php:45
+msgid "Images"
+msgstr ""
+
+#: archive.php:48
+msgid "Videos"
+msgstr ""
+
+#: archive.php:51
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:54
+msgid "Links"
+msgstr ""
+
+#: archive.php:57
+msgid "Statuses"
+msgstr ""
+
+#: archive.php:60
+msgid "Audios"
+msgstr ""
+
+#: archive.php:63
+msgid "Chats"
+msgstr ""
+
+#: archive.php:66
+msgid "Archives"
+msgstr ""
+
+#: comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:35 comments.php:52
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:36 comments.php:53
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:37 comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#. //codex.wordpress.org/Template_Hierarchy
+#. *
+#. * @package Casper
+#.
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:10 content-page.php:13 content-single.php:8
+#: content-single.php:11 content.php:10
+msgid ", "
+msgstr ""
+
+#: content-page.php:18 content-single.php:16
+#, php-format
+msgid ""
+"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: content-page.php:20 content-single.php:18
+#, php-format
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-page.php:26 content-single.php:24
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-page.php:28 content-single.php:26
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: content-page.php:42 content-single.php:40
+msgid " | "
+msgstr ""
+
+#: content-page.php:45 content-single.php:43
+msgid " in "
+msgstr ""
+
+#: content-page.php:47 content-single.php:45 content.php:22
+msgid "Edit&rarr;"
+msgstr ""
+
+#: content-page.php:67
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:68
+msgid "&hellip;&nbsp<span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-single.php:71 content.php:56
+msgid "Pages:"
+msgstr ""
+
+#: content.php:20
+msgid " on "
+msgstr ""
+
+#: content.php:46 functions.php:69
+msgid "&hellip;&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: footer.php:11
+msgid "Subscribe!"
+msgstr ""
+
+#: footer.php:15
+#, php-format
+msgid "<a href=\"%1$s\" rel=\"home\">Casper WP</a> by Lacy Morrow"
+msgstr ""
+
+#: functions.php:44
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:86
+msgid "Footer Bar"
+msgstr ""
+
+#: header.php:32
+msgid "Menu"
+msgstr ""
+
+#: header.php:35
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:50
+msgid "Youtube"
+msgstr ""
+
+#: header.php:55
+msgid "Tumblr"
+msgstr ""
+
+#: header.php:60
+msgid "Instagram"
+msgstr ""
+
+#: header.php:65
+msgid "Google+"
+msgstr ""
+
+#: header.php:70
+msgid "Facebook"
+msgstr ""
+
+#: header.php:75
+msgid "Twitter"
+msgstr ""
+
+#: header.php:80
+msgid "Home"
+msgstr ""
+
+#: header.php:85
+msgid "Email"
+msgstr ""
+
+#: header.php:90
+msgid "LinkedIn"
+msgstr ""
+
+#: header.php:95
+msgid "GitHub"
+msgstr ""
+
+#: header.php:100
+msgid "Bitbucket"
+msgstr ""
+
+#: header.php:105
+msgid "Stack Overflow"
+msgstr ""
+
+#: header.php:110
+msgid "Dribbble"
+msgstr ""
+
+#: header.php:115
+msgid "Behance"
+msgstr ""
+
+#: header.php:120
+msgid "RSS"
+msgstr ""
+
+#: header.php:125
+msgid "CodePen"
+msgstr ""
+
+#: header.php:130
+msgid "Deviant Art"
+msgstr ""
+
+#: header.php:135
+msgid "Flickr"
+msgstr ""
+
+#: header.php:140
+msgid "LastFM"
+msgstr ""
+
+#: header.php:145
+msgid "SoundCloud"
+msgstr ""
+
+#: header.php:150
+msgid "Spotify"
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/customizer.php:35 inc/customizer.php:43
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer.php:65
+msgid "Header Color"
+msgstr ""
+
+#: inc/customizer.php:81
+msgid "Page Header Text Color"
+msgstr ""
+
+#: inc/customizer.php:97
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer.php:113
+msgid "Hover Color"
+msgstr ""
+
+#: inc/customizer.php:129
+msgid "Home Menu Color"
+msgstr ""
+
+#: inc/customizer.php:145
+msgid "Menu Color"
+msgstr ""
+
+#: inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/template-tags.php:27
+msgid "Older Posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:29
+msgid "Page"
+msgstr ""
+
+#: inc/template-tags.php:29
+msgid "of"
+msgstr ""
+
+#: inc/template-tags.php:31
+msgid "<span class=\"meta-nav\">&larr;</span> Newer Posts"
+msgstr ""
+
+#: inc/template-tags.php:60
+msgctxt "Previous post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:62
+msgctxt "Next post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr ""
+
+#: inc/template-tags.php:87
+#, php-format
+msgid ""
+"<span class=\"posted-on\">%1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr ""

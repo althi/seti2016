@@ -16,6 +16,24 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: 'https://www.linkedin.com/in/ricardoroquim',
       website: ' http://www.ricardoroquim.com.br/',
       foto: 'ricardoroquim'
+    }, {
+      name: 'Serena Fernandes',
+      place: 'AvenueCode',
+      tituloPalestra: 'Mulheres na Tecnologia',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'serenafernandes'
+    }, {
+      name: 'Vicente de Luca',
+      place: 'Zendesk',
+      tituloPalestra: 'Do DCC-UFLA ao Vale do Silício - trajetória de um ex-canelada',
+      facebook: '',
+      twitter: '',
+      linkedin: 'https://www.linkedin.com/in/vicente-de-luca-21728355',
+      website: '',
+      foto: 'vicentedeluca'
     },{
       name: 'Rubem Saldanha',
       place: 'Intel',
@@ -41,24 +59,6 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: 'https://www.linkedin.com/in/sergioaugrod',
       website: ' www.sergioaugrod.com.br',
       foto: 'sergioaugusto'
-    },  {
-      name: 'Serena Fernandes',
-      place: 'AvenueCode',
-      tituloPalestra: 'Mulheres na Tecnologia',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: 'serenafernandes'
-    }, {
-      name: 'Vicente de Luca',
-      place: 'Zendesk',
-      tituloPalestra: 'Do DCC-UFLA ao Vale do Silício - trajetória de um ex-canelada',
-      facebook: '',
-      twitter: '',
-      linkedin: 'https://www.linkedin.com/in/vicente-de-luca-21728355',
-      website: '',
-      foto: 'vicentedeluca'
     },{
       name: 'Rodolfo Dias',
       place: 'Inatel',

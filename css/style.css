@@ -33,7 +33,11 @@ html,body{
   font-family: 'Open Sans', sans-serif;
 	width:100%;
 	height:100%;
-	background-color: black
+	background-color: black;
+  background: url("../img/background.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+
 }
 
 html{
@@ -128,8 +132,7 @@ body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } canvas{ display:
 
  .image-title{
 	 padding-top: 20px;
-   padding-bottom: 30px;
-	 width: 40%;
+	 width: 50%;
 	 height: auto;
  }
 
@@ -183,6 +186,7 @@ section{
     width: 100%;
     overflow: hidden;
     height: auto;
+    background-color: black;
 }
 
 section{	
@@ -227,6 +231,9 @@ section{
   color: white;
 }
 
+.padding-left-20{
+  padding-left: 20px;
+}
 .call4action{
   padding-top: 50px;
 }
@@ -1066,8 +1073,8 @@ font-weight: 600;
 
 .btn-outlined.btn-inscricao {
     background: none;
-    color: #D90368;
-  border-color: #D90368;
+    color: #fff;
+  border-color: #fff;
 }
 
 .btn-outlined.btn-inscricao:hover,
@@ -1126,3 +1133,127 @@ background: linear-gradient(to top, #5f2c82 , #49a09d); /* W3C, IE 10+/ Edge, Fi
   background-position: 50% 50%;
 }
 
+
+
+.js .anime {
+  opacity: 0;
+  transform: translate3D(-50px, 0px, 0px);
+}
+
+.js .anime-init {
+  opacity: 1;
+  transform: translate3D(0px, 0px, 0px);
+  transition: .3s all ease;
+}
+
+.box {
+  width: 260px;
+  height: 100px;
+  border-radius: 5px;
+  margin: 0 auto 20px auto;
+}
+
+.box p {
+  padding-top: 100px;
+  font-size: 24px;
+  color: white;
+  font-family: monaco;
+}
+
+#azul {
+  background: #05ACED;
+}
+
+#verde {
+  background: #8BC84C;
+}
+
+#roxo {
+  background: #8844EE;
+}
+
+
+#mouse {
+  display: block;
+  width: 22px;
+  height: 40px;
+  border-radius: 20px;
+  border: 4px solid #8844EE;
+  text-align: center;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 20px;
+  margin: 0 auto;
+}
+
+#mouse::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 8px;
+  position: relative;
+  border-radius: 4px;
+  background: #8844EE;
+  animation-name: mouse;
+  animation-duration: .7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mouse {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 6px;
+  }
+}
+
+#origamid {
+  font-family: monaco;
+  text-decoration: none;
+  color: #84E;
+  display: inline-block;
+}
+
+#origamid::after, #origamid::before {
+  content: '';
+  display: block;
+  background: #84E;
+  width: 0;
+  height: 2px;
+  border-radius: 4px;
+  margin: 6px auto 6px auto;
+  transition: all .2s ease;
+}
+
+#origamid:hover::after, #origamid:hover::before {
+  width: 100%;
+}
+
+
+
+
+.foto{  
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.foto1{
+  background: url("../img/foto1.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+
+}
+
+.foto2{
+  background: url("../img/foto2.jpg");
+    background-attachment: fixed;
+  background-size: 100%;
+}
+
+.foto3{
+  background: url("../img/foto3.jpg");
+    background-attachment: fixed;
+  background-size: 100%;
+}
