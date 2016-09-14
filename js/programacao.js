@@ -84,7 +84,7 @@ programacao.controller('programacaoController', function programacaoController($
       linkedin: '',
       website: '',
       foto: 'razgriz',
-      hora:'1PM',
+      hora:'7:30PM',
       alinhamento:'timeline-inverted'
     }, 
 
@@ -124,7 +124,7 @@ programacao.controller('programacaoController', function programacaoController($
       linkedin: 'https://www.linkedin.com/in/paula-martucci-512a0522?trk=nav_responsive_tab_profile',
       website: 'http://facebook.com/persolutio',
       foto: 'paulamartucci',
-      hora: '17PM',
+      hora: '5PM',
       resumo: 'Currículo, cursos, certificações, idiomas, todos estes fatores são muito importantes, claro. Mas a base desta palestra está fundamentada no desenvolvimento humano e de como colocar todos estes requisitos em prática. As bases do trabalho estão ligadas aos 4 pilares do desenvolvimento: análise e crítica, interação, contribuição e transformação. Ou seja, "o que" se tem como requisito é o motor da máquina, mas "o como" se usa essa máquina, é o combustível e o passaporte para novas oportunidades. A assertividade como quinto elemento será o termômetro de como usamos nossa maturidade emocional para alavancar a carreira e os relacionamentos. O autoconhecimento é o primeiro passo pra se desenvolver nestes pilares. Trabalhar com missão, propósito e felicidade trará direção e apoio na tomada de decisão. Então, se quer ir para a guerra do mercado e da concorrência, precisa saber as armas que tem e o que fazer com elas.',
     }, 
 
@@ -164,6 +164,8 @@ $scope.terca = [
       twitter: 'https://twitter.com/guilhermemaias1',
       linkedin: 'https://www.linkedin.com/in/guilherme-henrique-maia-seabra-6b9b4364?trk=nav_responsive_tab_profile',
       website: '',
+      hora:'8AM',
+      alinhamento:'',
       foto: 'guilhermeseabra'
     },
 
@@ -175,6 +177,8 @@ $scope.terca = [
       twitter: '@scpassos',
       linkedin: 'linkedin.com/in/scpassos ',
       website: 'www.take.net',
+      hora:'10AM',
+      alinhamento:'',
       foto: 'sergiopassos'
     }, 
 
@@ -186,7 +190,22 @@ $scope.terca = [
       linkedin: 'https://www.linkedin.com/in/ricardoroquim',
       website: ' http://www.ricardoroquim.com.br/',
       foto: 'ricardoroquim',
+      hora:'1PM',
+      alinhamento:'',
       data: 'segunda'
+    },
+
+    {
+      name: 'Inbatec',
+      place: '',
+      tituloPalestra: 'Em breve',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      hora:'3PM',
+      alinhamento:'',
+      foto: 'breve'
     },
 
     {
@@ -197,6 +216,8 @@ $scope.terca = [
       twitter: 'https://www.linkedin.com/company/innervision-ltda?trk=biz-companies-cym',
       linkedin: 'https://br.linkedin.com/in/guilherme-timoteo-819037a',
       website: 'https://www.linkedin.com/company/innervision-ltda?trk=biz-companies-cym',
+      hora:'5PM',
+      alinhamento:'',
       foto: 'guilhermetimoteo'
     },
 
@@ -208,178 +229,314 @@ $scope.terca = [
       twitter: 'https://twitter.com/andremlcurvello',
       linkedin: 'https://br.linkedin.com/pub/andr-curvello/24/339/b03',
       website: 'http://andrecurvello.com.br/',
+      hora:'9PM',
+      alinhamento:'',
       foto: 'andrecurvelo'
     }
 ];
 
 $scope.quarta = [
     {
-      name: '',
+      name: 'David Robert',
       place: '',
-      tituloPalestra: '',
+      tituloPalestra: 'Em breve',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
+      hora:'8AM',
+      alinhamento:'',
       foto: 'breve'
     },
 
     {
-      name: '',
+      name: 'TW',
       place: '',
-      tituloPalestra: '',
+      tituloPalestra: 'Em breve',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
+      hora:'10AM',
+      alinhamento:'',
       foto: 'breve'
     },
 
     {
-      name: '',
+      name: 'Rubem Paulo Torri Saldanha',
       place: '',
-      tituloPalestra: '',
+      tituloPalestra: 'A Internet das Coisas que eu posso criar',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
+      hora:'1PM',
+      alinhamento:'',
+      foto: 'RubemSaldanha'
+    },
+
+    {
+      name: 'Yan Magalhães Leite',
+      place: '',
+      tituloPalestra: 'Testes pra que te quero',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      hora:'3PM',
+      alinhamento:'',
+      foto: 'yanmagalhaes'
+    },
+
+    {
+      name: 'TW',
+      place: '',
+      tituloPalestra: 'Em breve',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      hora:'5PM',
+      alinhamento:'',
       foto: 'breve'
     },
 
     {
-      name: '',
+      name: 'Barbara Oliveira',
       place: '',
-      tituloPalestra: '',
+      tituloPalestra: 'O papel do PO em times Scrum',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
-      foto: 'breve'
+      hora:'7:30PM',
+      alinhamento:'',
+      foto: 'barbaraoliveira'
     },
 
     {
-      name: '',
+      name: 'Aline Antunes Dias',
       place: '',
-      tituloPalestra: '',
+      tituloPalestra: 'O papel do PO em times Scrum',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
-      foto: 'breve'
+      hora:'7:30PM',
+      alinhamento:'',
+      foto: 'alineantunesdias'
+    },
+
+    {
+      name: 'Bruno Donizette',
+      place: '',
+      tituloPalestra: 'Neo4 o que? Sua vida repleta de grafos!',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      hora:'9PM',
+      alinhamento:'',
+      foto: 'brunodonizeti'
     },
 ];
 
 $scope.quinta = [
     {
-      name: '',
+      name: 'Giancarlo Lacerda',
       place: '',
-      tituloPalestra: '',
+      tituloPalestra: 'Inteligência e Performance em marketing digital',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
+      hora:'8AM',
+      alinhamento:'',
+      foto: 'giancarlolacerda'
+    },
+
+    {
+      name: 'André Grutzman',
+      place: '',
+      tituloPalestra: 'Mesa Redonda - Politicas Publicas',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      hora:'10AM',
+      alinhamento:'',
       foto: 'breve'
     },
 
     {
-      name: '',
+      name: 'André Paulovich',
       place: '',
-      tituloPalestra: '',
+      tituloPalestra: 'A nova era da plataforma windows: o darwinismo digital',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
+      hora:'1PM',
+      alinhamento:'',
+      foto: 'andrepaulovich'
+    },
+
+    {
+      name: 'Bruno Castro',
+      place: '',
+      tituloPalestra: 'Projetando interfaces imersivas',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      hora:'3PM',
+      alinhamento:'',
+      foto: 'brunocastro'
+    },
+
+    {
+      name: 'Vinícius Borriello',
+      place: '',
+      tituloPalestra: 'JavaScript: de onde veio, para onde vai',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      hora:'5PM',
+      alinhamento:'',
+      foto: 'ViníciusBorriello'
+    },
+
+    {
+      name: 'SEBRAE',
+      place: '',
+      tituloPalestra: 'Rock Content',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      hora:'7:30PM',
+      alinhamento:'',
       foto: 'breve'
     },
 
     {
-      name: '',
+      name: 'Daniela Gibertoni',
       place: '',
-      tituloPalestra: '',
+      tituloPalestra: 'UX Design - A Experiência do Usuário ',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
-      foto: 'breve'
-    },
-
-    {
-      name: '',
-      place: '',
-      tituloPalestra: '',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: 'breve'
-    },
-
-    {
-      name: '',
-      place: '',
-      tituloPalestra: '',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: 'breve'
+      hora:'9PM',
+      alinhamento:'',
+      foto: 'danielagibertoni'
     },
 ];
 
 $scope.sexta = [
     {
-      name: '',
+      name: 'Sérgio Rodrigues',
       place: '',
-      tituloPalestra: '',
+      tituloPalestra: ' Internet of Things: More software less hardware.',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
+      hora:'8AM',
+      alinhamento:'',
+      foto: 'sergioaugusto'
+    },
+
+    {
+      name: 'Vanessa Me Tonini',
+      place: '',
+      tituloPalestra: 'Métodos ágeis, desenvolvendo software com foco no que importa',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      hora:'10AM',
+      alinhamento:'',
+      foto: 'VanessaMeTonini'
+    },
+
+    {
+      name: 'Camilla Gomes',
+      place: '',
+      tituloPalestra: 'Em breve',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      hora:'11AM',
+      alinhamento:'',
       foto: 'breve'
     },
 
     {
-      name: '',
+      name: 'Guilherme Vasconcelos',
       place: '',
-      tituloPalestra: '',
+      tituloPalestra: 'Metodologia ágil (SCRUM): Inovação e Satisfação do cliente.',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
+      hora:'1PM',
+      alinhamento:'',
       foto: 'breve'
     },
 
     {
-      name: '',
+      name: 'Rodolfo Dias',
       place: '',
-      tituloPalestra: '',
+      tituloPalestra: 'The Front-End Power',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
-      foto: 'breve'
+      hora:'3PM',
+      alinhamento:'',
+      foto: 'rodolfodias'
     },
 
     {
-      name: '',
+      name: 'Cesar Augusto',
       place: '',
-      tituloPalestra: '',
+      tituloPalestra: 'OpenSource Java',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
-      foto: 'breve'
+      hora:'5PM',
+      alinhamento:'',
+      foto: 'cesar'
     },
 
     {
-      name: '',
+      name: 'Vicente De Luca',
+      place: '',
+      tituloPalestra: 'Do DCC-UFLA ao Vale do Silício - trajetória de um ex-canelada',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      hora:'7:30PM',
+      alinhamento:'',
+      foto: 'vicentedeluca'
+    },
+
+    {
+      name: 'Encerramento',
       place: '',
       tituloPalestra: '',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
-      foto: 'breve'
+      hora:'9PM',
+      alinhamento:'',
+      foto: 'seti'
     },
 ];
 
