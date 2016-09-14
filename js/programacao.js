@@ -67,13 +67,12 @@ programacao.controller('programacaoController', function programacaoController($
     {
       name: 'Camila Bastos',
       place: 'UFLA',
-      tituloPalestra: 'Minicurso: Compreensão de Software utilizando técnicas de visualização',
+      tituloPalestra: 'Compreensão de Software utilizando técnicas de visualização',
       facebook: 'https://www.facebook.com/camilabastoss',
-      twitter: '',
-      linkedin: '',
-      website: '',
+      twitter: 'https://www.facebook.com/camilabastoss',
+      linkedin: 'https://www.facebook.com/camilabastoss',
+      website: 'https://www.facebook.com/camilabastoss',
       foto: 'camilabastos',
-      resumo: 'A compreensão consiste na obtenção do conhecimento de diferentes características de sistemas de software e é considerada um dos requisitos para execução de atividades relacionadas ao desenvolvimento e manutenção. No entanto, compreender essas características não é uma tarefa trivial devido a quantidade significativa de informações geradas ao longo do ciclo de vida e evolução do software. Técnicas de visualização de software têm sido amplamente utilizadas para apresentar essas informações e facilitar o processo de compreensão. Dessa forma, o objetivo deste minicurso é oferecer uma visão geral da área de visualização de software, apontando como as técnicas de visualização podem ser aplicadas e quais atributos dos sistemas software podem ser representados visualmente.' ,
       hora:'1PM'
     }, 
 
@@ -86,7 +85,7 @@ programacao.controller('programacaoController', function programacaoController($
       linkedin: '',
       website: '',
       foto: 'razgriz',
-      hora:'19PM',
+      hora:'1PM',
       alinhamento:'timeline-inverted'
     }, 
 
@@ -119,9 +118,9 @@ programacao.controller('programacaoController', function programacaoController($
       place: 'PerSolutio',
       tituloPalestra: 'Os pilares de carreira e assertividade',
       facebook: 'http://facebook.com/persolutio',
-      twitter: '',
+      twitter: 'http://facebook.com/persolutio',
       linkedin: 'https://www.linkedin.com/in/paula-martucci-512a0522?trk=nav_responsive_tab_profile',
-      website: 'h',
+      website: 'http://facebook.com/persolutio',
       foto: 'paulamartucci',
       hora: '17PM',
       resumo: 'Currículo, cursos, certificações, idiomas, todos estes fatores são muito importantes, claro. Mas a base desta palestra está fundamentada no desenvolvimento humano e de como colocar todos estes requisitos em prática. As bases do trabalho estão ligadas aos 4 pilares do desenvolvimento: análise e crítica, interação, contribuição e transformação. Ou seja, "o que" se tem como requisito é o motor da máquina, mas "o como" se usa essa máquina, é o combustível e o passaporte para novas oportunidades. A assertividade como quinto elemento será o termômetro de como usamos nossa maturidade emocional para alavancar a carreira e os relacionamentos. O autoconhecimento é o primeiro passo pra se desenvolver nestes pilares. Trabalhar com missão, propósito e felicidade trará direção e apoio na tomada de decisão. Então, se quer ir para a guerra do mercado e da concorrência, precisa saber as armas que tem e o que fazer com elas.',
@@ -183,9 +182,7 @@ $scope.terca = [
       linkedin: 'https://www.linkedin.com/in/ricardoroquim',
       website: ' http://www.ricardoroquim.com.br/',
       foto: 'ricardoroquim',
-      resumo: 'O que é usabilidade e seus princípios básicos aplicados ao desenvolvimento de sistemas web amigáveis aos usuários',
-      data: 'segunda',
-      hora: '1PM'
+      data: 'segunda'
     },
 
     {
@@ -193,11 +190,10 @@ $scope.terca = [
       place: 'Innervision',
       tituloPalestra: 'Quanto custaria limpar todas as janelas das residências de Lavras?',
       facebook: 'https://www.facebook.com/Innervision-Ltda-835402979878430/',
-      twitter: '',
+      twitter: 'https://www.linkedin.com/company/innervision-ltda?trk=biz-companies-cym',
       linkedin: 'https://br.linkedin.com/in/guilherme-timoteo-819037a',
       website: 'https://www.linkedin.com/company/innervision-ltda?trk=biz-companies-cym',
-      foto: 'guilhermetimoteo',
-      resumo: 'Talvez você tenha pensado: "Que pergunta absurda! Como vou saber isso?". Mas, se você perguntar para um funcionário de uma empresa "Qual a previsão de faturamento dos próximos 6 meses para os produtos que representam 80% do lucro corporativo?". Bom, talvez esta pessoa te responda: "Que pergunta absurda! Como vou saber isso?". Notou que existe uma semelhança entre a pergunta absurda sobre a limpeza de janelas e a pergunta absurda sobre o faturamento da empresa? Então, é sobre isso que iremos debater. Abordaremos as questões práticas que ocorrem no ambiente corporativo quando tentamos implantar um processo de análise de dados.  Será uma ótima oportunidade para aqueles que estão estudando ou tem interesse em algum tema relacionado com a ciência de dados aplicada de forma prática no mundo corporativo. Ah, também será uma oportunidade incrível para aqueles que querem saber tudo sobre limpeza avançada de janelas.  '
+      foto: 'guilhermetimoteo'
     },
 
      {
@@ -210,284 +206,6 @@ $scope.terca = [
       website: 'http://andrecurvello.com.br/',
       foto: 'andrecurvelo'
     }
-
-];
-
-$scope.quarta = [
-
-    {
-      name: 'David Robert',
-      place: '',
-      tituloPalestra: '',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: 'andrecurvelo'
-    },
-
-    {
-      name: 'TW',
-      place: '',
-      tituloPalestra: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: '',
-      resumo: '',
-      data: '',
-      hora: ''
-    },
-
-    {
-      name: 'Rubem Saldanha',
-      place: '',
-      tituloPalestra: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: '',
-      resumo: '',
-      data: '',
-      hora: ''
-    },
-
-    {
-      name: 'Yan Magalhães Leite',
-      place: '',
-      tituloPalestra: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: '',
-      resumo: '',
-      data: '',
-      hora: ''
-    },
-
-    {
-      name: 'TW',
-      place: '',
-      tituloPalestra: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: '',
-      resumo: '',
-      data: '',
-      hora: ''
-    },
-
-    {
-      name: '',
-      place: '',
-      tituloPalestra: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: '',
-      resumo: '',
-      data: '',
-      hora: ''
-    },
-
-    {
-      name: '',
-      place: '',
-      tituloPalestra: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: '',
-      resumo: '',
-      data: '',
-      hora: ''
-    },
-];
-
-$scope.quinta = [
-
-    {
-      name: 'David Robert',
-      place: '',
-      tituloPalestra: '',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: 'andrecurvelo'
-    },
-
-    {
-      name: 'TW',
-      place: '',
-      tituloPalestra: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: '',
-      resumo: '',
-      data: '',
-      hora: ''
-    },
-
-    {
-      name: 'Rubem Saldanha',
-      place: '',
-      tituloPalestra: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: '',
-      resumo: '',
-      data: '',
-      hora: ''
-    },
-
-    {
-      name: 'Yan Magalhães Leite',
-      place: '',
-      tituloPalestra: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: '',
-      resumo: '',
-      data: '',
-      hora: ''
-    },
-
-    {
-      name: 'TW',
-      place: '',
-      tituloPalestra: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: '',
-      resumo: '',
-      data: '',
-      hora: ''
-    },
-
-    {
-      name: '',
-      place: '',
-      tituloPalestra: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: '',
-      resumo: '',
-      data: '',
-      hora: ''
-    },
-
-    {
-      name: '',
-      place: '',
-      tituloPalestra: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: '',
-      resumo: '',
-      data: '',
-      hora: ''
-    },
-
-];
-
-$scope.sexta = [
-
-    {
-      name: 'David Robert',
-      place: '',
-      tituloPalestra: '',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: 'andrecurvelo'
-    },
-
-    {
-      name: 'TW',
-      place: '',
-      tituloPalestra: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: '',
-      resumo: '',
-      data: '',
-      hora: ''
-    },
-
-    {
-      name: 'Rubem Saldanha',
-      place: '',
-      tituloPalestra: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: '',
-      resumo: '',
-      data: '',
-      hora: ''
-    },
-
-    {
-      name: 'Yan Magalhães Leite',
-      place: '',
-      tituloPalestra: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: '',
-      resumo: '',
-      data: '',
-      hora: ''
-    },
-
-    {
-      name: 'TW',
-      place: '',
-      tituloPalestra: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: '',
-      resumo: '',
-      data: '',
-      hora: ''
-    },
-
-    {
-      name: '',
-      place: '',
-      tituloPalestra: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: '',
-      resumo: '',
-      data: '',
-      hora: ''
-    },
-
-    {
-      name: '',
-      place: '',
-      tituloPalestra: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: '',
-      resumo: '',
-      data: '',
-      hora: ''
-    },
 
 ];
 
