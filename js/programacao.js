@@ -9,7 +9,6 @@ var programacao = angular.module('programacao', []);
 programacao.controller('programacaoController', function programacaoController($scope) {
   $scope.segunda = [
     {
-      
       name: 'Departamento de Ciência da Computação',
       place: 'UFLA',
       tituloPalestra: 'Credenciamento',
@@ -21,9 +20,9 @@ programacao.controller('programacaoController', function programacaoController($
       hora: '8AM',
       resumo: '',
       alinhamento:''
+    },
 
-    },{
-      
+    {
       name: 'Comissão Organizadora',
       place: 'AvenueCode',
       tituloPalestra: 'Abertura',
@@ -35,9 +34,9 @@ programacao.controller('programacaoController', function programacaoController($
       hora: '10AM',
       resumo: '',
       alinhamento:'timeline-inverted'
+    },
 
-    },{
-      
+    {
       name: 'Serena Fernandes',
       place: 'AvenueCode',
       tituloPalestra: 'Mulheres na Tecnologia',
@@ -48,8 +47,9 @@ programacao.controller('programacaoController', function programacaoController($
       foto: 'serenafernandes',
       hora: '11AM',
       resumo: 'O principal objetivo desta palestra é a desconstrução. Vamos entender o quão importante é ter um ambiente diverso e como podemos tê-lo. Cada um de nós tem um papel importante nas escolhas e no desenvolvimento pessoal e profissional de todos aqueles que conhecemos. Vamos aprender a incentivar, apoiar e principalmente a respeitar as diferenças para usufruir de um ambiente cada vez mais colaborativo.'
+    },
 
-    },{
+    {
       name: 'Lucas Ricoy',
       place: 'Foxus',
       tituloPalestra: 'Desenvolvimento de Aplicativos Híbridos (Mobile/Desktop/Web)',
@@ -61,7 +61,6 @@ programacao.controller('programacaoController', function programacaoController($
       hora: '1PM',
       resumo: 'Essa palestra tem por objetivo apresentar a abordagem de desenvolvimento de aplicativos híbridos, suas vantagens e desvantagens e mostrar um protótipo funcional que utilizando do mesmo código fonte,   será capaz de ser distribuído para sistemas Desktop tradicionais (Linux, Windows, Mac),  dispositivos móveis (iOS, Android, Windows Phone) ou como um site na web sem alterações em suas camadas internas,   mudando apenas a forma de apresentação em cada plataforma, quando necessário.',
       alinhamento:'timeline-inverted'
-
     }, 
 
     {
@@ -76,7 +75,7 @@ programacao.controller('programacaoController', function programacaoController($
       hora:'1PM'
     }, 
 
-     {
+    {
       name: 'Guilherme Razgriz',
       place: '',
       tituloPalestra: 'Minicurso',
@@ -90,7 +89,6 @@ programacao.controller('programacaoController', function programacaoController($
     }, 
 
     {
-      
       name: 'Serena Fernandes',
       place: 'AvenueCode',
       tituloPalestra: 'Metodologias Ágeis (Workshop)',
@@ -101,7 +99,9 @@ programacao.controller('programacaoController', function programacaoController($
       foto: 'serenafernandes',
       hora: '2PMM',
       resumo: 'Vamos falar um pouco sobre Metodologias Ágeis, numa abordagem prática vamos entender onde vivem, o que comem e como se reproduzem os times ágeis. Vamos ser conhecedores das manhas e dos paranauês das metodologias ágeis e saber como atuar em um time ágil. E se você acha que ser ágil significa ser rápido, vou te provar que você está mais que errado(a)!'
-    },{
+    },
+
+    {
       name: 'Lays Rodrigues Silva',
       place: 'Atelier',
       tituloPalestra: 'Qt - O seu toolkit para C++ ou Python com o verdadeiro: Write once, deploys everywhere!',
@@ -113,7 +113,9 @@ programacao.controller('programacaoController', function programacaoController($
       hora: '3PM',
       alinhamento:'timeline-inverted',
       resumo:'Qt é um dos melhores frameworks que eu já usei para desenvolvimento de software. Com toda a tecnologia e poder colocados nessa ferramenta, você realmente consegue facilitar o desenvolvimento de qualquer software, seja usando a abstração de sistema que o Qt proporciona ou em desenvolvimento ágil de iterfaces: simples, leves e flexíveis. Nesta palestra eu apresentarei para você um pouquinho do poder que o Qt pode te dar no desenvolvimento do seu software. Você pode não conhecer Qt, mas é bem provavel que você já usou algum software que foi construído com ele.'
-    }, {
+    }, 
+
+    {
       name: 'Paula Martucci',
       place: 'PerSolutio',
       tituloPalestra: 'Os pilares de carreira e assertividade',
@@ -124,7 +126,9 @@ programacao.controller('programacaoController', function programacaoController($
       foto: 'paulamartucci',
       hora: '17PM',
       resumo: 'Currículo, cursos, certificações, idiomas, todos estes fatores são muito importantes, claro. Mas a base desta palestra está fundamentada no desenvolvimento humano e de como colocar todos estes requisitos em prática. As bases do trabalho estão ligadas aos 4 pilares do desenvolvimento: análise e crítica, interação, contribuição e transformação. Ou seja, "o que" se tem como requisito é o motor da máquina, mas "o como" se usa essa máquina, é o combustível e o passaporte para novas oportunidades. A assertividade como quinto elemento será o termômetro de como usamos nossa maturidade emocional para alavancar a carreira e os relacionamentos. O autoconhecimento é o primeiro passo pra se desenvolver nestes pilares. Trabalhar com missão, propósito e felicidade trará direção e apoio na tomada de decisão. Então, se quer ir para a guerra do mercado e da concorrência, precisa saber as armas que tem e o que fazer com elas.',
-    }, {
+    }, 
+
+    {
       name: 'Guilherme Razgriz',
       place: '',
       tituloPalestra: '',
@@ -135,7 +139,9 @@ programacao.controller('programacaoController', function programacaoController($
       foto: 'razgriz',
       hora:'7h30PM',
       alinhamento:'timeline-inverted'
-    },  {
+    }, 
+
+    {
       name: 'Venícios Gustavo Santos',
       place: 'Lemaf',
       tituloPalestra: 'Quero ser analista de requisitos ou negócios. Por onde eu começo?',
@@ -146,13 +152,11 @@ programacao.controller('programacaoController', function programacaoController($
       foto: 'venicios',
       hora:'9PM',
       resumo:'Para aqueles acadêmicos que estão na expectativa de ir em busca de uma oportunidade no mercado de trabalho. A palestra "Quero ser analista de requisitos ou negócios. Por onde eu começo?" tem o intuito de nortear aqueles que vislumbram essas competências, assim venho compartilhar minhas experiências em todo território nacional e inclusive internacionais.',
-    
     }
   ];
 
 $scope.terca = [
-
-{
+    {
       name: 'Guilherme Seabra',
       place: 'PrimeCode',
       tituloPalestra: 'Mundo SAP - Carreira, Mercado, Oportunidades e Tecnologias',
@@ -196,7 +200,7 @@ $scope.terca = [
       foto: 'guilhermetimoteo'
     },
 
-     {
+    {
       name: 'André Curvello',
       place: 'PadTec S/A',
       tituloPalestra: 'Internet das Coisas com Linux Embarcado em Sistemas Híbridos - Dividir para conquistar, conectar e controlar',
@@ -206,7 +210,177 @@ $scope.terca = [
       website: 'http://andrecurvello.com.br/',
       foto: 'andrecurvelo'
     }
+];
 
+$scope.quarta = [
+    {
+      name: '',
+      place: '',
+      tituloPalestra: '',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'breve'
+    },
+
+    {
+      name: '',
+      place: '',
+      tituloPalestra: '',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'breve'
+    },
+
+    {
+      name: '',
+      place: '',
+      tituloPalestra: '',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'breve'
+    },
+
+    {
+      name: '',
+      place: '',
+      tituloPalestra: '',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'breve'
+    },
+
+    {
+      name: '',
+      place: '',
+      tituloPalestra: '',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'breve'
+    },
+];
+
+$scope.quinta = [
+    {
+      name: '',
+      place: '',
+      tituloPalestra: '',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'breve'
+    },
+
+    {
+      name: '',
+      place: '',
+      tituloPalestra: '',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'breve'
+    },
+
+    {
+      name: '',
+      place: '',
+      tituloPalestra: '',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'breve'
+    },
+
+    {
+      name: '',
+      place: '',
+      tituloPalestra: '',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'breve'
+    },
+
+    {
+      name: '',
+      place: '',
+      tituloPalestra: '',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'breve'
+    },
+];
+
+$scope.sexta = [
+    {
+      name: '',
+      place: '',
+      tituloPalestra: '',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'breve'
+    },
+
+    {
+      name: '',
+      place: '',
+      tituloPalestra: '',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'breve'
+    },
+
+    {
+      name: '',
+      place: '',
+      tituloPalestra: '',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'breve'
+    },
+
+    {
+      name: '',
+      place: '',
+      tituloPalestra: '',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'breve'
+    },
+
+    {
+      name: '',
+      place: '',
+      tituloPalestra: '',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'breve'
+    },
 ];
 
 });
