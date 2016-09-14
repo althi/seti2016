@@ -147,7 +147,7 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'cesar'
     }, {
       name: 'Vinicius Borrielo',
-      place: '',
+      place: 'UFLA',
       tituloPalestra: 'JavaScript: de onde veio, para onde vai',
       facebook: '',
       twitter: '',
@@ -174,7 +174,7 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'yanmagalhaes'
     }, {
       name: 'Guilherme Vasconcelos',
-      place: '',
+      place: 'Inttelix Brasil',
       tituloPalestra: 'Metodologia ágil (SCRUM): Inovação e Satisfação do cliente.',
       facebook: 'https://www.facebook.com/gvasconcelos2',
       twitter: '',
@@ -185,7 +185,7 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'vasconcelos'
     }, {
       name: 'Venícios Gustavo Santos',
-      place: '',
+      place: 'Lemaf',
       tituloPalestra: 'Quero ser analista de requisitos ou negócios. Por onde eu começo?',
       facebook: 'https://www.facebook.com/veniciosgustavo ',
       twitter: '',
@@ -194,8 +194,8 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'venicios'
     }, {
       name: 'Lays Rodrigues Silva',
-      place: '',
-      tituloPalestra: 'Teimosia, Campus Party e KDE',
+      place: 'Atelier',
+      tituloPalestra: 'Qt - O seu toolkit para C++ ou Python com o verdadeiro: Write once, deploys everywhere!',
       facebook: ' laysrodrigues147',
       twitter: '@lays147',
       linkedin: '',
@@ -221,12 +221,12 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'sergiopassos'
     }, {
       name: 'André Curvello',
-      place: '',
-      tituloPalestra: '',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
+      place: 'PadTec S/A',
+      tituloPalestra: 'Internet das Coisas com Linux Embarcado em Sistemas Híbridos - Dividir para conquistar, conectar e controlar',
+      facebook: 'http://www.facebook.com/profandrecurvello',
+      twitter: 'https://twitter.com/andremlcurvello',
+      linkedin: 'https://br.linkedin.com/pub/andr-curvello/24/339/b03',
+      website: 'http://andrecurvello.com.br/',
       foto: 'andrecurvelo'
     },  {
       name: 'Daniela Gibertoni',
@@ -248,7 +248,7 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'carloslauff'
     },  {
       name: 'Bruno Donizeti da Silva',
-      place: '',
+      place: 'UFLA',
       tituloPalestra: 'NoSQL: Bancos de dados de grafo e Neo4j',
       facebook: '',
       twitter: '',
@@ -257,7 +257,7 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'brunodonizeti'
     }, {
       name: 'Marlon da Silva',
-      place: '',
+      place: 'UFLA',
       tituloPalestra: 'NoSQL: Bancos de dados de grafo e Neo4j',
       facebook: '',
       twitter: '@marlondasilva',
@@ -266,7 +266,7 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'marlondasilva'
     }, {
       name: 'Ramon Gomes Costa',
-      place: '',
+      place: 'UFLA',
       tituloPalestra: 'NoSQL: Bancos de dados de grafo e Neo4j',
       facebook: '',
       twitter: '',
