@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="seti">
+<html lang="en" ng-app="programacao">
 <head>
   <meta charset="utf-8">
   <title>Programação | III SETI - Semana de Tecnologia da Informação</title>
@@ -15,17 +15,15 @@
  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
  <link rel="stylesheet" type="text/css" href="css/animate.css" />
 
+ <link rel="stylesheet" type="text/css" href="css/programacao.css" />
+
 <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
-<script src="js/seti.js"></script>
+<script src="js/programacao.js"></script>
 <script src="js/sortApp.js"></script>
 
     <!--[if IE]>
 
-
-
-
-  
-  <!-- Latest compiled and minified CSS -->
+    <!-- Latest compiled and minified CSS -->
   
 <!--<script language="JavaScript" type="text/javascript">
 var css = Math.floor((Math.random() * 4) + 1);
@@ -50,7 +48,7 @@ console.log(exibe);
 </script>-->
 
 </head>
-<body ng-controller="setiController">
+<body ng-controller="programacaoController">
 
 
 
@@ -99,53 +97,130 @@ console.log(exibe);
       </div>
     </nav>
 
-
-
-
-
 <section class="programacao">
 
    <div class="containerHome container center">
 
       <h1>Programação</h1>
+      <h2>Mais de 40 atividades para você!</h2>
 
       <div>
 
   <!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active" ng-click="myFilter = {dia: segunda}"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Segunda</a></li>
-    <li role="presentation" class="a" ng-click="myFilter = {dia: terca}"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Terça</a></li>
-    <li role="presentation" class="a"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Quarta</a></li>
-    <li role="presentation" class="a"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Quinta</a></li>
-        <li role="presentation" class="a"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Sexta</a></li>
+    <li role="presentation" class="active" ng-click="myFilter = {dia: segunda}"><a href="#segunda" aria-controls="home" role="tab" data-toggle="tab">Segunda</br><span>18/10/2016<span></a></li>
+    <li role="presentation" class="a" ng-click="myFilter = {dia: terca}"><a href="#terca" aria-controls="profile" role="tab" data-toggle="tab">Terça</br><span>19/10/2016<span></a></li>
+    <li role="presentation" class="a"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Quarta</br><span>20/10/2016<span></a></li>
+    <li role="presentation" class="a"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Quinta</br><span>21/10/2016<span></a></li>
+        <li role="presentation" class="a"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Sexta</br><span>22/10/2016<span></a></li>
 
-    <li role="presentation" class="a"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Sábado</a></li>
+    <li role="presentation" class="a"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Sábado</br><span>23/10/2016<span></a></li>
 
-    <li role="presentation" class="a"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Domingo</a></li>
+    <li role="presentation" class="a"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Domingo</br><span>24/10/2016<span></a></li>
 
   </ul>
 
   <!-- Tab panes -->
-  <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="home">
+<div class="tab-content">
+
+<!--SEGUNDA-->
+<div role="tabpanel" class="tab-pane active" id="segunda">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+     
+      <ul class="timeline">      
+        <li ng-repeat="palestra in segunda" class="{{palestra.alinhamento}}">
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="img/palestrantes/{{palestra.foto}}.jpg" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>{{palestra.hora}}</h4>
+              <h4 class="subheading">{{palestra.tituloPalestra}}</h4>
+              <h2 class="subheading">{{palestra.name}}</h2>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                {{palestra.resumo}} 
+              </p>
+            </div>
+          </div>
+          <div class="line"></div>
+        </li>
+
+        <li class="timeline-inverted">
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="img/avatar.png" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>11PM</h4>
+              <h4 class="subheading">Descansar para o próximo dia!</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
 
 
+<!--TERCA-->
+<div role="tabpanel" class="tab-pane" id="terca">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+     
+      <ul class="timeline">      
+        <li ng-repeat="palestra in terca" class="{{palestra.alinhamento}}">
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="img/palestrantes/{{palestra.foto}}.jpg" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>{{palestra.hora}}</h4>
+              <h4 class="subheading">{{palestra.tituloPalestra}}</h4>
+              <h2 class="subheading">{{palestra.name}}</h2>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                {{palestra.resumo}} 
+              </p>
+            </div>
+          </div>
+          <div class="line"></div>
+        </li>
 
+        <li class="timeline-inverted">
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="img/avatar.png" alt="">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>11PM</h4>
+              <h4 class="subheading">Descansar para o próximo dia!</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+        </li>
 
-
-      <div class="palestraItem">
-      <h4>8AM</h4>
-      <h3>Bruno Castro</h3>
-      <h2>Projetando interfaces imersivas</h2>
-      <p>Projetando interfaces imersivasProjetando interfaces imersivasProjetando interfaces imersivasProjetando interfaces imersivasProjetando interfaces imersivasProjetando interfaces imersivasProjetando interfaces imersivasProjetando interfaces imersivasProjetando interfaces imersivasProjetando interfaces imersivasProjetando interfaces imersivas</p>
-      <img class="img-circle img-responsive"src="img/palestrantes/brunocastro.jpg">
-
-      <div>
-
-      <div>
-
-
-          
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
 
 
 </div>
@@ -154,13 +229,7 @@ console.log(exibe);
 
 
 
-  
-
-
 </section>
-
-
-
 
 
 

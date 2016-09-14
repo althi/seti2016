@@ -6,9 +6,6 @@ var seti = angular.module('seti', []);
 *Foto: colocar o nome da foto. A foto precisa estar no diretório: img/palestrantes
 */
 
-
-
-
 seti.controller('setiController', function setiController($scope) {
   $scope.palestrantes = [
     {
@@ -50,10 +47,10 @@ seti.controller('setiController', function setiController($scope) {
     },{
       name: 'André Paulovich',
       place: 'CI&T',
-      tituloPalestra: 'Boas práticas de usabilidade na web',
-      twitter: 'http://twitter.com/',
-      linkedin: 'https://www.linkedin.com/in/ricardoroquim',
-      website: ' http://www.ricardoroquim.com.br/',
+      tituloPalestra: 'A nova era da plataforma windows: o darwinismo digital',
+      twitter: '',
+      linkedin: '',
+      website: '',
       foto: 'andrepaulovich'
     },{
       name: 'Sérgio Rodrigues',
