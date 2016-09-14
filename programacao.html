@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="seti">
+<head>
+  <meta charset="utf-8">
+  <title>Programação | III SETI - Semana de Tecnologia da Informação</title>
+  <meta name="description" content="A Semana de Tecnologia da Informação (SETI) é um evento que ocorre anualmente no departamento de Ciência da Computação (DCC) da Universidade Federal de Lavras (UFLA). O event será entre os dias 17 e 23 de Outubro de 2015.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<!--estilos-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+ <link rel="stylesheet" type="text/css" href="css/menu_topexpand.css" />
+ <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+ <link rel="stylesheet" type="text/css" href="css/animate.css" />
+
+<script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+<script src="js/seti.js"></script>
+<script src="js/sortApp.js"></script>
+
+    <!--[if IE]>
+
+
+
+
+  
+  <!-- Latest compiled and minified CSS -->
+  
+<!--<script language="JavaScript" type="text/javascript">
+var css = Math.floor((Math.random() * 4) + 1);
+var exibe = '<link rel="stylesheet" href="css/deepSpace.css" />';
+
+
+
+if (css==1) {
+exibe = '<link rel="stylesheet" href="css/deepSpace.css" />';
+} else if(css==2){
+exibe = '<link rel="stylesheet" href="css/shadowNight.css" />';
+} else if(css==3){
+exibe = '<link rel="stylesheet" href="css/deepSpace.css" />';
+}else if(css==4){
+exibe = '<link rel="stylesheet" href="css/horizon.css" />';
+}
+else{
+  exibe = '<link rel="stylesheet" href="css/horizon.css" />';
+}
+document.write(exibe);
+console.log(exibe);
+</script>-->
+
+</head>
+<body ng-controller="setiController">
+
+
+
+
+
+    
+      <!-- Fixed navbar -->
+    <nav class="navbar  navbar-fixed-top navbar-seti">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="linkHome"><a href="#home">Home</a></li>
+            <li><a href="#oEvento" class="linkOevento">O evento</a></li>
+            <li><a href="#palestrantes"class="linkPalestrantes">Palestrantes</a></li>
+            <li><a href="#aufla"class="linkLocalizacao">Localização</a></li>
+            <li><a href="#blog"class="linkBlog">Blog</a></li>
+            <li><a href="#patrocinadores"class="linkPatrocinadores">Patrocinadores</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programação <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">(17/10) Segunda-feira</a></li>
+                <li><a href="#">(18/10) Terça-feira</a></li>
+                <li><a href="#">(19/10) Quarta-feira</a></li>
+                <li><a href="#">(20/10) Quinta-feira</a></li>
+                <li><a href="#">(21/10) Sexta-feira</a></li>
+                <li><a href="#">(22/10) Sábado</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Eventos Paralelos</li>
+                <li><a href="#">Seminário do Mestrado</a></li>
+                <li><a href="#">Seminário do grupo de estudos em Engenharia de Software</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li> <a href="#" class="btn btn-outlined btn-inscricao btn-sm" data-wow-delay="0.7s">Inscreva-se</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+
+
+
+<section class="programacao">
+
+   <div class="containerHome container center">
+
+      <h1>Programação</h1>
+
+      <div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active" ng-click="myFilter = {dia: segunda}"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Segunda</a></li>
+    <li role="presentation" class="a" ng-click="myFilter = {dia: terca}"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Terça</a></li>
+    <li role="presentation" class="a"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Quarta</a></li>
+    <li role="presentation" class="a"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Quinta</a></li>
+        <li role="presentation" class="a"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Sexta</a></li>
+
+    <li role="presentation" class="a"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Sábado</a></li>
+
+    <li role="presentation" class="a"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Domingo</a></li>
+
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+
+
+
+
+
+      <div class="palestraItem">
+      <h4>8AM</h4>
+      <h3>Bruno Castro</h3>
+      <h2>Projetando interfaces imersivas</h2>
+      <p>Projetando interfaces imersivasProjetando interfaces imersivasProjetando interfaces imersivasProjetando interfaces imersivasProjetando interfaces imersivasProjetando interfaces imersivasProjetando interfaces imersivasProjetando interfaces imersivasProjetando interfaces imersivasProjetando interfaces imersivasProjetando interfaces imersivas</p>
+      <img class="img-circle img-responsive"src="img/palestrantes/brunocastro.jpg">
+
+      <div>
+
+      <div>
+
+
+          
+
+
+</div>
+
+
+
+
+
+  
+
+
+</section>
+
+
+
+
+
+
+<footer>
+
+  <div class="container center padding-top-40" id="patrocinadores">
+
+
+
+    <div class="row">
+
+      <div class="col-md-12 organizacao">
+        <h1>Patrocinador Ouro</h1>
+
+      <div class="col-md-offset-3 col-md-6"><a target="_blank" href="https://www.gerencianet.com.br"><img src="img/patrocinadores/gerencianet.svg" alt="Gerêncianet" class="img-responsive"/></a></div>
+    
+     </div>
+    </div>
+
+
+    <div class="row">
+
+      <div class="col-md-12 organizacao">
+        <h1>Patrocinador Prata</h1>
+
+      <div class="col-md-offset-4 col-md-3"><a target="_blank" href="http://www.innervision.com.br/"><img src="img/patrocinadores/innervision.svg" alt="Innervision" class="img-responsive"/></a></div>
+    
+     </div>
+    </div>
+
+
+    <div class="row">
+
+      <div class="col-md-12 organizacao">
+        <h1>Apoio</h1>
+     <div class="col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/ufla.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     <div class=" col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/casadocodigo.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     <div class=" col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/sebrae.svg" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     <div class=" col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/nintec.svg" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     <div class=" col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/thoughtworks.svg" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     <div class=" col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/inbatec.svg" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     
+     
+     <!--<div class="col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/novatec.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     <div class="col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/caelum.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>-->
+
+     </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 organizacao">
+        <h1>Organização</h1>
+        <div class="col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/dcc.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+      <div class="col-md-2"><img src="img/peticsi.png" alt="PETI Computação e Sistemas" class="img-responsive"/></div>
+      <div class="col-md-2"><a target="_blank" href="http://www.compjunior.com.br"><img src="img/compjunior.png" alt="Comp Júnior" class="img-responsive"/></a></div>
+      
+
+      <div class="col-md-2"><a target="_blank" href="http://ca.computacao.ufla.br"><img src="img/cacc.png" alt="Centro Acadêmico de Ciência da Computação" class="img-responsive"/></a></div>
+      <div class="col-md-2"><a target="_blank" href="http://www.ca.ufla.br/sistemas/"><img src="img/casi.png" alt="Centro Acadêmico de Sistemas de Informação" class="img-responsive"/></a></div>
+      <div class="col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/gdglavras.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     </div>
+    </div>
+
+        <div class="row">
+        <div class="col-md-6">
+          <h1>Contato</h1>
+          <h3><strong>setiufla</strong>@gmail.com</h3>
+        </div>
+        <div class="col-md-6">
+
+        <h2>#setiufla</h2>
+        <a href="http://facebook.com/setiufla"><i class="fa fa-3x fa-facebook-official"></i></a>
+        <a href="http://instagram.com/setiufla"><i class="fa fa-3x fa-instagram"></i></a>
+        <a href="http://twitter.com/setiufla"><i class="fa fa-3x fa-twitter-square"></i></a>
+        <a href="https://www.youtube.com/channel/UCHtvp-d8pujKyANPv3NCySA"><i class="fa fa-3x fa-youtube-square"></i></a>
+        </div>
+     </div> 
+
+
+
+  </div>
+
+</footer>
+
+
+<div class="roquetContainer hidden-xs hidden-sm">
+
+  <span class="rocket"></span>
+
+</div>
+
+
+  <div class="contato hidden-xs hidden-sm">
+
+  </div>
+
+  <div class="copyrights">
+    <div class="container text-center">
+      <p>Design and code by <a href="http://thiagoam.com.br">Thiago Almeida Marques</a>  | Vectors by <a href="http://thiagoam.com.br">FreePik</a></p>
+    </div>
+  </div>
+
+
+
+
+
+<!-- VIDEO -->
+<div class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <p>One fine body&hellip;</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+</body>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+<!-- scripts -->
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+
+    <script src="js/classie.js"></script>
+    <script src="js/main.js"></script>
+  
+  
+
+      
+      <script src="js/parallax.js"></script>
+      <script src="js/wow.js"></script>
+    
+      <script>
+        new WOW().init();
+    </script>
+
+
+
+
+
+
+
+</body>
+</html>

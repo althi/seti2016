@@ -1162,8 +1162,6 @@ background: linear-gradient(to top, #5f2c82 , #49a09d); /* W3C, IE 10+/ Edge, Fi
 
 
 
-
-
 .foto{  
   background-attachment: fixed;
   background-size: 100%;
@@ -1187,3 +1185,49 @@ background: linear-gradient(to top, #5f2c82 , #49a09d); /* W3C, IE 10+/ Edge, Fi
     background-attachment: fixed;
   background-size: 100%;
 }
+
+
+/*Programacao*/
+
+
+.programacao{
+
+  background-color: black;
+
+}
+
+.programacao h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #e50051;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+
+.programacao h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #e50051;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.programacao h1 span{
+  font-weight: 700;
+}
+
+
+.programacaoItem{
+
+}
+
+
+.nav-tabs li{
+
+  font-size: 25px;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
