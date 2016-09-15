@@ -18,21 +18,21 @@ programacao.controller('programacaoController', function programacaoController($
       website: '',
       foto: 'seti',
       hora: '8AM',
-      resumo: '',
+      resumo: 'O credenciamento será realizado no pátio do Departamento de Ciência da Computação (DCC) e é obrigatório para todos os participantes a realização do credenciamento, retirando a credencial de acesso e o material do evento.',
       alinhamento:''
     },
 
     {
       name: 'Comissão Organizadora',
       place: 'SETI',
-      tituloPalestra: 'Abertura',
+      tituloPalestra: 'Abertura: A Semana de Tecnologia da Informação 2016',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
       foto: 'seti',
       hora: '10AM',
-      resumo: '',
+      resumo: 'A Semana de Tecnologia da Informação (SETI) é um evento que ocorre anualmente no Departamento de Ciência da Computação (DCC) da Universidade Federal de Lavras (UFLA) e já pode ser considerado um dos maiores eventos de tecnologia do Sul de Minas.',
       alinhamento:'timeline-inverted'
     },
 
