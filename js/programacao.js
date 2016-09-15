@@ -194,7 +194,8 @@ $scope.terca = [
       hora:'8AM',
       alinhamento:'',
       resumo: 'Oque é SAP/ Módulos SAP Funcional / Tecnologias SAP / Como ingressar no mundo SAP/ SAP Hana / Futuro SAP / Carreiras / Comunidade SCN.',
-      foto: 'guilhermeseabra'
+      foto: 'guilhermeseabra',
+      tipo:'Palestra'
     },
 
     {
@@ -208,7 +209,8 @@ $scope.terca = [
       resumo: '',
       hora:'8AM',
       alinhamento:'timeline-inverted',
-      foto: 'breve'
+      foto: 'breve',
+      tipo:'Workshop'
     },
 
     {
@@ -222,7 +224,8 @@ $scope.terca = [
       hora:'10AM',
       resumo: 'Apresentar a tendência atual de desenvolvimento de aplicativos através de bots dentro de apps de mensagens. Bots são robôs de software construídos a partir de tecnologias como processamento de linguagem natural, aprendizagem de máquina e inteligência artificial, que permitem que as pessoas consumam produtos e serviços sem a necessidade de instalação de um novo app. O que esta nova tendência de mercado vai representar para Devs, UXs e UIs?',
       alinhamento:'',
-      foto: 'sergiopassos'
+      foto: 'sergiopassos',
+      tipo:'Palestra'
     }, 
 
     {
@@ -236,7 +239,7 @@ $scope.terca = [
       resumo: 'O que é usabilidade e seus princípios básicos aplicados ao desenvolvimento de sistemas web amigáveis aos usuários.',
       hora:'1PM',
       alinhamento:'timeline-inverted',
-      data: 'segunda'
+      tipo:'Palestra'
     },
 
        {
@@ -250,7 +253,8 @@ $scope.terca = [
       resumo: '',
       hora:'3PM',
       alinhamento:'',
-      foto: 'breve'
+      foto: 'breve',
+      tipo:'Palestra'
     },
 
     {
@@ -264,7 +268,8 @@ $scope.terca = [
       resumo: '',
       hora:'3PM',
       alinhamento:'timeline-inverted',
-      foto: 'breve'
+      foto: 'breve',
+      tipo:'Palestra'
     },
 
     {
@@ -278,6 +283,7 @@ $scope.terca = [
       resumo: 'Abordaremos as questões práticas que ocorrem no ambiente corporativo quando tentamos implantar um processo de análise de dados.  Será uma ótima oportunidade para aqueles que estão estudando ou tem interesse em algum tema relacionado com a ciência de dados aplicada de forma prática no mundo corporativo. Ah, também será uma oportunidade incrível para aqueles que querem saber tudo sobre limpeza avançada de janelas.',
       hora:'5PM',
       alinhamento:'',
+      tipo:'Palestra',
       foto: 'guilhermetimoteo'
     },
 
@@ -292,7 +298,8 @@ $scope.terca = [
       resumo: '',
       hora:'7:30PM',
       alinhamento:'timeline-inverted',
-      foto: 'breve'
+      foto: 'breve',
+      tipo:'Palestra'
     },
 
     {
@@ -306,7 +313,8 @@ $scope.terca = [
       resumo: '',
       hora:'7:30PM',
       alinhamento:'',
-      foto: 'dilson'
+      foto: 'dilson',
+      tipo:'Workshop'
     },
 
     {
@@ -320,7 +328,8 @@ $scope.terca = [
       resumo: 'Com o advento de novos e modernos Sistemas em Chip (SoC), hoje é possível ter um computador completo ocupando o tamanho de um pente de memória. E em se tratando de Internet das Coisas, é um formidável aliado no desenvolvimento de equipamentos capazes de captar, processar e transmitir dados pela rede, podendo inclusive desempenhar tarefas mais sofisticadas de controle e até mesmo trabalhar com a criptografia dos dados. Como se não bastasse, também é possível ter sistemas com a topologia híbrida - operando com tarefas de alto e baixo nível. Todavia, utilizar de tais tecnologias exige o conhecimento e programação de sistemas operacionais, e a programação das unidades microprocessadas e microcontroladas para operação em conjunto. Dessa forma, veja nessa palestra como um sistema híbrido de baixo custo pode ser a peça-chave para um projeto de Internet das Coisas para telemetria e processamento de dados.',
       hora:'9PM',
       alinhamento:'timeline-inverted',
-      foto: 'andrecurvelo'
+      foto: 'andrecurvelo',
+      tipo:'Palestra'
     }
 ];
 
@@ -336,7 +345,8 @@ $scope.quarta = [
       website: '',
       hora:'8AM',
       alinhamento:'',
-      foto: 'breve'
+      foto: 'breve',
+      tipo:'Palestra'
     },
 
     {
@@ -350,7 +360,8 @@ $scope.quarta = [
       resumo: '',
       hora:'10AM',
       alinhamento:'timeline-inverted',
-      foto: 'breve'
+      foto: 'breve',
+      tipo:'Palestra'
     },
 
       {
@@ -363,8 +374,8 @@ $scope.quarta = [
       website: '',
       resumo: '',
       hora:'11AM',
-      alinhamento:'timeline-inverted',
-      foto: 'breve'
+      foto: 'breve',
+      tipo:'Palestra'
     },
 
     {
@@ -377,8 +388,9 @@ $scope.quarta = [
       website: '',
       resumo: 'A nova moda na área de tecnologia é falar sobre a Internet das Coisas. Mas como fazer para começar? Que tal fazer você mesmo? Rubem Saldanha vai contar tudo o que a Intel está fazendo nesse novo tema e você terá uma visão de como você pode iniciar suas próprias descobertas nessa área. Se sobrar um tempinho, ele ainda vai falar sobre carreira na Intel.',
       hora:'1PM',
-      alinhamento:'',
-      foto: 'RubemSaldanha'
+      alinhamento:'timeline-inverted',
+      foto: 'RubemSaldanha',
+      tipo:'Palestra'
     },
 
     {
@@ -392,7 +404,8 @@ $scope.quarta = [
       resumo: 'Nesta palestra, iremos aprender sobre porque testes são tão importantes assim, o porquê de nos ajudarem a melhorar a qualidade de nosso código e nossos projetos e vamos conhecer um pouco sobre o tão famoso TDD. Se você nunca escreveu um teste, esta palestra é para você. E se você já testa, por favor, venha e compartilhe conosco seus conhecimentos e experiências com testes.  Vamos juntos, melhorar a qualidade de nossos projetos. ',
       hora:'3PM',
       alinhamento:'',
-      foto: 'yanmagalhaes'
+      foto: 'yanmagalhaes',
+      tipo:'Palestra'
     },
 
     {
@@ -406,7 +419,8 @@ $scope.quarta = [
       website: '',
       hora:'5PM',
       alinhamento:'timeline-inverted',
-      foto: 'breve'
+      foto: 'breve',
+      tipo:'Palestra'
     },
 
     {
@@ -420,7 +434,8 @@ $scope.quarta = [
       resumo: 'O Product Owner (PO) é o ponto central do projeto ágil e é quem exerce a liderança sobre o produto que está sendo desenvolvido. Durante a palestra serão apresentadas quais as suas responsabilidades, os artefatos que o mesmo deve gerir, as características necessárias para ser um bom Product Owner e os desafios encontrados ao exercer este papel.',
       hora:'7:30PM',
       alinhamento:'',
-      foto: 'alinebarbara'
+      foto: 'alinebarbara',
+      tipo:'Palestra'
     },
 
     {
@@ -434,7 +449,8 @@ $scope.quarta = [
       resumo: '',
       hora:'7:30PM',
       alinhamento:'timeline-inverted',
-      foto: 'breve'
+      foto: 'breve',
+      tipo:'Workshop'
     },
 
     {
@@ -448,7 +464,8 @@ $scope.quarta = [
       website: '',
       hora:'9PM',
       alinhamento:'',
-      foto: 'brunomarlonramon'
+      foto: 'brunomarlonramon',
+      tipo:'Palestra'
     },
 ];
 
@@ -464,13 +481,15 @@ $scope.quinta = [
       website: '',
       hora:'8AM',
       alinhamento:'',
-      foto: 'giancarlolacerda'
+      foto: 'giancarlolacerda',
+      tipo:'Palestra',
+
     },
 
     {
       name: 'SEBRAE',
       place: '',
-      tituloPalestra: 'Minicurso: Canvas',
+      tituloPalestra: 'Canvas',
       facebook: '',
       twitter: '',
       linkedin: '',
@@ -478,7 +497,8 @@ $scope.quinta = [
       resumo: '',
       hora:'8AM',
       alinhamento:'timeline-inverted',
-      foto: 'breve'
+      foto: 'breve',
+      tipo:'Workshop'
     },
 
     {
@@ -492,7 +512,8 @@ $scope.quinta = [
       resumo: '',
       hora:'10AM',
       alinhamento:'',
-      foto: 'breve'
+      foto: 'breve',
+      tipo:'Palestra'
     },
 
     {
@@ -505,13 +526,14 @@ $scope.quinta = [
       resumo: 'A reinvenção da gigante Microsoft num mundo cada vez mais competitivo e como esse processo vem afetando os profissionais de TI. Prepare-se, adapte-se ou terá o mesmo fim dos dinossauros.',
       hora:'1PM',
       alinhamento:'timeline-inverted',
-      foto: 'andrepaulovich'
+      foto: 'andrepaulovich',
+      tipo:'Palestra'
     },
 
     {
       name: 'Carlos Lauff',
       place: '',
-      tituloPalestra: 'Minicurso: Desvendando o Azure: a nuvem da Microsoft',
+      tituloPalestra: 'Desvendando o Azure: a nuvem da Microsoft',
       facebook: '',
       twitter: '',
       linkedin: '',
@@ -519,7 +541,8 @@ $scope.quinta = [
       hora:'2PM',
       resumo: 'Entender o conceito de computação em nuvem e como utilizar as ferramentas integradas para gerenciar ambientes de TI usando habilidades e tecnologias que os profissionais de TI já conhecem.',
       alinhamento:'',
-      foto: 'carloslauff'
+      foto: 'carloslauff',
+      tipo:'Workshop'
     },
 
     {
@@ -533,7 +556,8 @@ $scope.quinta = [
       website: '',
       hora:'3PM',
       alinhamento:'timeline-inverted',
-      foto: 'brunocastro'
+      foto: 'brunocastro',
+      tipo:'Palestra'
     },
 
     {
@@ -547,7 +571,8 @@ $scope.quinta = [
       website: '',
       hora:'5PM',
       alinhamento:'',
-      foto: 'ViníciusBorriello'
+      foto: 'ViníciusBorriello',
+      tipo:'Palestra'
     },
 
     {
@@ -561,13 +586,14 @@ $scope.quinta = [
       website: '',
       hora:'7:30PM',
       alinhamento:'timeline-inverted',
-      foto: 'breve'
+      foto: 'breve',
+      tipo:'Palestra'
     },
 
     {
       name: 'Vinícius Borriello',
       place: '',
-      tituloPalestra: 'Mini Curso: Introdução ao NodeJS e programação assíncrona',
+      tituloPalestra: 'Introdução ao NodeJS e programação assíncrona',
       facebook: '',
       twitter: '',
       resumo: 'Introduzir os principais conceitos e bibliotecas, bem como proporcionar entendimento sobre o ambiente de programação.',
@@ -575,7 +601,8 @@ $scope.quinta = [
       website: '',
       hora:'8PM',
       alinhamento:'',
-      foto: 'ViníciusBorriello'
+      foto: 'ViníciusBorriello',
+      tipo:'Workshop'
     },
 
     {
@@ -588,8 +615,9 @@ $scope.quinta = [
       linkedin: '',
       website: '',
       hora:'9PM',
-      alinhamento:'',
-      foto: 'danielagibertoni'
+      alinhamento:'timeline-inverted',
+      foto: 'danielagibertoni',
+      tipo:'Palestra'
     },
 ];
 
@@ -599,15 +627,16 @@ $scope.sexta = [
     {
       name: 'Cesar Augusto Nogueira',
       place: '',
-      tituloPalestra: 'Minicurso: Android Wear',
+      tituloPalestra: 'Android Wear',
       facebook: '',
       twitter: '',
       resumo: 'Neste workshop você aprenderá a literalmente criar sua primeira aplicação para wearables devices como o Moto 360 smartwatch através do uso da API aberta do Android Wear. É recomendável que você já tenha alguma experiência com Android para este workshop, mas não é necessário. Sejam todos bem vindos ao mundo dos wearables!',
       linkedin: '',
       website: '',
       hora:'8AM',
-      alinhamento:'timeline-inverted',
-      foto: 'cesar'
+      alinhamento:'',
+      foto: 'cesar',
+      tipo:'Workshop'
     },
 
 {
@@ -620,8 +649,9 @@ $scope.sexta = [
       website: '',
       resumo: 'Vamos explicar o que é Internet of Things, e dar exemplos de como IoT pode melhorar a vida das pessoas. Mostraremos como construir arquiteturas baseadas em IoT, demostrando na prática uma aplicação construída com Arduino, Ruby, Clojure, MQTT, InfluxDB e React.',
       hora:'9AM',
-      alinhamento:'',
-      foto: 'sergioaugusto'
+      alinhamento:'timeline-inverted',
+      foto: 'sergioaugusto',
+      tipo:'Palestra'
     },
 
 
@@ -636,7 +666,8 @@ $scope.sexta = [
       website: '',
       hora:'10AM',
       alinhamento:'',
-      foto: 'VanessaMeTonini'
+      foto: 'VanessaMeTonini',
+      tipo:'Palestra'
     },
 
     {
@@ -650,7 +681,8 @@ $scope.sexta = [
       website: '',
       hora:'11AM',
       alinhamento:'timeline-inverted',
-      foto: 'camillagomes'
+      foto: 'camillagomes',
+      tipo:'Palestra'
     },
 
     {
@@ -664,7 +696,8 @@ $scope.sexta = [
       resumo: 'No mundo do desenvolvimento sempre enfrentamos alguns problemas como inovação e satisfação do cliente. Como inovar e garantir que o seu cliente saia satisfeito. Metodologias ágeis são um bom caminho para se conseguir isso. Venha entender como isso é possível. Atender as expectativas do cliente , inovar , evitar desperdícios de funcionalidades, entre outros', 
       hora:'1PM',
       alinhamento:'',
-      foto: 'vasconcelos'
+      foto: 'vasconcelos',
+      tipo:'Palestra'
     },
 
     {
@@ -678,7 +711,8 @@ $scope.sexta = [
       website: '',
       hora:'3PM',
       alinhamento:'timeline-inverted',
-      foto: 'rodolfodias'
+      foto: 'rodolfodias',
+      tipo:'Palestra'
     },
 
     {
@@ -692,7 +726,8 @@ $scope.sexta = [
       resumo: 'O que é o projeto Adopt a JSR e OpenJDK e como você pode participar.',
       hora:'5PM',
       alinhamento:'',
-      foto: 'cesar'
+      foto: 'cesar',
+      tipo:'Palestra'
     },
 
     {
@@ -706,7 +741,8 @@ $scope.sexta = [
       website: '',
       hora:'6PM',
       alinhamento:'timeline-inverted',
-      foto: 'breve'
+      foto: 'breve',
+      tipo:'Workshop'
     },
 
     {
@@ -720,7 +756,8 @@ $scope.sexta = [
       website: '',
       hora:'7:30PM',
       alinhamento:'',
-      foto: 'vicentedeluca'
+      foto: 'vicentedeluca',
+      tipo:'Palestra'
     }
 
 
