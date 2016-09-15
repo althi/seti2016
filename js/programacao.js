@@ -19,7 +19,8 @@ programacao.controller('programacaoController', function programacaoController($
       foto: 'seti',
       hora: '8AM',
       resumo: 'O credenciamento será realizado no pátio do Departamento de Ciência da Computação (DCC) e é obrigatório para todos os participantes a realização do credenciamento, retirando a credencial de acesso e o material do evento.',
-      alinhamento:''
+      alinhamento:'',
+      tipo:'Palestra'
     },
 
     {
@@ -33,7 +34,8 @@ programacao.controller('programacaoController', function programacaoController($
       foto: 'seti',
       hora: '10AM',
       resumo: 'A Semana de Tecnologia da Informação (SETI) é um evento que ocorre anualmente no Departamento de Ciência da Computação (DCC) da Universidade Federal de Lavras (UFLA) e já pode ser considerado um dos maiores eventos de tecnologia do Sul de Minas.',
-      alinhamento:'timeline-inverted'
+      alinhamento:'timeline-inverted',
+      tipo:'Palestra'
     },
 
     {
@@ -46,6 +48,7 @@ programacao.controller('programacaoController', function programacaoController($
       website: '',
       foto: 'serenafernandes',
       hora: '11AM',
+      tipo:'Palestra',
       resumo: 'O principal objetivo desta palestra é a desconstrução. Vamos entender o quão importante é ter um ambiente diverso e como podemos tê-lo. Cada um de nós tem um papel importante nas escolhas e no desenvolvimento pessoal e profissional de todos aqueles que conhecemos. Vamos aprender a incentivar, apoiar e principalmente a respeitar as diferenças para usufruir de um ambiente cada vez mais colaborativo.'
     },
 
@@ -59,6 +62,7 @@ programacao.controller('programacaoController', function programacaoController($
       website: 'medium.com/@lricoy',
       foto: 'lucasricoy',
       hora: '1PM',
+      tipo:'Palestra',
       resumo: 'Essa palestra tem por objetivo apresentar a abordagem de desenvolvimento de aplicativos híbridos, suas vantagens e desvantagens e mostrar um protótipo funcional que utilizando do mesmo código fonte,   será capaz de ser distribuído para sistemas Desktop tradicionais (Linux, Windows, Mac),  dispositivos móveis (iOS, Android, Windows Phone) ou como um site na web sem alterações em suas camadas internas,   mudando apenas a forma de apresentação em cada plataforma, quando necessário.',
       alinhamento:'timeline-inverted'
     }, 
@@ -72,6 +76,7 @@ programacao.controller('programacaoController', function programacaoController($
       linkedin: 'https://www.facebook.com/camilabastoss',
       website: 'https://www.facebook.com/camilabastoss',
       foto: 'camilabastos',
+      tipo:'Workshop',
       resumo: 'A compreensão consiste na obtenção do conhecimento de diferentes características de sistemas de software e é considerada um dos requisitos para execução de atividades relacionadas ao desenvolvimento e manutenção. No entanto, compreender essas características não é uma tarefa trivial devido a quantidade significativa de informações geradas ao longo do ciclo de vida e evolução do software. Técnicas de visualização de software têm sido amplamente utilizadas para apresentar essas informações e facilitar o processo de compreensão. Dessa forma, o objetivo deste minicurso é oferecer uma visão geral da área de visualização de software, apontando como as técnicas de visualização podem ser aplicadas e quais atributos dos sistemas software podem ser representados visualmente. ',
       hora:'1PM'
     }, 
@@ -86,6 +91,7 @@ programacao.controller('programacaoController', function programacaoController($
       website: '',
       foto: 'razgriz',
       hora:'1PM',
+      tipo:'Workshop',
       alinhamento:'timeline-inverted'
     },
 
@@ -98,6 +104,7 @@ programacao.controller('programacaoController', function programacaoController($
       linkedin: '',
       website: '',
       foto: 'serenafernandes',
+      tipo:'Workshop',
       hora: '2PM',
       resumo: 'Vamos falar um pouco sobre Metodologias Ágeis, numa abordagem prática vamos entender onde vivem, o que comem e como se reproduzem os times ágeis. Vamos ser conhecedores das manhas e dos paranauês das metodologias ágeis e saber como atuar em um time ágil. E se você acha que ser ágil significa ser rápido, vou te provar que você está mais que errado(a)!'
     },
@@ -112,6 +119,7 @@ programacao.controller('programacaoController', function programacaoController($
       website: 'laysrodriguesdev.wordpress.com',
       foto: 'laysrodrigues',
       hora: '3PM',
+      tipo:'Palestra',
       alinhamento:'timeline-inverted',
       resumo:'Qt é um dos melhores frameworks que eu já usei para desenvolvimento de software. Com toda a tecnologia e poder colocados nessa ferramenta, você realmente consegue facilitar o desenvolvimento de qualquer software, seja usando a abstração de sistema que o Qt proporciona ou em desenvolvimento ágil de iterfaces: simples, leves e flexíveis. Nesta palestra eu apresentarei para você um pouquinho do poder que o Qt pode te dar no desenvolvimento do seu software. Você pode não conhecer Qt, mas é bem provavel que você já usou algum software que foi construído com ele.'
     }, 
@@ -126,6 +134,7 @@ programacao.controller('programacaoController', function programacaoController($
       website: 'http://facebook.com/persolutio',
       foto: 'paulamartucci',
       hora: '5PM',
+      tipo:'Palestra',
       resumo: 'Currículo, cursos, certificações, idiomas, todos estes fatores são muito importantes, claro. Mas a base desta palestra está fundamentada no desenvolvimento humano e de como colocar todos estes requisitos em prática. As bases do trabalho estão ligadas aos 4 pilares do desenvolvimento: análise e crítica, interação, contribuição e transformação. Ou seja, "o que" se tem como requisito é o motor da máquina, mas "o como" se usa essa máquina, é o combustível e o passaporte para novas oportunidades. A assertividade como quinto elemento será o termômetro de como usamos nossa maturidade emocional para alavancar a carreira e os relacionamentos. O autoconhecimento é o primeiro passo pra se desenvolver nestes pilares. Trabalhar com missão, propósito e felicidade trará direção e apoio na tomada de decisão. Então, se quer ir para a guerra do mercado e da concorrência, precisa saber as armas que tem e o que fazer com elas.',
     }, 
 
@@ -138,6 +147,7 @@ programacao.controller('programacaoController', function programacaoController($
       linkedin: '',
       website: '',
       foto: 'razgriz',
+      tipo:'Palestra',
       hora:'7h30PM',
       alinhamento:'timeline-inverted'
     }, 
@@ -152,6 +162,7 @@ programacao.controller('programacaoController', function programacaoController($
       website: '',
       hora:'7:30PM',
       alinhamento:'',
+      tipo:'Workshop',
       foto: 'breve'
     },
 
@@ -164,6 +175,7 @@ programacao.controller('programacaoController', function programacaoController($
       linkedin: 'https://br.linkedin.com/in/venicios',
       website: '',
       foto: 'venicios',
+      tipo:'Palestra',
       hora:'9PM',
       alinhamento:'timeline-inverted',
       resumo:'Para aqueles acadêmicos que estão na expectativa de ir em busca de uma oportunidade no mercado de trabalho. A palestra "Quero ser analista de requisitos ou negócios. Por onde eu começo?" tem o intuito de nortear aqueles que vislumbram essas competências, assim venho compartilhar minhas experiências em todo território nacional e inclusive internacionais.',
