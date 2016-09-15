@@ -183,7 +183,7 @@ console.log(exibe);
        
         <!--palestrante-->
         <div class="col-md-3 palestranteDiv wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s" ng-repeat="palestrante in palestrantes">
-          <div><img src="img/palestrantes/{{palestrante.foto}}.jpg" class="img-responsive"></div>
+          <div><img src="img/palestrantes/{{palestrante.foto}}.jpg" class="img-responsive" alt="Foto de {{palestrante.name}}"></div>
           <div class="nomePalestrante">{{palestrante.name}}</div>
           <div><p class="palestranteEmpresa">{{palestrante.place}}</p></div>
           <div><p class="tituloPalestra">{{palestrante.tituloPalestra}}</p></div>

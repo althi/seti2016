@@ -32,9 +32,18 @@
   font-weight: 700;
 }
 
+.icon-bar{
+  color: white;
+}
+
 
 .programacaoItem{
 
+}
+
+.place{
+  font-size: 12px;
+  font-weight: 700;
 }
 
 
@@ -44,7 +53,9 @@
   padding: 30px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+
 }
+
 
 .nav-tabs span{
   font-size: 12px;

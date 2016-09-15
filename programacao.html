@@ -68,12 +68,12 @@ console.log(exibe);
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="linkHome"><a href="#home">Home</a></li>
-            <li><a href="#oEvento" class="linkOevento">O evento</a></li>
-            <li><a href="#palestrantes"class="linkPalestrantes">Palestrantes</a></li>
-            <li><a href="#aufla"class="linkLocalizacao">Localização</a></li>
-            <li><a href="#blog"class="linkBlog">Blog</a></li>
-            <li><a href="#patrocinadores"class="linkPatrocinadores">Patrocinadores</a></li>
+            <li class="linkHome"><a href="index.html">Home</a></li>
+            <li><a href="index.html#oEvento" class="linkOevento">O evento</a></li>
+            <li><a href="index.html#palestrantes"class="linkPalestrantes">Palestrantes</a></li>
+            <li><a href="index.html#aufla"class="linkLocalizacao">Localização</a></li>
+            <li><a href="index.html#blog"class="linkBlog">Blog</a></li>
+            <li><a href="index.html#patrocinadores"class="linkPatrocinadores">Patrocinadores</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programação <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -113,9 +113,7 @@ console.log(exibe);
     <li role="presentation" class="a"><a href="#quarta" aria-controls="profile" role="tab" data-toggle="tab">Quarta</br><span>20/10/2016<span></a></li>
     <li role="presentation" class="a"><a href="#quinta" aria-controls="settings" role="tab" data-toggle="tab">Quinta</br><span>21/10/2016<span></a></li>
     <li role="presentation" class="a"><a href="#sexta" aria-controls="settings" role="tab" data-toggle="tab">Sexta</br><span>22/10/2016<span></a></li>
-
     <li role="presentation" class="a"><a href="#sabado" aria-controls="settings" role="tab" data-toggle="tab">Sábado</br><span>23/10/2016<span></a></li>
-
     <li role="presentation" class="a"><a href="#domingo" aria-controls="settings" role="tab" data-toggle="tab">Domingo</br><span>24/10/2016<span></a></li>
 
   </ul>
@@ -138,7 +136,7 @@ console.log(exibe);
             <div class="timeline-heading">
               <h4>{{palestra.hora}}</h4>
               <h4 class="subheading">{{palestra.tituloPalestra}}</h4>
-              <h2 class="subheading">{{palestra.name}}</h2>
+              <h2 class="subheading">{{palestra.name}} <span class="place">{{palestra.place}}<span></h2>
             </div>
             <div class="timeline-body">
               <p class="text-muted">
@@ -188,7 +186,7 @@ console.log(exibe);
             <div class="timeline-heading">
               <h4>{{palestra.hora}}</h4>
               <h4 class="subheading">{{palestra.tituloPalestra}}</h4>
-              <h2 class="subheading">{{palestra.name}}</h2>
+              <h2 class="subheading">{{palestra.name}} <span class="place">{{palestra.place}}<span></h2>
             </div>
             <div class="timeline-body">
               <p class="text-muted">
@@ -237,7 +235,7 @@ console.log(exibe);
             <div class="timeline-heading">
               <h4>{{palestra.hora}}</h4>
               <h4 class="subheading">{{palestra.tituloPalestra}}</h4>
-              <h2 class="subheading">{{palestra.name}}</h2>
+              <h2 class="subheading">{{palestra.name}} <span class="place">{{palestra.place}}<span></h2>
             </div>
             <div class="timeline-body">
               <p class="text-muted">
@@ -287,7 +285,7 @@ console.log(exibe);
             <div class="timeline-heading">
               <h4>{{palestra.hora}}</h4>
               <h4 class="subheading">{{palestra.tituloPalestra}}</h4>
-              <h2 class="subheading">{{palestra.name}}</h2>
+              <h2 class="subheading">{{palestra.name}} <span class="place">{{palestra.place}}<span></h2>
             </div>
             <div class="timeline-body">
               <p class="text-muted">
@@ -336,7 +334,7 @@ console.log(exibe);
             <div class="timeline-heading">
               <h4>{{palestra.hora}}</h4>
               <h4 class="subheading">{{palestra.tituloPalestra}}</h4>
-              <h2 class="subheading">{{palestra.name}}</h2>
+              <h2 class="subheading">{{palestra.name}} <span class="place">{{palestra.place}}<span></h2>
             </div>
             <div class="timeline-body">
               <p class="text-muted">
@@ -353,8 +351,8 @@ console.log(exibe);
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4>11PM</h4>
-              <h4 class="subheading">Descansar para o próximo dia!</h4>
+              <h4>9PM</h4>
+              <h4 class="subheading">Encerramento</h4>
             </div>
             <div class="timeline-body">
               <p class="text-muted">

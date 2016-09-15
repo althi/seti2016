@@ -24,7 +24,7 @@ programacao.controller('programacaoController', function programacaoController($
 
     {
       name: 'Comissão Organizadora',
-      place: 'AvenueCode',
+      place: 'SETI',
       tituloPalestra: 'Abertura',
       facebook: '',
       twitter: '',
@@ -77,6 +77,19 @@ programacao.controller('programacaoController', function programacaoController($
     }, 
 
     {
+      name: 'Guilherme Razgriz',
+      place: '',
+      tituloPalestra: '',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'razgriz',
+      hora:'1PM',
+      alinhamento:'timeline-inverted'
+    },
+
+    {
       name: 'Serena Fernandes',
       place: 'AvenueCode',
       tituloPalestra: 'Metodologias Ágeis (Workshop)',
@@ -85,7 +98,7 @@ programacao.controller('programacaoController', function programacaoController($
       linkedin: '',
       website: '',
       foto: 'serenafernandes',
-      hora: '2PMM',
+      hora: '2PM',
       resumo: 'Vamos falar um pouco sobre Metodologias Ágeis, numa abordagem prática vamos entender onde vivem, o que comem e como se reproduzem os times ágeis. Vamos ser conhecedores das manhas e dos paranauês das metodologias ágeis e saber como atuar em um time ágil. E se você acha que ser ágil significa ser rápido, vou te provar que você está mais que errado(a)!'
     },
 
@@ -214,8 +227,8 @@ $scope.terca = [
       data: 'segunda'
     },
 
-    {
-      name: 'Inbatec',
+       {
+      name: 'breve',
       place: '',
       tituloPalestra: 'Em breve',
       facebook: '',
@@ -229,6 +242,20 @@ $scope.terca = [
     },
 
     {
+      name: 'Inbatec',
+      place: '',
+      tituloPalestra: 'Em breve',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      resumo: '',
+      hora:'3PM',
+      alinhamento:'timeline-inverted',
+      foto: 'breve'
+    },
+
+    {
       name: 'Guilherme Timóteo',
       place: 'Innervision',
       tituloPalestra: 'Quanto custaria limpar todas as janelas das residências de Lavras?',
@@ -238,8 +265,22 @@ $scope.terca = [
       website: 'https://www.linkedin.com/company/innervision-ltda?trk=biz-companies-cym',
       resumo: 'Abordaremos as questões práticas que ocorrem no ambiente corporativo quando tentamos implantar um processo de análise de dados.  Será uma ótima oportunidade para aqueles que estão estudando ou tem interesse em algum tema relacionado com a ciência de dados aplicada de forma prática no mundo corporativo. Ah, também será uma oportunidade incrível para aqueles que querem saber tudo sobre limpeza avançada de janelas.',
       hora:'5PM',
-      alinhamento:'timeline-inverted',
+      alinhamento:'',
       foto: 'guilhermetimoteo'
+    },
+
+      {
+      name: 'Breve',
+      place: '',
+      tituloPalestra: 'Breve',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      resumo: '',
+      hora:'7:30PM',
+      alinhamento:'timeline-inverted',
+      foto: 'breve'
     },
 
     {
@@ -253,7 +294,7 @@ $scope.terca = [
       resumo: '',
       hora:'7:30PM',
       alinhamento:'',
-      foto: 'breve'
+      foto: 'dilson'
     },
 
     {
@@ -296,6 +337,20 @@ $scope.quarta = [
       website: '',
       resumo: '',
       hora:'10AM',
+      alinhamento:'timeline-inverted',
+      foto: 'breve'
+    },
+
+      {
+      name: 'TW',
+      place: '',
+      tituloPalestra: 'Em breve',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      resumo: '',
+      hora:'11AM',
       alinhamento:'timeline-inverted',
       foto: 'breve'
     },
@@ -343,8 +398,8 @@ $scope.quarta = [
     },
 
     {
-      name: 'Barbara Oliveira e Aline Dias',
-      place: '',
+      name: 'Aline Dias & Barbara Oliveira e ',
+      place: 'Equals / Lemaf',
       tituloPalestra: 'O papel do PO em times Scrum',
       facebook: '',
       twitter: '',
@@ -353,12 +408,12 @@ $scope.quarta = [
       resumo: 'O Product Owner (PO) é o ponto central do projeto ágil e é quem exerce a liderança sobre o produto que está sendo desenvolvido. Durante a palestra serão apresentadas quais as suas responsabilidades, os artefatos que o mesmo deve gerir, as características necessárias para ser um bom Product Owner e os desafios encontrados ao exercer este papel.',
       hora:'7:30PM',
       alinhamento:'',
-      foto: 'barbaraoliveira'
+      foto: 'alinebarbara'
     },
 
     {
       name: 'Java Group',
-      place: '',
+      place: 'UFLA',
       tituloPalestra: 'Em breve',
       facebook: '',
       twitter: '',
@@ -372,7 +427,7 @@ $scope.quarta = [
 
     {
       name: 'Bruno Donizette, Marlon da Silva e Ramon Gomes',
-      place: '',
+      place: 'UFLA',
       tituloPalestra: 'Neo4 o que? Sua vida repleta de grafos!',
       facebook: '',
       twitter: '',
@@ -381,7 +436,7 @@ $scope.quarta = [
       website: '',
       hora:'9PM',
       alinhamento:'',
-      foto: 'brunodonizeti'
+      foto: 'brunomarlonramon'
     },
 ];
 
@@ -416,7 +471,7 @@ $scope.quinta = [
 
     {
       name: 'André Grutzman',
-      place: '',
+      place: 'UFLA',
       tituloPalestra: 'Mesa Redonda - Politicas Publicas',
       facebook: '',
       twitter: '',
@@ -429,8 +484,7 @@ $scope.quinta = [
     },
 
     {
-      name: 'André Paulovich',
-      place: '',
+      name: 'CI&T',
       tituloPalestra: 'A nova era da plataforma windows: o darwinismo digital',
       facebook: '',
       twitter: '',
@@ -458,7 +512,7 @@ $scope.quinta = [
 
     {
       name: 'Bruno Castro',
-      place: '',
+      place: 'CI&T',
       tituloPalestra: 'Projetando interfaces imersivas',
       facebook: '',
       twitter: '',
@@ -528,19 +582,7 @@ $scope.quinta = [
 ];
 
 $scope.sexta = [
-    {
-      name: 'Sérgio Rodrigues',
-      place: '',
-      tituloPalestra: ' Internet of Things: More software less hardware.',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      resumo: 'Vamos explicar o que é Internet of Things, e dar exemplos de como IoT pode melhorar a vida das pessoas. Mostraremos como construir arquiteturas baseadas em IoT, demostrando na prática uma aplicação construída com Arduino, Ruby, Clojure, MQTT, InfluxDB e React.',
-      hora:'8AM',
-      alinhamento:'',
-      foto: 'sergioaugusto'
-    },
+    
 
     {
       name: 'Cesar Augusto Nogueira',
@@ -548,13 +590,28 @@ $scope.sexta = [
       tituloPalestra: 'Minicurso: Android Wear',
       facebook: '',
       twitter: '',
-      resumo: 'Demonstração prática de como desenvolver para Android Wear',
+      resumo: 'Neste workshop você aprenderá a literalmente criar sua primeira aplicação para wearables devices como o Moto 360 smartwatch através do uso da API aberta do Android Wear. É recomendável que você já tenha alguma experiência com Android para este workshop, mas não é necessário. Sejam todos bem vindos ao mundo dos wearables!',
       linkedin: '',
       website: '',
       hora:'8AM',
       alinhamento:'timeline-inverted',
       foto: 'cesar'
     },
+
+{
+      name: 'Sérgio Rodrigues',
+      place: 'Locaweb',
+      tituloPalestra: ' Internet of Things: More software less hardware.',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      resumo: 'Vamos explicar o que é Internet of Things, e dar exemplos de como IoT pode melhorar a vida das pessoas. Mostraremos como construir arquiteturas baseadas em IoT, demostrando na prática uma aplicação construída com Arduino, Ruby, Clojure, MQTT, InfluxDB e React.',
+      hora:'9AM',
+      alinhamento:'',
+      foto: 'sergioaugusto'
+    },
+
 
     {
       name: 'Vanessa Me Tonini',
@@ -572,16 +629,16 @@ $scope.sexta = [
 
     {
       name: 'Camilla Gomes',
-      place: '',
-      tituloPalestra: 'Em breve',
+      place: '7COMm',
+      tituloPalestra: 'Tornando-se um DevOps sem perder a cabeça',
       facebook: '',
       twitter: '',
       linkedin: '',
-      resumo: '',
+      resumo: 'Muito se fala sobre as vantagens e pouco se entende sobre a dificuldade de adotar esta cultura em ambientes corporativos. Do mesmo modo se fala muito sobre ferramentas milagrosas que fazem tudo em um click, mas pouco se entende sobre o perfil do profissional para colaborar com este processo. Mas o que é preciso para ser um profissional capaz de trabalhar nos ambientes mais diversos? Nesta palestra vamos ver os caminhos para conquistar um currículo para ser um DevOps e como ingressar na área sem virar o "a pessoa da infra que automatiza coisas e faz tudo​".',
       website: '',
       hora:'11AM',
       alinhamento:'timeline-inverted',
-      foto: 'breve'
+      foto: 'camillagomes'
     },
 
     {
@@ -595,12 +652,12 @@ $scope.sexta = [
       resumo: 'No mundo do desenvolvimento sempre enfrentamos alguns problemas como inovação e satisfação do cliente. Como inovar e garantir que o seu cliente saia satisfeito. Metodologias ágeis são um bom caminho para se conseguir isso. Venha entender como isso é possível. Atender as expectativas do cliente , inovar , evitar desperdícios de funcionalidades, entre outros', 
       hora:'1PM',
       alinhamento:'',
-      foto: 'breve'
+      foto: 'vasconcelos'
     },
 
     {
       name: 'Rodolfo Dias',
-      place: '',
+      place: 'Inatel',
       tituloPalestra: 'The Front-End Power',
       facebook: '',
       twitter: '',
@@ -628,7 +685,7 @@ $scope.sexta = [
 
     {
       name: 'Matheus Nogueira',
-      place: '',
+      place: 'UFLA',
       tituloPalestra: 'Minicurso: Desenvolvimento de Software utilizando Git ',
       facebook: '',
       twitter: '',
@@ -637,7 +694,7 @@ $scope.sexta = [
       website: '',
       hora:'6PM',
       alinhamento:'timeline-inverted',
-      foto: 'sergioaugusto'
+      foto: 'breve'
     },
 
     {
@@ -652,21 +709,9 @@ $scope.sexta = [
       hora:'7:30PM',
       alinhamento:'',
       foto: 'vicentedeluca'
-    },
+    }
 
-    {
-      name: 'Encerramento',
-      place: '',
-      tituloPalestra: '',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      resumo: '',
-      website: '',
-      hora:'9PM',
-      alinhamento:'timeline-inverted',
-      foto: 'seti'
-    },
+
 ];
 
 });

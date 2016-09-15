@@ -116,6 +116,15 @@ seti.controller('setiController', function setiController($scope) {
       website: 'vanessametonini.com.br',
       foto: 'vanessametonini'
     }, {
+      name: 'Yan Magalhães Leite',
+      place: 'mLearn',
+      tituloPalestra: 'Testes pra que te quero',
+      facebook: 'https://www.facebook.com/yaanmagalhaes ',
+      twitter: 'https://twitter.com/yaanmagale',
+      linkedin: 'https://br.linkedin.com/in/yanmagalhaes',
+      website: '',
+      foto: 'yanmagalhaes'
+    },{
       name: 'Bárbara Oliveira',
       place: 'LEMAF',
       tituloPalestra: 'O papel do PO em times Scrum',
@@ -143,6 +152,15 @@ seti.controller('setiController', function setiController($scope) {
       website: 'http://cesarnogueira.me',
       foto: 'cesar'
     }, {
+      name: 'Lucas Ricoy',
+      place: 'Foxus',
+      tituloPalestra: 'Desenvolvimento de Aplicativos Híbridos (Mobile/Desktop/Web)',
+      facebook: 'facebook.com/lricoy',
+      twitter: '@lricoy',
+      linkedin: 'https://www.linkedin.com/#lricoy',
+      website: 'medium.com/@lricoy',
+      foto: 'lucasricoy'
+    },{
       name: 'Vinicius Borrielo',
       place: 'UFLA',
       tituloPalestra: 'JavaScript: de onde veio, para onde vai',
@@ -152,6 +170,16 @@ seti.controller('setiController', function setiController($scope) {
       website: '',
       foto: 'vinicius'
     }, {
+      name: 'Camilla Santos',
+      place: '7COMm',
+      tituloPalestra: 'Tornando-se um DevOps sem perder a cabeça',
+      facebook: '',
+      twitter: '',
+      linkedin: 'https://www.linkedin.com/in/camillagds',
+      website: 'http://slideshare.net/lobinhaxd',
+      foto: 'camillagomes'
+    },
+    {
       name: 'Guilherme Razgriz',
       place: '',
       tituloPalestra: '',
@@ -160,16 +188,7 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: '',
       website: '',
       foto: 'razgriz'
-    }, {
-      name: 'Yan Magalhães Leite',
-      place: 'mLearn',
-      tituloPalestra: 'Testes pra que te quero',
-      facebook: 'https://www.facebook.com/yaanmagalhaes ',
-      twitter: 'https://twitter.com/yaanmagale',
-      linkedin: 'https://br.linkedin.com/in/yanmagalhaes',
-      website: '',
-      foto: 'yanmagalhaes'
-    }, {
+    },  {
       name: 'Guilherme Vasconcelos',
       place: 'Inttelix Brasil',
       tituloPalestra: 'Metodologia ágil (SCRUM): Inovação e Satisfação do cliente.',
@@ -198,16 +217,7 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: '',
       website: 'laysrodriguesdev.wordpress.com',
       foto: 'laysrodrigues'
-    }, {
-      name: 'Lucas Ricoy',
-      place: 'Foxus',
-      tituloPalestra: 'Desenvolvimento de Aplicativos Híbridos (Mobile/Desktop/Web)',
-      facebook: 'facebook.com/lricoy',
-      twitter: '@lricoy',
-      linkedin: 'https://www.linkedin.com/#lricoy',
-      website: 'medium.com/@lricoy',
-      foto: 'lucasricoy'
-    }, {
+    },  {
       name: 'Sérgio Cruz Passos',
       place: 'Take.net',
       tituloPalestra: 'Bots são os novos apps',
@@ -288,6 +298,16 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: 'https://www.linkedin.com/in/guilherme-henrique-maia-seabra-6b9b4364?trk=nav_responsive_tab_profile',
       website: '',
       foto: 'guilhermeseabra'
+    }
+    , {
+      name: 'Dilson Lucas Pereira',
+      place: 'UFLA',
+      tituloPalestra: 'Uma introdução ao VIM',
+      facebook: '',
+      twitter: '',
+      linkedin: 'http://lattes.cnpq.br/2883103010094485',
+      website: '',
+      foto: 'dilson'
     }
   ];
 });

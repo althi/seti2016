@@ -894,10 +894,12 @@ height: 100%
 
 .palestranteEmpresa{
 
-   border-style: 1px solid;
+  border-style: 1px solid;
   border-bottom:  #ccc;
   padding: 10px;
   text-align: center;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 
@@ -953,6 +955,14 @@ height: 100%
    font-weight: 600;
    padding-top: 5px;
    padding-bottom: 5px;
+   color: white;
+
+}
+
+.navbar-seti span{
+
+  color: white;
+
 
 }
 
