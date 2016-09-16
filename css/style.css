@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600,700,400);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Baloo);
 
 /* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
@@ -217,12 +218,13 @@ section{
 }
 
 .home h1{
+  font-family: 'Baloo', cursive;
   font-size: 30px;
   font-weight: 400;
   color: #fff;
   text-transform: uppercase;
   line-height: 40px;
-  letter-spacing: 4px;
+ 
 }
 
 .home h2{
@@ -302,11 +304,11 @@ section{
 
 
 .oevento h1{
- font-family: 'Open Sans', sans-serif;
+ font-family: 'Baloo', cursive;
   font-weight: 300;
-  letter-spacing: 20px;
+  
   color: #e50051;
-  font-size: 20px;
+  font-size: 40px;
   text-transform: uppercase;
   padding: 40px 40px;
 }
@@ -356,11 +358,10 @@ section{
 
 
 .patrocinador h1{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Baloo', cursive;
   font-weight: 300;
-  letter-spacing: 20px;
   color: #23d0f0;
-  font-size: 20px;
+  font-size: 40px;
   text-transform: uppercase;
   padding: 40px 40px;
 }
@@ -413,11 +414,11 @@ section{
 
 
 .palestrante h1{
-    font-family: 'Open Sans', sans-serif;
+   font-family: 'Baloo', cursive;
   font-weight: 300;
-  letter-spacing: 20px;
+
   color: #e50051;
-  font-size: 20px;
+  font-size: 40px;
   text-transform: uppercase;
   padding: 80px 80px;
 
@@ -500,11 +501,10 @@ section{
 
 
 .aufla h1{
-    font-family: 'Open Sans', sans-serif;
+ font-family: 'Baloo', cursive;
   font-weight: 300;
-  letter-spacing: 20px;
   color: #e50051;
-  font-size: 20px;
+  font-size: 40px;
   text-transform: uppercase;
   padding: 80px 80px;s
 }
@@ -614,11 +614,10 @@ footer p{
 }
 
 footer h1{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Baloo', cursive;
   font-weight: 300;
-  letter-spacing: 20px;
   color: #e50051;
-  font-size: 20px;
+  font-size: 40px;
   text-transform: uppercase;
   padding-bottom: 20px;
 
@@ -840,7 +839,7 @@ height: 100%
 }
 
 .mobile h1{
-    font-family: 'Open Sans', sans-serif;
+     font-family: 'Baloo', cursive;
     font-size: 1.5em;
     color: white;
     font-weight: 300;
@@ -917,11 +916,10 @@ height: 100%
 
 
 .instagram h1{
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Baloo', cursive;
   font-weight: 300;
-  letter-spacing: 20px;
   color: #e50051;
-  font-size: 20px;
+  font-size: 40px;
   text-transform: uppercase;
   padding: 80px 80px;s
 }
@@ -1036,11 +1034,10 @@ font-weight: 600;
 
 
 .palestrantes h1{
-    font-family: 'Open Sans', sans-serif;
+ font-family: 'Baloo', cursive;
   font-weight: 300;
-  letter-spacing: 20px;
   color: #e50051;
-  font-size: 20px;
+  font-size: 40px;
   text-transform: uppercase;
   padding-top: 80px;
 }
@@ -1114,11 +1111,10 @@ background: linear-gradient(to top, #5f2c82 , #49a09d); /* W3C, IE 10+/ Edge, Fi
 }
 
 .blog h1{
-   font-family: 'Open Sans', sans-serif;
+font-family: 'Baloo', cursive;
   font-weight: 300;
-  letter-spacing: 20px;
   color: #fff;
-  font-size: 20px;
+  font-size: 40px;
   text-transform: uppercase;
   padding: 80px 80px;s
 }
