@@ -440,7 +440,14 @@ section{
   padding: 10px 10px;
 }
 
+.mountains{
+  background-color: white;
+}
 
+.mountains img{
+  width: 100%;
+  height: auto;
+}
 
 .palestrante p{
   color: white;
@@ -460,7 +467,7 @@ section{
 }
 
 .aufla{
-  background-color: white;
+  background-color: #ECECEC;
   padding-bottom: 10px;
   height: auto;
   
@@ -1172,6 +1179,7 @@ font-family: 'Baloo', cursive;
 .foto{  
   background-attachment: fixed;
   background-size: 100%;
+  height: 800px;
 }
 
 .foto1{
@@ -1192,6 +1200,13 @@ font-family: 'Baloo', cursive;
     background-attachment: fixed;
   background-size: 100%;
 }
+
+.textoDestaque{
+  font-family: 'Baloo', cursive;
+  color: white;
+  text-align: center;
+vertical-align: middle;
+line-height: 800px;     }
 
 
 
