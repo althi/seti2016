@@ -442,6 +442,16 @@ section{
 
 .mountains{
   background-color: white;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.mountainsPink{
+  background-color: #E7305D;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .mountains img{
@@ -1208,6 +1218,41 @@ font-family: 'Baloo', cursive;
 vertical-align: middle;
 line-height: 800px;  
 font-size: 100px;   }
+
+
+.curadores{
+
+  background-color: #E7305D;
+  height: auto;
+
+}
+
+.curadores p{
+
+ 
+  color: white;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin-bottom: 60px;
+  margin-top: 60px;
+
+}
+
+.curadores img{
+  margin-bottom: 20px;
+}
+
+
+
+.curadores h1{
+
+  color: white;
+  font-family: 'Baloo', cursive;
+  font-size: 40px;
+  padding-top: 50px;
+
+}
 
 
 
