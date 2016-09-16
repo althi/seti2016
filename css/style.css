@@ -624,9 +624,9 @@ footer h1{
   font-family: 'Baloo', cursive;
   font-weight: 300;
   color: #e50051;
-  font-size: 40px;
+  font-size: 20px;
   text-transform: uppercase;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 
 }
 
@@ -1206,7 +1206,8 @@ font-family: 'Baloo', cursive;
   color: white;
   text-align: center;
 vertical-align: middle;
-line-height: 800px;     }
+line-height: 800px;  
+font-size: 100px;   }
 
 
 
