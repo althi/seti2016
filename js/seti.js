@@ -229,7 +229,7 @@ seti.controller('setiController', function setiController($scope) {
     }, {
       name: 'André Curvello',
       place: 'PadTec S/A',
-      tituloPalestra: 'Internet das Coisas com Linux Embarcado em Sistemas Híbridos - Dividir para conquistar, conectar e controlar',
+      tituloPalestra: 'Sistemas Embarcados Híbridos - Processamento assimétrico como pilar da computação ubíqua',
       facebook: 'http://www.facebook.com/profandrecurvello',
       twitter: 'https://twitter.com/andremlcurvello',
       linkedin: 'https://br.linkedin.com/pub/andr-curvello/24/339/b03',
