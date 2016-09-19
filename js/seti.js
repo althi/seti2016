@@ -156,10 +156,19 @@ seti.controller('setiController', function setiController($scope) {
       place: 'Foxus',
       tituloPalestra: 'Desenvolvimento de Aplicativos Híbridos (Mobile/Desktop/Web)',
       facebook: 'facebook.com/lricoy',
-      twitter: '@lricoy',
+      twitter: 'http://twitter.com/lricoy',
       linkedin: 'https://www.linkedin.com/#lricoy',
       website: 'medium.com/@lricoy',
       foto: 'lucasricoy'
+    }, {
+      name: 'David Robert',
+      place: 'Elo7',
+      tituloPalestra: 'Times de Alta Performance',
+      twitter: 'https://twitter.com/while42',
+      linkedin: 'http://linkedin.com/in/davidrobert',
+      resumo: 'Como a influência da cultura na constante evolução de cada integrante e na constante evolução da empresa pode refletir no desenvolvimento de times de alta performance. Os principais desafios que o Elo7 teve que lidar para crescer em mais de 10 vezes o tamanho dos times da engenharia mantendo a produtividade e um excelente ambiente de trabalho. Bibliografia:',
+      website: 'http://www.slideshare.net/while42',
+      foto: 'davidrobert'
     },{
       name: 'Vinicius Borrielo',
       place: 'UFLA',
@@ -254,6 +263,16 @@ seti.controller('setiController', function setiController($scope) {
       website: 'class365.com.br',
       foto: 'carloslauff'
     },  {
+      name: 'Guilherme Seabra',
+      place: 'PrimeCode',
+      tituloPalestra: 'Mundo SAP - Carreira, Mercado, Oportunidades e Tecnologias',
+      facebook: 'https://www.facebook.com/guilherme.maia.39',
+      twitter: 'https://twitter.com/guilhermemaias1',
+      linkedin: 'https://www.linkedin.com/in/guilherme-henrique-maia-seabra-6b9b4364?trk=nav_responsive_tab_profile',
+      website: '',
+      foto: 'guilhermeseabra'
+    },
+    {
       name: 'Bruno Donizeti da Silva',
       place: 'UFLA',
       tituloPalestra: 'NoSQL: Bancos de dados de grafo e Neo4j',
@@ -289,17 +308,17 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: 'http://br.linkedin.com/in/giancarlolacerda',
       website: '',
       foto: 'giancarlolacerda'
-    }, {
-      name: 'Guilherme Seabra',
-      place: 'PrimeCode',
-      tituloPalestra: 'Mundo SAP - Carreira, Mercado, Oportunidades e Tecnologias',
-      facebook: 'https://www.facebook.com/guilherme.maia.39',
-      twitter: 'https://twitter.com/guilhermemaias1',
-      linkedin: 'https://www.linkedin.com/in/guilherme-henrique-maia-seabra-6b9b4364?trk=nav_responsive_tab_profile',
-      website: '',
-      foto: 'guilhermeseabra'
-    }
-    , {
+    },  {
+      name: 'Matheus Nogueira',
+      place: 'Comp Júnior / LEMAF',
+      tituloPalestra: 'Desenvolvimento de software usando Git',
+      facebook: ' https://www.facebook.com/mathnogueir',
+      twitter: '',
+      linkedin: 'https://br.linkedin.com/in/matheusnogueira',
+      website: 'https://github.com/mathnogueira/',
+      foto: 'matheusnogueira'
+    }, 
+     {
       name: 'Dilson Lucas Pereira',
       place: 'UFLA',
       tituloPalestra: 'Uma introdução ao VIM',

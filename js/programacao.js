@@ -335,17 +335,17 @@ $scope.terca = [
 
 $scope.quarta = [
     {
-      name: 'David Robert Camargo de Campos',
-      place: '',
+      name: 'David Robert',
+      place: 'Elo7',
       tituloPalestra: 'Times de Alta Performance',
       facebook: '',
-      twitter: '',
-      linkedin: '',
-      resumo: 'Como a influência da cultura na constante evolução de cada integrante e na constante evolução da empresa pode refletir no desenvolvimento de times de alta performance. Os principais desafios que o Elo7 teve que lidar para crescer em mais de 10 vezes o tamanho dos times da engenharia mantendo a produtividade e um excelente ambiente de trabalho. ',
-      website: '',
+      twitter: 'https://twitter.com/while42',
+      linkedin: 'http://linkedin.com/in/davidrobert',
+      resumo: 'Como a influência da cultura na constante evolução de cada integrante e na constante evolução da empresa pode refletir no desenvolvimento de times de alta performance. Os principais desafios que o Elo7 teve que lidar para crescer em mais de 10 vezes o tamanho dos times da engenharia mantendo a produtividade e um excelente ambiente de trabalho. Bibliografia:',
+      website: 'http://www.slideshare.net/while42',
       hora:'8AM',
       alinhamento:'',
-      foto: 'davidrobert_original',
+      foto: 'davidrobert',
       tipo:'Palestra'
     },
 
