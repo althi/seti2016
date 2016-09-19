@@ -335,17 +335,17 @@ $scope.terca = [
 
 $scope.quarta = [
     {
-      name: 'David Robert',
+      name: 'David Robert Camargo de Campos',
       place: '',
-      tituloPalestra: 'Em breve',
+      tituloPalestra: 'Times de Alta Performance',
       facebook: '',
       twitter: '',
       linkedin: '',
-      resumo: '',
+      resumo: 'Como a influência da cultura na constante evolução de cada integrante e na constante evolução da empresa pode refletir no desenvolvimento de times de alta performance. Os principais desafios que o Elo7 teve que lidar para crescer em mais de 10 vezes o tamanho dos times da engenharia mantendo a produtividade e um excelente ambiente de trabalho. ',
       website: '',
       hora:'8AM',
       alinhamento:'',
-      foto: 'breve',
+      foto: 'davidrobert_original',
       tipo:'Palestra'
     },
 
@@ -552,7 +552,7 @@ $scope.quinta = [
       facebook: '',
       twitter: '',
       linkedin: '',
-      resumo: 'Projetando Interface Imersivas',
+      resumo: 'Vários lançamentos aconteceram neste ano com foco em Realidade virtual e Realidade aumentada, óculos de VR, vídeos conceito e APPs e o mercado para aplicações de realidade virtual e aumentada tendem a crescer exponencialmente. Mas me diga: Você está preparado para projetar interfaces imersivas?',
       website: '',
       hora:'3PM',
       alinhamento:'timeline-inverted',

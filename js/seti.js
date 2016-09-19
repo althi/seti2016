@@ -309,5 +309,15 @@ seti.controller('setiController', function setiController($scope) {
       website: '',
       foto: 'dilson'
     }
+    , {
+      name: 'David Robert Camargo de Campos',
+      place: 'Elo7',
+      tituloPalestra: 'Times de Alta Performance',
+      facebook: '',
+      twitter: 'https://twitter.com/while42',
+      linkedin: 'http://linkedin.com/in/davidrobert',
+      website: 'http://www.slideshare.net/while42',
+      foto: 'davidrobert_original'
+    }
   ];
 });
