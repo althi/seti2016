@@ -310,7 +310,8 @@ section{
   color: #e50051;
   font-size: 40px;
   text-transform: uppercase;
-  padding: 40px 40px;
+  padding-top: 70px;
+
 }
 
 .oevento h1 span{
@@ -1251,6 +1252,12 @@ font-size: 100px;   }
   font-family: 'Baloo', cursive;
   font-size: 40px;
   padding-top: 50px;
+
+}
+
+.margin-top-40{
+
+  margin-top: 40px;
 
 }
 
