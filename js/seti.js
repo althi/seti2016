@@ -328,5 +328,16 @@ seti.controller('setiController', function setiController($scope) {
       website: '',
       foto: 'dilson'
     }
+    , 
+     {
+      name: 'Gustavo Lopes Dominguete',
+      place: 'ProGolden',
+      tituloPalestra: 'Introdução a ReactJS',
+      facebook: 'www.facebook.com/gustavo.lopes.501',
+      twitter: '@gudominguete',
+      linkedin: 'https://www.linkedin.com/in/gudominguete',
+      website: 'https://github.com/gudominguete',
+      foto: 'gustavodominguete'
+    }
   ];
 });
