@@ -21,9 +21,9 @@ seti.controller('setiController', function setiController($scope) {
       name: 'Serena Fernandes',
       place: 'AvenueCode',
       tituloPalestra: 'Mulheres na Tecnologia',
-      facebook: '',
+      facebook: 'https://www.facebook.com/serenafribeiro',
       twitter: '',
-      linkedin: '',
+      linkedin: 'https://br.linkedin.com/in/imserena',
       website: '',
       foto: 'serenafernandes',
       data: 'terca'
@@ -75,35 +75,35 @@ seti.controller('setiController', function setiController($scope) {
       place: 'UFLA',
       tituloPalestra: 'Compreensão de Software utilizando técnicas de visualização',
       facebook: 'https://www.facebook.com/camilabastoss',
-      twitter: 'https://www.facebook.com/camilabastoss',
-      linkedin: 'https://www.facebook.com/camilabastoss',
-      website: 'https://www.facebook.com/camilabastoss',
+      twitter: '',
+      linkedin: '',
+      website: '',
       foto: 'camilabastos'
     }, {
       name: 'Paula Martucci',
       place: 'PerSolutio',
       tituloPalestra: 'Os pilares de carreira e assertividade',
       facebook: 'http://facebook.com/persolutio',
-      twitter: 'http://facebook.com/persolutio',
+      twitter: '',
       linkedin: 'https://www.linkedin.com/in/paula-martucci-512a0522?trk=nav_responsive_tab_profile',
-      website: 'http://facebook.com/persolutio',
+      website: '',
       foto: 'paulamartucci'
     }, {
       name: 'Guilherme Timóteo',
       place: 'Innervision',
       tituloPalestra: 'Quanto custaria limpar todas as janelas das residências de Lavras?',
       facebook: 'https://www.facebook.com/Innervision-Ltda-835402979878430/',
-      twitter: 'https://www.linkedin.com/company/innervision-ltda?trk=biz-companies-cym',
+      twitter: '',
       linkedin: 'https://br.linkedin.com/in/guilherme-timoteo-819037a',
-      website: 'https://www.linkedin.com/company/innervision-ltda?trk=biz-companies-cym',
+      website: '',
       foto: 'guilhermetimoteo'
     }, {
       name: 'Bruno Castro',
       place: 'CI&T',
       tituloPalestra: 'Projetando interfaces imersivas',
-      facebook: 'brunocastro.me',
-      twitter: 'brunocastro.me',
-      linkedin: 'brunocastro.me',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
       website: 'brunocastro.me',
       foto: 'brunocastro'
     }, {
@@ -111,7 +111,7 @@ seti.controller('setiController', function setiController($scope) {
       place: 'Lambda3',
       tituloPalestra: 'Métodos ágeis, desenvolvendo software com foco no que importa',
       facebook: 'https://www.facebook.com/vanessametonini ',
-      twitter: 'vanessametonini.com.br',
+      twitter: '',
       linkedin: 'https://br.linkedin.com/in/vanessametonini',
       website: 'vanessametonini.com.br',
       foto: 'vanessametonini'
@@ -128,10 +128,10 @@ seti.controller('setiController', function setiController($scope) {
       name: 'Bárbara Oliveira',
       place: 'LEMAF',
       tituloPalestra: 'O papel do PO em times Scrum',
-      facebook: 'https://br.linkedin.com/in/b%C3%A1rbara-oliveira-753077a3',
-      twitter: 'https://br.linkedin.com/in/b%C3%A1rbara-oliveira-753077a3',
+      facebook: '',
+      twitter: '',
       linkedin: 'https://br.linkedin.com/in/b%C3%A1rbara-oliveira-753077a3',
-      website: 'https://br.linkedin.com/in/b%C3%A1rbara-oliveira-753077a3',
+      website: '',
       foto: 'barbaraoliveira'
     }, {
       name: 'Aline Antunes Dias',
@@ -139,7 +139,7 @@ seti.controller('setiController', function setiController($scope) {
       tituloPalestra: 'O papel do PO em times Scrum',
       facebook: '',
       twitter: '',
-      linkedin: '',
+      linkedin: 'https://br.linkedin.com/in/alineantunesdias',
       website: '',
       foto: 'alineantunesdias'
     },  {
@@ -251,7 +251,7 @@ seti.controller('setiController', function setiController($scope) {
       facebook: '',
       twitter: '',
       linkedin: 'https://br.linkedin.com/in/daniela-gibertoni-8362a1100',
-      website: 'https://br.linkedin.com/in/daniela-gibertoni-8362a1100',
+      website: '',
       foto: 'danielagibertoni'
     }, {
       name: 'Carlos Lauff',
@@ -288,7 +288,7 @@ seti.controller('setiController', function setiController($scope) {
       facebook: '',
       twitter: '@marlondasilva',
       linkedin: '',
-      website: 'http://lattes.cnpq.br/9331509602982993',
+      website: '',
       foto: 'marlondasilva'
     }, {
       name: 'Ramon Gomes Costa',
@@ -297,7 +297,7 @@ seti.controller('setiController', function setiController($scope) {
       facebook: '',
       twitter: '',
       linkedin: '',
-      website: 'http://lattes.cnpq.br/0161357943312722',
+      website: '',
       foto: 'ramongomes'
     }, {
       name: 'Giancarlo Lacerda',
@@ -324,19 +324,9 @@ seti.controller('setiController', function setiController($scope) {
       tituloPalestra: 'Uma introdução ao VIM',
       facebook: '',
       twitter: '',
-      linkedin: 'http://lattes.cnpq.br/2883103010094485',
+      linkedin: '',
       website: '',
       foto: 'dilson'
-    }
-    , {
-      name: 'David Robert Camargo de Campos',
-      place: 'Elo7',
-      tituloPalestra: 'Times de Alta Performance',
-      facebook: '',
-      twitter: 'https://twitter.com/while42',
-      linkedin: 'http://linkedin.com/in/davidrobert',
-      website: 'http://www.slideshare.net/while42',
-      foto: 'davidrobert_original'
     }
   ];
 });
