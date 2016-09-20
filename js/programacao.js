@@ -84,11 +84,12 @@ programacao.controller('programacaoController', function programacaoController($
     {
       name: 'Guilherme Razgriz',
       place: '',
-      tituloPalestra: '',
+      tituloPalestra: 'Modelagem de proteses e gerenciamento de impressoras 3d',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
+      resumo: 'Neste pequeno treinamento os participantes serão apresentados a diversas técnicas de modelagem 3d com presição além do correto manuseio de uma impressora 3d carteziana. ',
       foto: 'razgriz',
       hora:'1PM',
       tipo:'Workshop',
@@ -141,7 +142,7 @@ programacao.controller('programacaoController', function programacaoController($
     {
       name: 'Guilherme Razgriz',
       place: '',
-      tituloPalestra: '',
+      tituloPalestra: '4 Técnicas para entregar uma protese em 4 dias!',
       facebook: '',
       twitter: '',
       linkedin: '',
@@ -149,6 +150,7 @@ programacao.controller('programacaoController', function programacaoController($
       foto: 'razgriz',
       tipo:'Palestra',
       hora:'7h30PM',
+      resumo: 'Nesta palestra será estudado o Case da adaptação da protese E-NABLE Phoenix 2 em um paciente com amputação severa da mão esquerda utilizando o Blender e uma Impressora 3d .',
       alinhamento:'timeline-inverted'
     }, 
 

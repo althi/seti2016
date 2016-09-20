@@ -191,7 +191,7 @@ seti.controller('setiController', function setiController($scope) {
     {
       name: 'Guilherme Razgriz',
       place: '',
-      tituloPalestra: '',
+      tituloPalestra: '4 Técnicas para entregar uma protese em 4 dias! ',
       facebook: '',
       twitter: '',
       linkedin: '',
