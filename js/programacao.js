@@ -155,9 +155,9 @@ programacao.controller('programacaoController', function programacaoController($
     }, 
 
     {
-      name: 'Minicurso GDG',
+      name: 'Gustavo Dominguete (GDG Lavras)',
       place: '',
-      tituloPalestra: 'Em breve',
+      tituloPalestra: 'Introdução a ReactJS',
       facebook: '',
       twitter: '',
       linkedin: '',
@@ -165,7 +165,7 @@ programacao.controller('programacaoController', function programacaoController($
       hora:'7:30PM',
       alinhamento:'',
       tipo:'Workshop',
-      foto: 'breve'
+      foto: 'gustavodominguete'
     },
 
     {
