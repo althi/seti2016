@@ -59,14 +59,14 @@ seti.controller('setiController', function setiController($scope) {
       facebook: 'https://www.facebook.com/sergioaugrod',
       twitter: '',
       linkedin: 'https://www.linkedin.com/in/sergioaugrod',
-      website: ' www.sergioaugrod.com.br',
+      website: 'http://www.sergioaugrod.com.br',
       foto: 'sergioaugusto'
     },{
       name: 'Rodolfo Dias',
       place: 'Inatel',
       tituloPalestra: 'The Front-End Power',
       facebook: '',
-      twitter: 'twitter.com/r_mdias',
+      twitter: 'http://twitter.com/r_mdias',
       linkedin: '',
       website: '',
       foto: 'rodolfodias'
@@ -104,7 +104,7 @@ seti.controller('setiController', function setiController($scope) {
       facebook: '',
       twitter: '',
       linkedin: '',
-      website: 'brunocastro.me',
+      website: 'http://brunocastro.me',
       foto: 'brunocastro'
     }, {
       name: 'Vanessa Me Tonini',
@@ -115,7 +115,17 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: 'https://br.linkedin.com/in/vanessametonini',
       website: 'vanessametonini.com.br',
       foto: 'vanessametonini'
-    }, {
+    }, 
+         {
+      name: 'Gustavo Lopes',
+      place: 'ProGolden / GDG Lavras',
+      tituloPalestra: 'Introdução a ReactJS',
+      facebook: 'www.facebook.com/gustavo.lopes.501',
+      twitter: 'http://twitter.com/gudominguete',
+      linkedin: 'https://www.linkedin.com/in/gudominguete',
+      website: 'https://github.com/gudominguete',
+      foto: 'gustavodominguete'
+    },{
       name: 'Yan Magalhães Leite',
       place: 'mLearn',
       tituloPalestra: 'Testes pra que te quero',
@@ -126,7 +136,7 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'yanmagalhaes'
     },{
       name: 'Bárbara Oliveira',
-      place: 'LEMAF',
+      place: 'Lemaf',
       tituloPalestra: 'O papel do PO em times Scrum',
       facebook: '',
       twitter: '',
@@ -145,9 +155,9 @@ seti.controller('setiController', function setiController($scope) {
     },  {
       name: 'Cesar Augusto Nogueira',
       place: 'Instituto de Pesquisas Eldorado',
-      tituloPalestra: 'OpenSource Java',
-      facebook: 'fb.com/cesarnog',
-      twitter: '@cesarnogcps',
+      tituloPalestra: 'OpenSource Java (palestra) e Android Wear (workshop)',
+      facebook: 'http://fb.com/cesarnog',
+      twitter: 'http://twitter.com/cesarnogcps',
       linkedin: 'https://www.linkedin.com/in/cesarnog',
       website: 'http://cesarnogueira.me',
       foto: 'cesar'
@@ -190,12 +200,12 @@ seti.controller('setiController', function setiController($scope) {
     },
     {
       name: 'Guilherme Razgriz',
-      place: '',
+      place: 'Cria Livre',
       tituloPalestra: '4 Técnicas para entregar uma protese em 4 dias! ',
       facebook: '',
       twitter: '',
       linkedin: '',
-      website: '',
+      website: 'http://razgrizbox.tumblr.com',
       foto: 'razgriz'
     },  {
       name: 'Guilherme Vasconcelos',
@@ -222,7 +232,7 @@ seti.controller('setiController', function setiController($scope) {
       place: 'Atelier',
       tituloPalestra: 'Qt - O seu toolkit para C++ ou Python com o verdadeiro: Write once, deploys everywhere!',
       facebook: ' laysrodrigues147',
-      twitter: '@lays147',
+      twitter: 'http://twitter.com/lays147',
       linkedin: '',
       website: 'laysrodriguesdev.wordpress.com',
       foto: 'laysrodrigues'
@@ -231,7 +241,7 @@ seti.controller('setiController', function setiController($scope) {
       place: 'Take.net',
       tituloPalestra: 'Bots são os novos apps',
       facebook: 'facebook.com/spassos',
-      twitter: '@scpassos',
+      twitter: 'http://twitter.com/scpassos',
       linkedin: 'linkedin.com/in/scpassos ',
       website: 'www.take.net',
       foto: 'sergiopassos'
@@ -257,10 +267,10 @@ seti.controller('setiController', function setiController($scope) {
       name: 'Carlos Lauff',
       place: 'Class365',
       tituloPalestra: 'Desvendando o Azure: a nuvem da Microsoft',
-      facebook: 'facebook.com/tiolauff ',
-      twitter: '@callauff',
+      facebook: 'http://facebook.com/tiolauff ',
+      twitter: 'http://twitter.com/callauff',
       linkedin: 'https://br.linkedin.com/in/carloslauff ',
-      website: 'class365.com.br',
+      website: 'http://class365.com.br',
       foto: 'carloslauff'
     },  {
       name: 'Guilherme Seabra',
@@ -286,7 +296,7 @@ seti.controller('setiController', function setiController($scope) {
       place: 'UFLA',
       tituloPalestra: 'NoSQL: Bancos de dados de grafo e Neo4j',
       facebook: '',
-      twitter: '@marlondasilva',
+      twitter: 'http://twitter.com/marlondasilva',
       linkedin: '',
       website: '',
       foto: 'marlondasilva'
@@ -310,7 +320,7 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'giancarlolacerda'
     },  {
       name: 'Matheus Nogueira',
-      place: 'Comp Júnior / LEMAF',
+      place: 'Comp Júnior / Lemaf',
       tituloPalestra: 'Desenvolvimento de software usando Git',
       facebook: ' https://www.facebook.com/mathnogueir',
       twitter: '',

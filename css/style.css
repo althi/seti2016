@@ -35,7 +35,7 @@ html,body{
 	width:100%;
 	height:100%;
 	background-color: black;
-  background: url("../img/background.jpg");
+  /*background: url("../img/background.jpg");*/
   background-attachment: fixed;
   background-size: 100%;
 
@@ -187,7 +187,7 @@ section{
     width: 100%;
     overflow: hidden;
     height: auto;
-    background-color: black;
+   
 }
 
 section{	
@@ -260,7 +260,7 @@ section{
 }
 
 .foto4{
-  background: url(../img/foto4.jpg);
+  background: url(../img/background.jpg);
   background-size: 100% auto;
   background-attachment: fixed;
 }
@@ -340,6 +340,23 @@ section{
   line-height: 30px;
   font-weight: 300;
 }
+
+.oevento a{
+
+  font-size: 16px;
+  color: #e50051;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+
+.oevento a:hover{
+
+
+  color: #fff;
+  
+}
+
 
 .oevento spam{
   color: #e50051;
@@ -481,6 +498,13 @@ section{
   background-color: #ECECEC;
   padding-bottom: 10px;
   height: auto;
+  
+}
+
+
+.aufla a{
+ color: black;
+ font-weight: 700;
   
 }
 
@@ -654,7 +678,7 @@ footer h2{
 
 footer h3{
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 700;
   letter-spacing: 5px;
   color: #e50051;
   font-size: 14px;
@@ -930,6 +954,7 @@ height: 100%
 
 .instagram{
   background-color: white;
+  height: auto;
 }
 
 
@@ -987,6 +1012,18 @@ height: 100%
 
 }
 
+
+..navbar-seti  .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-seti  .navbar-toggle:hover,
+.navbar-seti  .navbar-toggle:focus {
+  background-color: #e50051;
+}
+.navbar-seti  .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
 .roquetContainer{
   width: 400px;
   height: auto;
@@ -1008,13 +1045,14 @@ height: 100%
     z-index: 1;
 }
 
-.linkHome{color: #F72AA2}
-.linkPalestrantes{color:#D90368;}
-.linkPatrocinadores{color:#78C0E0;}
-.linkLocalizacao{color:#AB00C1;}
+.linkHome{color: #FFD400}
+.linkPalestrantes{color:#FFD400;}
+.linkPatrocinadores{color:#FFD400;}
+.linkLocalizacao{color:#FFD400;}
 .linkOevento{color:#FFD400;}
-.linkBlog{color:#49a09d;}
+.linkBlog{color:#FFD400;}
 .linkProgramacao{color:#FFD400;}
+.linkHome{color:#fff}
 
 
 .contato{
@@ -1191,6 +1229,8 @@ font-family: 'Baloo', cursive;
   background-attachment: fixed;
   background-size: 100%;
   height: 800px;
+  border: 0 auto;
+
 }
 
 .foto1{
