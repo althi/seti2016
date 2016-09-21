@@ -360,26 +360,11 @@ $scope.quarta = [
       twitter: '',
       linkedin: '',
       website: '',
+      resumo: '',
       hora:'8AM',
-      alinhamento:'',
-      resumo: '',
-      foto: 'breve',
-      tipo:'Palestra'
-    },
-
-    {
-      name: 'TW',
-      place: '',
-      tituloPalestra: 'Em breve',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      resumo: '',
-      hora:'10AM',
       alinhamento:'timeline-inverted',
       foto: 'breve',
-      tipo:'Palestra'
+      tipo:'Workshop'
     },
 
       {

@@ -358,6 +358,16 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: '',
       website: '',
       foto: 'breve'
+    }, 
+     {
+      name: 'André Grützmann',
+      place: '',
+      tituloPalestra: 'Mesa Redonda: Politicas Públicas',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'andreg'
     }
   ];
 });
