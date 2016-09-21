@@ -38,6 +38,26 @@ body{
   text-transform: uppercase;
 }
 
+
+.programacao h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #E5004B;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+
+
+.programacao h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #E5004B;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
 .titulo h1 span{
   font-weight: 700;
 }

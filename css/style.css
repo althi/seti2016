@@ -349,6 +349,15 @@ section{
   font-weight: 300;
 }
 
+
+.oevento a:hover{
+
+
+  color: #fff;
+  
+}
+
+
 .oevento spam{
   color: #e50051;
 
@@ -489,6 +498,13 @@ section{
   background-color: #ECECEC;
   padding-bottom: 10px;
   height: auto;
+  
+}
+
+
+.aufla a{
+ color: black;
+ font-weight: 700;
   
 }
 
@@ -662,7 +678,7 @@ footer h2{
 
 footer h3{
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 700;
   letter-spacing: 5px;
   color: #e50051;
   font-size: 14px;
@@ -938,6 +954,7 @@ height: 100%
 
 .instagram{
   background-color: white;
+  height: auto;
 }
 
 
@@ -1028,13 +1045,14 @@ height: 100%
     z-index: 1;
 }
 
-.linkHome{color: #F72AA2}
-.linkPalestrantes{color:#D90368;}
-.linkPatrocinadores{color:#78C0E0;}
-.linkLocalizacao{color:#AB00C1;}
+.linkHome{color: #FFD400}
+.linkPalestrantes{color:#FFD400;}
+.linkPatrocinadores{color:#FFD400;}
+.linkLocalizacao{color:#FFD400;}
 .linkOevento{color:#FFD400;}
-.linkBlog{color:#49a09d;}
+.linkBlog{color:#FFD400;}
 .linkProgramacao{color:#FFD400;}
+.linkHome{color:#fff}
 
 
 .contato{
