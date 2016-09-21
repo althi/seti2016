@@ -1,4 +1,14 @@
+body{
+  background: url(../img/backgroundP.jpg);
+   background-attachment: fixed;
+  background-color: black;
+}
 
+.conduta p{
+
+  font-size: 14px;
+
+}
 
 /*Programacao*/
 
@@ -10,25 +20,25 @@
 
 }
 
-.programacao h1{
-  font-family: 'Open Sans', sans-serif;
+.titulo h1{
+  font-family: 'Baloo', cursive;
   font-weight: 300;
-  color: #e50051;
+  color: #fff;
   font-size: 40px;
   text-transform: uppercase;
   padding-top: 50px;
 }
 
 
-.programacao h2{
+.titulo h2{
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  color: #e50051;
+  color: #fff;
   font-size: 18px;
   text-transform: uppercase;
 }
 
-.programacao h1 span{
+.titulo h1 span{
   font-weight: 700;
 }
 

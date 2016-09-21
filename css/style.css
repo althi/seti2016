@@ -35,7 +35,7 @@ html,body{
 	width:100%;
 	height:100%;
 	background-color: black;
-  background: url("../img/background.jpg");
+  /*background: url("../img/background.jpg");*/
   background-attachment: fixed;
   background-size: 100%;
 
@@ -187,7 +187,7 @@ section{
     width: 100%;
     overflow: hidden;
     height: auto;
-    background-color: black;
+   
 }
 
 section{	
@@ -260,7 +260,7 @@ section{
 }
 
 .foto4{
-  background: url(../img/foto4.jpg);
+  background: url(../img/background.jpg);
   background-size: 100% auto;
   background-attachment: fixed;
 }
@@ -337,6 +337,14 @@ section{
 
   font-size: 16px;
   color: white;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.oevento a{
+
+  font-size: 16px;
+  color: #e50051;
   line-height: 30px;
   font-weight: 300;
 }
@@ -1191,6 +1199,8 @@ font-family: 'Baloo', cursive;
   background-attachment: fixed;
   background-size: 100%;
   height: 800px;
+  border: 0 auto;
+
 }
 
 .foto1{

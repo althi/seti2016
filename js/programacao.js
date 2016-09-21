@@ -20,7 +20,7 @@ programacao.controller('programacaoController', function programacaoController($
       hora: '8AM',
       resumo: 'O credenciamento será realizado no pátio do Departamento de Ciência da Computação (DCC) e é obrigatório para todos os participantes a realização do credenciamento, retirando a credencial de acesso e o material do evento.',
       alinhamento:'',
-      tipo:'Palestra'
+      tipo:''
     },
 
     {
@@ -33,7 +33,7 @@ programacao.controller('programacaoController', function programacaoController($
       website: '',
       foto: 'seti',
       hora: '10AM',
-      resumo: 'A Semana de Tecnologia da Informação (SETI) é um evento que ocorre anualmente no Departamento de Ciência da Computação (DCC) da Universidade Federal de Lavras (UFLA) e já pode ser considerado um dos maiores eventos de tecnologia do Sul de Minas.',
+      resumo: 'A Semana de Tecnologia da Informação (SETI) é um evento que ocorre anualmente no Departamento de Ciência da Computação (DCC) da Universidade Federal de Lavras (UFLA) e já pode ser considerado um dos maiores eventos de tecnologia do Sul de Minas. Presença da comissão organizadora, professores, convidados e empresas parceiras.',
       alinhamento:'timeline-inverted',
       tipo:'Palestra'
     },
@@ -99,7 +99,7 @@ programacao.controller('programacaoController', function programacaoController($
     {
       name: 'Serena Fernandes',
       place: 'AvenueCode',
-      tituloPalestra: 'Metodologias Ágeis (Workshop)',
+      tituloPalestra: 'Metodologias Ágeis',
       facebook: '',
       twitter: '',
       linkedin: '',
@@ -136,7 +136,7 @@ programacao.controller('programacaoController', function programacaoController($
       foto: 'paulamartucci',
       hora: '5PM',
       tipo:'Palestra',
-      resumo: 'Currículo, cursos, certificações, idiomas, todos estes fatores são muito importantes, claro. Mas a base desta palestra está fundamentada no desenvolvimento humano e de como colocar todos estes requisitos em prática. As bases do trabalho estão ligadas aos 4 pilares do desenvolvimento: análise e crítica, interação, contribuição e transformação. Ou seja, "o que" se tem como requisito é o motor da máquina, mas "o como" se usa essa máquina, é o combustível e o passaporte para novas oportunidades. A assertividade como quinto elemento será o termômetro de como usamos nossa maturidade emocional para alavancar a carreira e os relacionamentos. O autoconhecimento é o primeiro passo pra se desenvolver nestes pilares. Trabalhar com missão, propósito e felicidade trará direção e apoio na tomada de decisão. Então, se quer ir para a guerra do mercado e da concorrência, precisa saber as armas que tem e o que fazer com elas.',
+      resumo: 'Currículo, cursos, certificações, idiomas, todos estes fatores são muito importantes, claro. Mas a base desta palestra está fundamentada no desenvolvimento humano e de como colocar todos estes requisitos em prática. As bases do trabalho estão ligadas aos 4 pilares do desenvolvimento: análise e crítica, interação, contribuição e transformação. Ou seja, "o que" se tem como requisito é o motor da máquina, mas "o como" se usa essa máquina, é o combustível e o passaporte para novas oportunidades.',
     }, 
 
     {
@@ -155,17 +155,18 @@ programacao.controller('programacaoController', function programacaoController($
     }, 
 
     {
-      name: 'Gustavo Dominguete (GDG Lavras)',
-      place: '',
+      name: 'Gustavo Lopes',
+      place: 'ProGolden / GDG Lavras',
       tituloPalestra: 'Introdução a ReactJS',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
+      facebook: 'www.facebook.com/gustavo.lopes.501',
+      twitter: 'http://twitter.com/gudominguete',
+      linkedin: 'https://www.linkedin.com/in/gudominguete',
+      website: 'https://github.com/gudominguete',
       hora:'7:30PM',
       alinhamento:'',
       tipo:'Workshop',
-      foto: 'gustavodominguete'
+      foto: 'gustavodominguete',
+      resumo: 'Formado como técnico em Informática Industrial pelo CEFET-MG, formado como bacharel em Ciência da Computação pela UFLA, pós-graduando em Especialização em Engenharia de Sistemas. Já trabalhou no CPqD. Atualmente é o Gerente de Projetos na ProGolden e Organizador do Google Developers Group Lavras'
     },
 
     {
@@ -202,7 +203,7 @@ $scope.terca = [
 
     {
       name: 'Vinicius Borges',
-      place: '',
+      place: 'Ufla',
       tituloPalestra: 'Minicurso: Em breve',
       facebook: '',
       twitter: '',
@@ -306,7 +307,7 @@ $scope.terca = [
 
     {
       name: 'Dilson Lucas Pereira',
-      place: '',
+      place: 'UFLA',
       tituloPalestra: 'Minicurso: Uma introdução ao VIM',
       facebook: '',
       twitter: '',
@@ -352,7 +353,7 @@ $scope.quarta = [
     },
 
     {
-      name: 'TW',
+      name: '',
       place: '',
       tituloPalestra: 'Em breve',
       facebook: '',
@@ -367,7 +368,7 @@ $scope.quarta = [
     },
 
       {
-      name: 'TW',
+      name: '',
       place: '',
       tituloPalestra: 'Em breve',
       facebook: '',
@@ -382,7 +383,7 @@ $scope.quarta = [
 
     {
       name: 'Rubem Paulo Torri Saldanha',
-      place: '',
+      place: 'Intel',
       tituloPalestra: 'A Internet das Coisas que eu posso criar',
       facebook: '',
       twitter: '',
@@ -397,7 +398,7 @@ $scope.quarta = [
 
     {
       name: 'Yan Magalhães Leite',
-      place: '',
+      place: 'mLearn',
       tituloPalestra: 'Testes pra que te quero',
       facebook: '',
       twitter: '',
@@ -411,7 +412,7 @@ $scope.quarta = [
     },
 
     {
-      name: 'TW',
+      name: '',
       place: '',
       tituloPalestra: 'Em breve',
       facebook: '',
@@ -474,7 +475,7 @@ $scope.quarta = [
 $scope.quinta = [
     {
       name: 'Giancarlo Lacerda',
-      place: '',
+      place: 'Best - Marketing de Performance',
       tituloPalestra: 'Inteligência e Performance em marketing digital',
       facebook: '',
       twitter: '',
@@ -491,7 +492,7 @@ $scope.quinta = [
     {
       name: 'SEBRAE',
       place: '',
-      tituloPalestra: 'Canvas',
+      tituloPalestra: 'Breve',
       facebook: '',
       twitter: '',
       linkedin: '',
@@ -519,7 +520,8 @@ $scope.quinta = [
     },
 
     {
-      name: 'CI&T',
+      name:'André Paulovich',
+      place: 'CI&T',
       tituloPalestra: 'A nova era da plataforma windows: o darwinismo digital',
       facebook: '',
       twitter: '',
@@ -534,7 +536,7 @@ $scope.quinta = [
 
     {
       name: 'Carlos Lauff',
-      place: '',
+      place: 'Class365',
       tituloPalestra: 'Desvendando o Azure: a nuvem da Microsoft',
       facebook: '',
       twitter: '',
@@ -564,7 +566,7 @@ $scope.quinta = [
 
     {
       name: 'Vinícius Borriello',
-      place: '',
+      place: 'Ufla',
       tituloPalestra: 'JavaScript: de onde veio, para onde vai',
       facebook: '',
       twitter: '',
@@ -580,7 +582,7 @@ $scope.quinta = [
     {
       name: 'SEBRAE',
       place: '',
-      tituloPalestra: 'Rock Content',
+      tituloPalestra: 'Breve',
       facebook: '',
       twitter: '',
       resumo: '',
@@ -594,7 +596,7 @@ $scope.quinta = [
 
     {
       name: 'Vinícius Borriello',
-      place: '',
+      place: 'Ufla',
       tituloPalestra: 'Introdução ao NodeJS e programação assíncrona',
       facebook: '',
       twitter: '',
@@ -609,7 +611,7 @@ $scope.quinta = [
 
     {
       name: 'Daniela Gibertoni',
-      place: '',
+      place: 'Fatec Taquaritinga',
       tituloPalestra: 'UX Design - A Experiência do Usuário ',
       facebook: '',
       twitter: '',
@@ -628,7 +630,7 @@ $scope.sexta = [
 
     {
       name: 'Cesar Augusto Nogueira',
-      place: '',
+      place: 'Instituto de Pesquisas Eldorado',
       tituloPalestra: 'Android Wear',
       facebook: '',
       twitter: '',
@@ -659,7 +661,7 @@ $scope.sexta = [
 
     {
       name: 'Vanessa Me Tonini',
-      place: '',
+      place: 'Lambda3',
       tituloPalestra: 'Métodos ágeis, desenvolvendo software com foco no que importa',
       facebook: '',
       twitter: '',
@@ -689,7 +691,7 @@ $scope.sexta = [
 
     {
       name: 'Guilherme Vasconcelos',
-      place: '',
+      place: 'Inttelix Brasil',
       tituloPalestra: 'Metodologia ágil (SCRUM): Inovação e Satisfação do cliente.',
       facebook: '',
       twitter: '',
@@ -719,7 +721,7 @@ $scope.sexta = [
 
     {
       name: 'Cesar Augusto',
-      place: '',
+      place: 'Instituto de Pesquisas Eldorado',
       tituloPalestra: 'OpenSource Java',
       facebook: '',
       twitter: '',
@@ -743,7 +745,7 @@ $scope.sexta = [
       website: '',
       hora:'6PM',
       alinhamento:'timeline-inverted',
-      foto: 'breve',
+      foto: 'matheusnogueira',
       tipo:'Workshop'
     },
 

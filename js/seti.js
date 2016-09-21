@@ -115,7 +115,17 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: 'https://br.linkedin.com/in/vanessametonini',
       website: 'vanessametonini.com.br',
       foto: 'vanessametonini'
-    }, {
+    }, 
+         {
+      name: 'Gustavo Lopes',
+      place: 'ProGolden / GDG Lavras',
+      tituloPalestra: 'Introdução a ReactJS',
+      facebook: 'www.facebook.com/gustavo.lopes.501',
+      twitter: '@gudominguete',
+      linkedin: 'https://www.linkedin.com/in/gudominguete',
+      website: 'https://github.com/gudominguete',
+      foto: 'gustavodominguete'
+    },{
       name: 'Yan Magalhães Leite',
       place: 'mLearn',
       tituloPalestra: 'Testes pra que te quero',
@@ -126,7 +136,7 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'yanmagalhaes'
     },{
       name: 'Bárbara Oliveira',
-      place: 'LEMAF',
+      place: 'Lemaf',
       tituloPalestra: 'O papel do PO em times Scrum',
       facebook: '',
       twitter: '',
@@ -190,12 +200,12 @@ seti.controller('setiController', function setiController($scope) {
     },
     {
       name: 'Guilherme Razgriz',
-      place: '',
+      place: 'Cria Livre',
       tituloPalestra: '4 Técnicas para entregar uma protese em 4 dias! ',
       facebook: '',
       twitter: '',
       linkedin: '',
-      website: '',
+      website: 'http://razgrizbox.tumblr.com',
       foto: 'razgriz'
     },  {
       name: 'Guilherme Vasconcelos',
@@ -310,7 +320,7 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'giancarlolacerda'
     },  {
       name: 'Matheus Nogueira',
-      place: 'Comp Júnior / LEMAF',
+      place: 'Comp Júnior / Lemaf',
       tituloPalestra: 'Desenvolvimento de software usando Git',
       facebook: ' https://www.facebook.com/mathnogueir',
       twitter: '',
@@ -328,16 +338,6 @@ seti.controller('setiController', function setiController($scope) {
       website: '',
       foto: 'dilson'
     }
-    , 
-     {
-      name: 'Gustavo Lopes Dominguete',
-      place: 'ProGolden',
-      tituloPalestra: 'Introdução a ReactJS',
-      facebook: 'www.facebook.com/gustavo.lopes.501',
-      twitter: '@gudominguete',
-      linkedin: 'https://www.linkedin.com/in/gudominguete',
-      website: 'https://github.com/gudominguete',
-      foto: 'gustavodominguete'
-    }
+   
   ];
 });
