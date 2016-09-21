@@ -338,6 +338,16 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: 'https://www.linkedin.com/in/gudominguete',
       website: 'https://github.com/gudominguete',
       foto: 'gustavodominguete'
+    }, 
+     {
+      name: 'Vinicius Borges',
+      place: '',
+      tituloPalestra: 'Introdução ao Latex',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'breve'
     }
   ];
 });

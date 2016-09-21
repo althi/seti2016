@@ -203,16 +203,16 @@ $scope.terca = [
     {
       name: 'Vinicius Borges',
       place: '',
-      tituloPalestra: 'Minicurso: Em breve',
+      tituloPalestra: 'Introdução ao Latex',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
-      resumo: '',
       hora:'8AM',
-      alinhamento:'timeline-inverted',
+      alinhamento:'',
+      resumo: '',
       foto: 'breve',
-      tipo:'Workshop'
+      tipo:'Palestra'
     },
 
     {
@@ -348,6 +348,21 @@ $scope.quarta = [
       hora:'8AM',
       alinhamento:'',
       foto: 'davidrobert',
+      tipo:'Palestra'
+    },
+
+    {
+      name: 'Vinicius Borges',
+      place: '',
+      tituloPalestra: 'Introdução ao Latex',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      hora:'8AM',
+      alinhamento:'',
+      resumo: '',
+      foto: 'breve',
       tipo:'Palestra'
     },
 
