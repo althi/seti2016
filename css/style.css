@@ -995,6 +995,18 @@ height: 100%
 
 }
 
+
+..navbar-seti  .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-seti  .navbar-toggle:hover,
+.navbar-seti  .navbar-toggle:focus {
+  background-color: #e50051;
+}
+.navbar-seti  .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
 .roquetContainer{
   width: 400px;
   height: auto;
