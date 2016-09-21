@@ -530,7 +530,7 @@ $scope.quinta = [
       resumo: '',
       hora:'10AM',
       alinhamento:'',
-      foto: 'breve',
+      foto: 'andreg',
       tipo:'Palestra'
     },
 
