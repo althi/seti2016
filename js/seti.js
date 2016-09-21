@@ -155,7 +155,7 @@ seti.controller('setiController', function setiController($scope) {
     },  {
       name: 'Cesar Augusto Nogueira',
       place: 'Instituto de Pesquisas Eldorado',
-      tituloPalestra: 'OpenSource Java',
+      tituloPalestra: 'OpenSource Java (palestra) e Android Wear (workshop)',
       facebook: 'fb.com/cesarnog',
       twitter: '@cesarnogcps',
       linkedin: 'https://www.linkedin.com/in/cesarnog',
