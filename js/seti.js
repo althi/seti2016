@@ -342,12 +342,12 @@ seti.controller('setiController', function setiController($scope) {
      {
       name: 'Vinicius Borges',
       place: '',
-      tituloPalestra: 'Introdução ao Latex',
+      tituloPalestra: 'Preparando documentos utilizando LaTeX',
       facebook: '',
       twitter: '',
       linkedin: '',
-      website: '',
-      foto: 'breve'
+      website: 'http://viniciusrpb.byethost6.com',
+      foto: 'viniciusborges'
     }, 
      {
       name: 'André Grützmann',

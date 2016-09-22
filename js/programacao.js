@@ -204,15 +204,15 @@ $scope.terca = [
     {
       name: 'Vinicius Borges',
       place: '',
-      tituloPalestra: 'Introdução ao Latex',
+      tituloPalestra: 'Preparando documentos utilizando LaTeX',
       facebook: '',
       twitter: '',
       linkedin: '',
-      website: '',
+      website: ' http://viniciusrpb.byethost6.com',
       hora:'8AM',
-      alinhamento:'',
-      resumo: '',
-      foto: 'breve',
+      alinhamento:'timeline-inverted',
+      resumo: 'Neste minicurso de 8 horas, utilizaremos o LaTeX para a preparação e edição de documentos. O LaTeX é um processador que formata um texto de acordo com marcações nele contidas, resultando em um documento com alta qualidade tipográfica.',
+      foto: 'viniciusborges',
       tipo:'Palestra'
     },
 
@@ -355,15 +355,15 @@ $scope.quarta = [
     {
       name: 'Vinicius Borges',
       place: '',
-      tituloPalestra: 'Introdução ao Latex',
+      tituloPalestra: 'Preparando documentos utilizando LaTeX',
       facebook: '',
       twitter: '',
       linkedin: '',
-      website: '',
-      resumo: '',
+      website: ' http://viniciusrpb.byethost6.com',
+      resumo: 'Neste minicurso de 8 horas, utilizaremos o LaTeX para a preparação e edição de documentos. O LaTeX é um processador que formata um texto de acordo com marcações nele contidas, resultando em um documento com alta qualidade tipográfica.',
       hora:'8AM',
       alinhamento:'timeline-inverted',
-      foto: 'breve',
+      foto: 'viniciusborges',
       tipo:'Workshop'
     },
 
