@@ -229,7 +229,7 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'venicios'
     }, {
       name: 'Lays Rodrigues Silva',
-      place: 'Atelier',
+      place: 'KDE',
       tituloPalestra: 'Qt - O seu toolkit para C++ ou Python com o verdadeiro: Write once, deploys everywhere!',
       facebook: ' laysrodrigues147',
       twitter: 'http://twitter.com/lays147',
@@ -337,18 +337,8 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: '',
       website: '',
       foto: 'dilson'
-    }
-    , 
-     {
-      name: 'Gustavo Lopes Dominguete',
-      place: 'ProGolden / GDG Lavras',
-      tituloPalestra: 'Introdução a ReactJS',
-      facebook: 'www.facebook.com/gustavo.lopes.501',
-      twitter: '@gudominguete',
-      linkedin: 'https://www.linkedin.com/in/gudominguete',
-      website: 'https://github.com/gudominguete',
-      foto: 'gustavodominguete'
     }, 
+      
      {
       name: 'Vinicius Borges',
       place: '',

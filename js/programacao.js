@@ -112,7 +112,7 @@ programacao.controller('programacaoController', function programacaoController($
 
     {
       name: 'Lays Rodrigues Silva',
-      place: 'Atelier',
+      place: 'KDE',
       tituloPalestra: 'Qt - O seu toolkit para C++ ou Python com o verdadeiro: Write once, deploys everywhere!',
       facebook: ' laysrodrigues147',
       twitter: '@lays147',
