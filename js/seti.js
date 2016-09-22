@@ -341,7 +341,7 @@ seti.controller('setiController', function setiController($scope) {
     , 
      {
       name: 'Gustavo Lopes Dominguete',
-      place: 'ProGolden',
+      place: 'ProGolden / GDG Lavras',
       tituloPalestra: 'Introdução a ReactJS',
       facebook: 'www.facebook.com/gustavo.lopes.501',
       twitter: '@gudominguete',
