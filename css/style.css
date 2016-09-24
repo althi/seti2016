@@ -701,7 +701,7 @@ footer h3{
 
   font-family: 'Open Sans', sans-serif;
   background-color: #000;
-  color: #54585b; 
+  color: #f8d400; 
   height: auto;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -713,12 +713,26 @@ footer h3{
 }
 
 .copyrights a{
-  color: #54585b; 
+  font-weight: 800;
+  color: #f8d400; 
 }
 
 .copyrights a:hover{
-  color: #f9dc5c; 
+  color: gray; 
   text-decoration: none;
+}
+
+.freepik{
+  color: gray;
+}
+
+.freepik a{
+    color: gray;
+}
+
+
+.freepik a:hover{
+    color: #f8d400;
 }
 
 
@@ -1262,14 +1276,12 @@ font-size: 100px;   }
 
 
 .curadores{
-
   background-color: #E7305D;
   height: auto;
 
 }
 
 .curadores p{
-
  
   color: white;
   font-size: 16px;
