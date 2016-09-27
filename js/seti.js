@@ -317,7 +317,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '',
       linkedin: 'http://br.linkedin.com/in/giancarlolacerda',
       website: '',
-      foto: 'giancarlolacerda'
+      foto: 'giancarlolacerda2'
     },  {
       name: 'Matheus Nogueira',
       place: 'Comp Júnior / Lemaf',
