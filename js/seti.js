@@ -17,7 +17,7 @@ seti.controller('setiController', function setiController($scope) {
       website: ' http://www.ricardoroquim.com.br/',
       foto: 'ricardoroquim',
       data: 'segunda'
-    }, {
+    },{
       name: 'Serena Fernandes',
       place: 'AvenueCode',
       tituloPalestra: 'Mulheres na Tecnologia',
@@ -358,6 +358,36 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: '',
       website: '',
       foto: 'andreg'
+    }, {
+      name: 'Márcio Viegas',
+      place: 'ThoughtWorks',
+      tituloPalestra: 'Teoria das Restrições no desenvolvimento Ágil de Software',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'marcio',
+      data: ''
+    },  {
+      name: 'Julio Farah',
+      place: 'ThoughtWorks',
+      tituloPalestra: 'Atacando code smells para melhorar a qualidade do seu código',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'juliofarah',
+      data: ''
+    },  {
+      name: 'Samir Salim',
+      place: 'ThoughtWorks',
+      tituloPalestra: 'Sua carreira não precisa ser desenhada com uma régua',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'samirsalim',
+      data: ''
     }
   ];
 });

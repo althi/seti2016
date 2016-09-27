@@ -77,7 +77,7 @@ programacao.controller('programacaoController', function programacaoController($
       website: 'https://www.facebook.com/camilabastoss',
       foto: 'camilabastos',
       tipo:'Workshop',
-      resumo: 'A compreensão consiste na obtenção do conhecimento de diferentes características de sistemas de software e é considerada um dos requisitos para execução de atividades relacionadas ao desenvolvimento e manutenção. No entanto, compreender essas características não é uma tarefa trivial devido a quantidade significativa de informações geradas ao longo do ciclo de vida e evolução do software. Técnicas de visualização de software têm sido amplamente utilizadas para apresentar essas informações e facilitar o processo de compreensão. Dessa forma, o objetivo deste minicurso é oferecer uma visão geral da área de visualização de software, apontando como as técnicas de visualização podem ser aplicadas e quais atributos dos sistemas software podem ser representados visualmente. ',
+      resumo: 'A visualização de software é uma área que faz uso de recursos visuais para representar a estrutura, o comportamento e a evolução do software. A finalidade deste workshop é apresentar conceitos relacionados a essa área, exemplos de técnicas e características necessárias para projetar uma visualização. Os conceitos apresentados serão aplicados em uma atividade prática, em que os participantes projetarão sua própria técnica de visualização em um ambiente dinâmico e descontraído. Em seguida, será apresentada uma aplicação real dessa área, no qual os participantes poderão utilizar e interagir com uma ferramenta de visualização de software.',
       hora:'1PM'
     }, 
 
