@@ -484,7 +484,7 @@ $scope.quinta = [
       website: '',
       hora:'8AM',
       alinhamento:'',
-      foto: 'giancarlolacerda',
+      foto: 'giancarlolacerda2',
       tipo:'Palestra',
 
     },
@@ -575,7 +575,7 @@ $scope.quinta = [
       website: '',
       hora:'5PM',
       alinhamento:'',
-      foto: 'ViníciusBorriello',
+      foto: 'viniciusborrielo',
       tipo:'Palestra'
     },
 
@@ -605,7 +605,7 @@ $scope.quinta = [
       website: '',
       hora:'8PM',
       alinhamento:'',
-      foto: 'ViníciusBorriello',
+      foto: 'viniciusborrielo',
       tipo:'Workshop'
     },
 

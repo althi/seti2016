@@ -187,7 +187,7 @@ seti.controller('setiController', function setiController($scope) {
       twitter: '',
       linkedin: '',
       website: '',
-      foto: 'vinicius'
+      foto: 'viniciusborrielo'
     }, {
       name: 'Camilla Santos',
       place: '7COMm',
