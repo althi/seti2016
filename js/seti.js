@@ -180,13 +180,13 @@ seti.controller('setiController', function setiController($scope) {
       website: 'http://www.slideshare.net/while42',
       foto: 'davidrobert'
     },{
-      name: 'Vinicius Borrielo',
+      name: 'Vinícius Borriello',
       place: 'UFLA',
       tituloPalestra: 'JavaScript: de onde veio, para onde vai',
       facebook: '',
       twitter: '',
       linkedin: '',
-      website: '',
+      website: 'http://vinicius.borriello.com.br',
       foto: 'viniciusborrielo'
     }, {
       name: 'Camilla Santos',
