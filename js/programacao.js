@@ -354,7 +354,7 @@ $scope.quarta = [
 
     {
       name: 'Vinicius Borges',
-      place: '',
+      place: 'UFLA',
       tituloPalestra: 'Preparando documentos utilizando LaTeX',
       facebook: '',
       twitter: '',
@@ -368,18 +368,37 @@ $scope.quarta = [
     },
 
       {
-      name: '',
-      place: '',
-      tituloPalestra: 'Em breve',
+      name: 'Samir Salim',
+      place: 'Thoughtworks',
+      tituloPalestra: 'Sua carreira não precisa ser desenhada com uma régua',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
-      resumo: '',
-      hora:'11AM',
-      foto: 'breve',
+      resumo: 'A busca por felicidade, satisfação, ou melhores condições de trabalho levam a mudanças inesperadas, e temos que nos preparar pra abraçar a mudança.',
+      hora:'9h30AM',
+      foto: 'samirsalim',
       tipo:'Palestra'
     },
+
+
+    {
+      name: 'Márcio Viegas',
+      place: 'Thoughtworks',
+      tituloPalestra: 'Teoria das Restrições no desenvolvimento Ágil de Software',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      resumo: 'A teoria das restrições foi criada por Eliyahu M. Goldratt e apresentada pela primeira vez em seu livro A Meta. Desde então esta teoria tem servido como modelo para gestão de diversos tipos de projetos, inclusive aqueles que utilizam metodologia ágil. Nesta palestra vou falar um pouco mais dos detalhes da teoria e como aplicar o conceito para melhorar o fluxo de trabalho e maximizar a entrega de valor em um projeto.',
+      hora:'11hAM',
+      foto: 'marcio',
+      alinhamento:'timeline-inverted',
+      tipo:'Palestra'
+    },
+
+
+    
 
     {
       name: 'Rubem Paulo Torri Saldanha',
@@ -391,7 +410,6 @@ $scope.quarta = [
       website: '',
       resumo: 'A nova moda na área de tecnologia é falar sobre a Internet das Coisas. Mas como fazer para começar? Que tal fazer você mesmo? Rubem Saldanha vai contar tudo o que a Intel está fazendo nesse novo tema e você terá uma visão de como você pode iniciar suas próprias descobertas nessa área. Se sobrar um tempinho, ele ainda vai falar sobre carreira na Intel.',
       hora:'1PM',
-      alinhamento:'timeline-inverted',
       foto: 'RubemSaldanha',
       tipo:'Palestra'
     },
@@ -406,28 +424,43 @@ $scope.quarta = [
       website: '',
       resumo: 'Nesta palestra, iremos aprender sobre porque testes são tão importantes assim, o porquê de nos ajudarem a melhorar a qualidade de nosso código e nossos projetos e vamos conhecer um pouco sobre o tão famoso TDD. Se você nunca escreveu um teste, esta palestra é para você. E se você já testa, por favor, venha e compartilhe conosco seus conhecimentos e experiências com testes.  Vamos juntos, melhorar a qualidade de nossos projetos. ',
       hora:'3PM',
-      alinhamento:'',
+      alinhamento:'timeline-inverted',
       foto: 'yanmagalhaes',
       tipo:'Palestra'
     },
 
     {
-      name: '',
-      place: '',
+      name: 'Julio Farah',
+      place: 'Thoughtworks',
+      tituloPalestra: 'Atacando code smells para melhorar a qualidade do seu código',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      resumo: 'É inevitável que em algum momento vamos nos deparar com código ~ruim~ (não ideal) na nossa carreira como desenvolvedores. Seja código escrito por nós mesmo, ou por pessoas com contextos e experiências diferentes, em algum momento teremos um pouco de caos a ser colocado em ordem. Nessa palestra vamos aprender a fazer uma faxina de código, utilizando técnicas pra identificar e consertar código legado. ',
+      website: '',
+      hora:'16h30PM',
+      foto: 'juliofarah',
+      tipo:'Palestra'
+    },
+
+
+    {
+      name: 'Aguarde!',
+      place: 'Thoughtworks',
       tituloPalestra: 'Em breve',
       facebook: '',
       twitter: '',
       linkedin: '',
       resumo: '',
       website: '',
-      hora:'5PM',
-      alinhamento:'timeline-inverted',
+      hora:'18hPM',
       foto: 'breve',
-      tipo:'Palestra'
+      tipo:'Palestra',
+      alinhamento:'timeline-inverted'
     },
 
     {
-      name: 'Aline Dias & Barbara Oliveira e ',
+      name: 'Aline Dias & Barbara Oliveira',
       place: 'Equals / Lemaf',
       tituloPalestra: 'O papel do PO em times Scrum',
       facebook: '',
@@ -436,7 +469,7 @@ $scope.quarta = [
       website: '',
       resumo: 'O Product Owner (PO) é o ponto central do projeto ágil e é quem exerce a liderança sobre o produto que está sendo desenvolvido. Durante a palestra serão apresentadas quais as suas responsabilidades, os artefatos que o mesmo deve gerir, as características necessárias para ser um bom Product Owner e os desafios encontrados ao exercer este papel.',
       hora:'7:30PM',
-      alinhamento:'',
+
       foto: 'alinebarbara',
       tipo:'Palestra'
     },
@@ -451,7 +484,7 @@ $scope.quarta = [
       website: '',
       resumo: '',
       hora:'7:30PM',
-      alinhamento:'timeline-inverted',
+       alinhamento:'timeline-inverted',
       foto: 'breve',
       tipo:'Workshop'
     },
