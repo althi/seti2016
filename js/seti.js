@@ -53,15 +53,6 @@ seti.controller('setiController', function setiController($scope) {
       website: '',
       foto: 'andrepaulovich'
     },{
-      name: 'Sérgio Rodrigues',
-      place: 'Locaweb',
-      tituloPalestra: 'Internet of Things: More software less hardware.',
-      facebook: 'https://www.facebook.com/sergioaugrod',
-      twitter: '',
-      linkedin: 'https://www.linkedin.com/in/sergioaugrod',
-      website: 'http://www.sergioaugrod.com.br',
-      foto: 'sergioaugusto'
-    },{
       name: 'Rodolfo Dias',
       place: 'Inatel',
       tituloPalestra: 'The Front-End Power',
@@ -70,15 +61,6 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: '',
       website: '',
       foto: 'rodolfodias'
-    },{
-      name: 'Camila Bastos',
-      place: 'UFLA',
-      tituloPalestra: 'Compreensão de Software utilizando técnicas de visualização',
-      facebook: 'https://www.facebook.com/camilabastoss',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: 'camilabastos'
     }, {
       name: 'Paula Martucci',
       place: 'PerSolutio',
@@ -107,6 +89,16 @@ seti.controller('setiController', function setiController($scope) {
       website: 'http://brunocastro.me',
       foto: 'brunocastro'
     }, {
+      name: 'Sérgio Rodrigues',
+      place: 'Locaweb',
+      tituloPalestra: 'Internet of Things: More software less hardware.',
+      facebook: 'https://www.facebook.com/sergioaugrod',
+      twitter: '',
+      linkedin: 'https://www.linkedin.com/in/sergioaugrod',
+      website: 'http://www.sergioaugrod.com.br',
+      foto: 'sergioaugusto'
+    },
+    {
       name: 'Vanessa Me Tonini',
       place: 'Lambda3',
       tituloPalestra: 'Métodos ágeis, desenvolvendo software com foco no que importa',
@@ -116,6 +108,48 @@ seti.controller('setiController', function setiController($scope) {
       website: 'vanessametonini.com.br',
       foto: 'vanessametonini'
     }, 
+
+    {
+      name: 'Márcio Viegas',
+      place: 'ThoughtWorks',
+      tituloPalestra: 'Teoria das Restrições no desenvolvimento Ágil de Software',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'marcio',
+      data: ''
+    },  {
+      name: 'Julio Farah',
+      place: 'ThoughtWorks',
+      tituloPalestra: 'Atacando code smells para melhorar a qualidade do seu código',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'juliofarah',
+      data: ''
+    },  {
+      name: 'Samir Salim',
+      place: 'ThoughtWorks',
+      tituloPalestra: 'Sua carreira não precisa ser desenhada com uma régua',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'samirsalim',
+      data: ''
+    },
+    {
+      name: 'David Robert',
+      place: 'Elo7',
+      tituloPalestra: 'Times de Alta Performance',
+      twitter: 'https://twitter.com/while42',
+      linkedin: 'http://linkedin.com/in/davidrobert',
+      resumo: 'Como a influência da cultura na constante evolução de cada integrante e na constante evolução da empresa pode refletir no desenvolvimento de times de alta performance. Os principais desafios que o Elo7 teve que lidar para crescer em mais de 10 vezes o tamanho dos times da engenharia mantendo a produtividade e um excelente ambiente de trabalho. Bibliografia:',
+      website: 'http://www.slideshare.net/while42',
+      foto: 'davidrobert'
+    },
          {
       name: 'Gustavo Lopes',
       place: 'ProGolden / GDG Lavras',
@@ -171,15 +205,6 @@ seti.controller('setiController', function setiController($scope) {
       website: 'medium.com/@lricoy',
       foto: 'lucasricoy'
     }, {
-      name: 'David Robert',
-      place: 'Elo7',
-      tituloPalestra: 'Times de Alta Performance',
-      twitter: 'https://twitter.com/while42',
-      linkedin: 'http://linkedin.com/in/davidrobert',
-      resumo: 'Como a influência da cultura na constante evolução de cada integrante e na constante evolução da empresa pode refletir no desenvolvimento de times de alta performance. Os principais desafios que o Elo7 teve que lidar para crescer em mais de 10 vezes o tamanho dos times da engenharia mantendo a produtividade e um excelente ambiente de trabalho. Bibliografia:',
-      website: 'http://www.slideshare.net/while42',
-      foto: 'davidrobert'
-    },{
       name: 'Vinícius Borriello',
       place: 'UFLA',
       tituloPalestra: 'JavaScript: de onde veio, para onde vai',
@@ -197,6 +222,17 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: 'https://www.linkedin.com/in/camillagds',
       website: 'http://slideshare.net/lobinhaxd',
       foto: 'camillagomes'
+    },
+
+    {
+      name: 'Camila Bastos',
+      place: 'UFLA',
+      tituloPalestra: 'Compreensão de Software utilizando técnicas de visualização',
+      facebook: 'https://www.facebook.com/camilabastoss',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'camilabastos'
     },
     {
       name: 'Guilherme Razgriz',
@@ -292,15 +328,6 @@ seti.controller('setiController', function setiController($scope) {
       website: '',
       foto: 'brunodonizeti'
     }, {
-      name: 'Marlon da Silva',
-      place: 'UFLA',
-      tituloPalestra: 'NoSQL: Bancos de dados de grafo e Neo4j',
-      facebook: '',
-      twitter: 'http://twitter.com/marlondasilva',
-      linkedin: '',
-      website: '',
-      foto: 'marlondasilva'
-    }, {
       name: 'Ramon Gomes Costa',
       place: 'UFLA',
       tituloPalestra: 'NoSQL: Bancos de dados de grafo e Neo4j',
@@ -309,7 +336,7 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: '',
       website: '',
       foto: 'ramongomes'
-    }, {
+    },  {
       name: 'Giancarlo Lacerda',
       place: 'Best - Marketing de Performance',
       tituloPalestra: 'Inteligência e Performance em marketing digital',
@@ -341,7 +368,7 @@ seti.controller('setiController', function setiController($scope) {
       
      {
       name: 'Vinicius Borges',
-      place: '',
+      place: 'UFLA',
       tituloPalestra: 'Preparando documentos utilizando LaTeX',
       facebook: '',
       twitter: '',
@@ -351,43 +378,53 @@ seti.controller('setiController', function setiController($scope) {
     }, 
      {
       name: 'André Grützmann',
-      place: '',
+      place: 'UFLA',
       tituloPalestra: 'Mesa Redonda: Politicas Públicas',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
       foto: 'andreg'
+    }, 
+    {
+      name: 'Gabriela Santiago',
+      place: 'UFLA',
+      tituloPalestra: 'Tópicos em bancos de dados NoSQL – In-memory databases e Redis',
+      facebook: '',
+      twitter: '',
+      linkedin: 'https://br.linkedin.com/in/gabriela-aparecida-santiago',
+      website: '',
+      foto: 'gabrielasantiago'
+    }, 
+
+    {
+      name: 'Gustago Freitas',
+      place: 'UFLA',
+      tituloPalestra: 'Tópicos em bancos de dados NoSQL – In-memory databases e Redis',
+      facebook: 'https://www.facebook.com/gustavodifrafre',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'gustavofreitas'
     }, {
-      name: 'Márcio Viegas',
-      place: 'ThoughtWorks',
-      tituloPalestra: 'Teoria das Restrições no desenvolvimento Ágil de Software',
-      facebook: '',
+      name: 'Inbatec / Empreende UFLA',
+      place: 'UFLA',
+      tituloPalestra: 'Parque Tecnonógico, e pitchs de 5 startups de sucesso de Lavras.',
+      facebook: 'https://www.facebook.com/inbatecufla/?fref=ts',
       twitter: '',
       linkedin: '',
-      website: '',
-      foto: 'marcio',
-      data: ''
-    },  {
-      name: 'Julio Farah',
-      place: 'ThoughtWorks',
-      tituloPalestra: 'Atacando code smells para melhorar a qualidade do seu código',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: 'juliofarah',
-      data: ''
-    },  {
-      name: 'Samir Salim',
-      place: 'ThoughtWorks',
-      tituloPalestra: 'Sua carreira não precisa ser desenhada com uma régua',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: 'samirsalim',
-      data: ''
-    }
+      website: 'www.inbatec.ufla.br',
+      foto: 'empreende'
+    },
+     {
+      name: 'JavaGroup',
+      place: 'UFLA',
+      tituloPalestra: 'Breve',
+      facebook: 'http://professores.dcc.ufla.br/~terra/javagroup/',
+      twitter: 'http://professores.dcc.ufla.br/~terra/javagroup/',
+      linkedin: 'http://professores.dcc.ufla.br/~terra/javagroup/',
+      website: 'http://professores.dcc.ufla.br/~terra/javagroup/',
+      foto: 'javagroup'
+    },
   ];
 });

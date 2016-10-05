@@ -245,6 +245,17 @@ $scope.terca = [
       tipo:'Palestra'
     },
 
+        {
+      name: 'Gabriela Santiago, Ramon Costa, Gustavo Freitas ',
+      place: 'UFLA',
+      tituloPalestra: 'Tópicos em bancos de dados NoSQL – In-memory databases e Redis',
+      foto: 'nosql',
+      resumo: 'O que é usabilidade e seus princípios básicos aplicados ao desenvolvimento de sistemas web amigáveis aos usuários.',
+      hora:'1PM',
+      alinhamento:'timeline-inverted',
+      tipo:'Palestra'
+    },
+
        {
       name: 'breve',
       place: '',
