@@ -61,25 +61,14 @@ programacao.controller('programacaoController', function programacaoController($
       linkedin: 'https://www.linkedin.com/#lricoy',
       website: 'medium.com/@lricoy',
       foto: 'lucasricoy',
+      alinhamento:'timeline-inverted',
       hora: '1PM',
       tipo:'Palestra',
       resumo: 'Essa palestra tem por objetivo apresentar a abordagem de desenvolvimento de aplicativos híbridos, suas vantagens e desvantagens e mostrar um protótipo funcional que utilizando do mesmo código fonte,   será capaz de ser distribuído para sistemas Desktop tradicionais (Linux, Windows, Mac),  dispositivos móveis (iOS, Android, Windows Phone) ou como um site na web sem alterações em suas camadas internas,   mudando apenas a forma de apresentação em cada plataforma, quando necessário.',
       alinhamento:'timeline-inverted'
     }, 
 
-    {
-      name: 'Camila Bastos',
-      place: 'UFLA',
-      tituloPalestra: 'Compreensão de Software utilizando técnicas de visualização',
-      facebook: 'https://www.facebook.com/camilabastoss',
-      twitter: 'https://www.facebook.com/camilabastoss',
-      linkedin: 'https://www.facebook.com/camilabastoss',
-      website: 'https://www.facebook.com/camilabastoss',
-      foto: 'camilabastos',
-      tipo:'Workshop',
-      resumo: 'A visualização de software é uma área que faz uso de recursos visuais para representar a estrutura, o comportamento e a evolução do software. A finalidade deste workshop é apresentar conceitos relacionados a essa área, exemplos de técnicas e características necessárias para projetar uma visualização. Os conceitos apresentados serão aplicados em uma atividade prática, em que os participantes projetarão sua própria técnica de visualização em um ambiente dinâmico e descontraído. Em seguida, será apresentada uma aplicação real dessa área, no qual os participantes poderão utilizar e interagir com uma ferramenta de visualização de software.',
-      hora:'1PM'
-    }, 
+   
 
     {
       name: 'Guilherme Razgriz',
@@ -93,7 +82,6 @@ programacao.controller('programacaoController', function programacaoController($
       foto: 'razgriz',
       hora:'1PM',
       tipo:'Workshop',
-      alinhamento:'timeline-inverted'
     },
 
     {
@@ -106,6 +94,7 @@ programacao.controller('programacaoController', function programacaoController($
       website: '',
       foto: 'serenafernandes',
       tipo:'Workshop',
+      alinhamento:'timeline-inverted',
       hora: '2PM',
       resumo: 'Vamos falar um pouco sobre Metodologias Ágeis, numa abordagem prática vamos entender onde vivem, o que comem e como se reproduzem os times ágeis. Vamos ser conhecedores das manhas e dos paranauês das metodologias ágeis e saber como atuar em um time ágil. E se você acha que ser ágil significa ser rápido, vou te provar que você está mais que errado(a)!'
     },
@@ -121,7 +110,6 @@ programacao.controller('programacaoController', function programacaoController($
       foto: 'laysrodrigues',
       hora: '3PM',
       tipo:'Palestra',
-      alinhamento:'timeline-inverted',
       resumo:'Qt é um dos melhores frameworks que eu já usei para desenvolvimento de software. Com toda a tecnologia e poder colocados nessa ferramenta, você realmente consegue facilitar o desenvolvimento de qualquer software, seja usando a abstração de sistema que o Qt proporciona ou em desenvolvimento ágil de iterfaces: simples, leves e flexíveis. Nesta palestra eu apresentarei para você um pouquinho do poder que o Qt pode te dar no desenvolvimento do seu software. Você pode não conhecer Qt, mas é bem provavel que você já usou algum software que foi construído com ele.'
     }, 
 
@@ -136,6 +124,7 @@ programacao.controller('programacaoController', function programacaoController($
       foto: 'paulamartucci',
       hora: '5PM',
       tipo:'Palestra',
+      alinhamento:'timeline-inverted',
       resumo: 'Currículo, cursos, certificações, idiomas, todos estes fatores são muito importantes, claro. Mas a base desta palestra está fundamentada no desenvolvimento humano e de como colocar todos estes requisitos em prática. As bases do trabalho estão ligadas aos 4 pilares do desenvolvimento: análise e crítica, interação, contribuição e transformação. Ou seja, "o que" se tem como requisito é o motor da máquina, mas "o como" se usa essa máquina, é o combustível e o passaporte para novas oportunidades.',
     }, 
 
@@ -151,7 +140,7 @@ programacao.controller('programacaoController', function programacaoController($
       tipo:'Palestra',
       hora:'7h30PM',
       resumo: 'Nesta palestra será estudado o Case da adaptação da protese E-NABLE Phoenix 2 em um paciente com amputação severa da mão esquerda utilizando o Blender e uma Impressora 3d .',
-      alinhamento:'timeline-inverted'
+    
     }, 
 
     {
@@ -166,23 +155,11 @@ programacao.controller('programacaoController', function programacaoController($
       alinhamento:'',
       tipo:'Workshop',
       foto: 'gustavodominguete',
+      alinhamento:'timeline-inverted',
       resumo: 'Formado como técnico em Informática Industrial pelo CEFET-MG, formado como bacharel em Ciência da Computação pela UFLA, pós-graduando em Especialização em Engenharia de Sistemas. Já trabalhou no CPqD. Atualmente é o Gerente de Projetos na ProGolden e Organizador do Google Developers Group Lavras'
     },
 
-    {
-      name: 'Venícios Gustavo Santos',
-      place: 'Lemaf',
-      tituloPalestra: 'Quero ser analista de requisitos ou negócios. Por onde eu começo?',
-      facebook: 'https://www.facebook.com/veniciosgustavo ',
-      twitter: '',
-      linkedin: 'https://br.linkedin.com/in/venicios',
-      website: '',
-      foto: 'venicios',
-      tipo:'Palestra',
-      hora:'9PM',
-      alinhamento:'timeline-inverted',
-      resumo:'Para aqueles acadêmicos que estão na expectativa de ir em busca de uma oportunidade no mercado de trabalho. A palestra "Quero ser analista de requisitos ou negócios. Por onde eu começo?" tem o intuito de nortear aqueles que vislumbram essas competências, assim venho compartilhar minhas experiências em todo território nacional e inclusive internacionais.',
-    }
+
   ];
 
 $scope.terca = [
@@ -213,7 +190,7 @@ $scope.terca = [
       alinhamento:'timeline-inverted',
       resumo: 'Neste minicurso de 8 horas, utilizaremos o LaTeX para a preparação e edição de documentos. O LaTeX é um processador que formata um texto de acordo com marcações nele contidas, resultando em um documento com alta qualidade tipográfica.',
       foto: 'viniciusborges',
-      tipo:'Palestra'
+      tipo:'Workshop'
     },
 
     {
@@ -249,40 +226,26 @@ $scope.terca = [
       name: 'Gabriela Santiago, Ramon Costa, Gustavo Freitas ',
       place: 'UFLA',
       tituloPalestra: 'Tópicos em bancos de dados NoSQL – In-memory databases e Redis',
-      foto: 'nosql',
-      resumo: 'O que é usabilidade e seus princípios básicos aplicados ao desenvolvimento de sistemas web amigáveis aos usuários.',
+      foto: 'gabrielasantiago',
+      resumo: '',
       hora:'1PM',
-      alinhamento:'timeline-inverted',
-      tipo:'Palestra'
+      alinhamento:'',
+      tipo:'Workshop'
     },
 
-       {
-      name: 'breve',
-      place: '',
-      tituloPalestra: 'Em breve',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      resumo: '',
-      hora:'3PM',
-      alinhamento:'',
-      foto: 'breve',
-      tipo:'Palestra'
-    },
 
     {
-      name: 'Inbatec',
-      place: '',
-      tituloPalestra: 'Em breve',
+      name: 'Marco Aurélio Caldas Ribeiro',
+      place: 'Hotmart',
+      tituloPalestra: 'Do monólito ao microserviço: como escalar uma startup global',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
-      resumo: '',
+      resumo: 'Conheça as evoluções tecnológicas que permitiram à Hotmart, uma startup formada por dois programadores, conquistar expansão em escala global. Vamos falar sobre como foi o processo, mostrar os desafios e, principalmente, apontar como as tecnologias, práticas e o trabalho em equipe deram suporte a essa evolução. ',
       hora:'3PM',
       alinhamento:'timeline-inverted',
-      foto: 'breve',
+      foto: 'marcoaurelio',
       tipo:'Palestra'
     },
 
@@ -302,14 +265,14 @@ $scope.terca = [
     },
 
       {
-      name: 'Breve',
-      place: '',
+      name: 'Empreendedorismo em Lavras',
+      place: 'Inbatec / Empreende UFLA / Inovacafé',
       tituloPalestra: 'Breve',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
-      resumo: '',
+      resumo: 'Apresentação do Parque Tecnológico de Lavras e da Incubadora de Base Tecnológica da UFLA - Inbatec pelo seu coordenador, o Professor Luiz Gonzaga de Castro Junior. Apresentação, em formato de um pitch, das startups convidadas (Mitah, TBIT,Bece Gourmet, DeepNautilus, Even3). Painel mediado pelo professor Luiz Gonzaga de Castro Junior, com o tema "Para empreender é só começar: da ideia até os primeiros clientes"',
       hora:'7:30PM',
       alinhamento:'timeline-inverted',
       foto: 'breve',
@@ -366,7 +329,7 @@ $scope.quarta = [
     {
       name: 'Vinicius Borges',
       place: 'UFLA',
-      tituloPalestra: 'Preparando documentos utilizando LaTeX',
+      tituloPalestra: 'Preparando documentos utilizando LaTeX (continuação)',
       facebook: '',
       twitter: '',
       linkedin: '',
@@ -425,6 +388,21 @@ $scope.quarta = [
       tipo:'Palestra'
     },
 
+     {
+      name: 'Camila Bastos',
+      place: 'UFLA',
+      tituloPalestra: 'Compreensão de Software utilizando técnicas de visualização',
+      facebook: 'https://www.facebook.com/camilabastoss',
+      twitter: 'https://www.facebook.com/camilabastoss',
+      linkedin: 'https://www.facebook.com/camilabastoss',
+      website: 'https://www.facebook.com/camilabastoss',
+      foto: 'camilabastos',
+      tipo:'Workshop',
+      alinhamento:'timeline-inverted',
+      resumo: 'A visualização de software é uma área que faz uso de recursos visuais para representar a estrutura, o comportamento e a evolução do software. A finalidade deste workshop é apresentar conceitos relacionados a essa área, exemplos de técnicas e características necessárias para projetar uma visualização. Os conceitos apresentados serão aplicados em uma atividade prática, em que os participantes projetarão sua própria técnica de visualização em um ambiente dinâmico e descontraído. Em seguida, será apresentada uma aplicação real dessa área, no qual os participantes poderão utilizar e interagir com uma ferramenta de visualização de software.',
+      hora:'1PM'
+    }, 
+
     {
       name: 'Yan Magalhães Leite',
       place: 'mLearn',
@@ -435,7 +413,6 @@ $scope.quarta = [
       website: '',
       resumo: 'Nesta palestra, iremos aprender sobre porque testes são tão importantes assim, o porquê de nos ajudarem a melhorar a qualidade de nosso código e nossos projetos e vamos conhecer um pouco sobre o tão famoso TDD. Se você nunca escreveu um teste, esta palestra é para você. E se você já testa, por favor, venha e compartilhe conosco seus conhecimentos e experiências com testes.  Vamos juntos, melhorar a qualidade de nossos projetos. ',
       hora:'3PM',
-      alinhamento:'timeline-inverted',
       foto: 'yanmagalhaes',
       tipo:'Palestra'
     },
@@ -450,6 +427,7 @@ $scope.quarta = [
       resumo: 'É inevitável que em algum momento vamos nos deparar com código ~ruim~ (não ideal) na nossa carreira como desenvolvedores. Seja código escrito por nós mesmo, ou por pessoas com contextos e experiências diferentes, em algum momento teremos um pouco de caos a ser colocado em ordem. Nessa palestra vamos aprender a fazer uma faxina de código, utilizando técnicas pra identificar e consertar código legado. ',
       website: '',
       hora:'16h30PM',
+      alinhamento:'timeline-inverted',
       foto: 'juliofarah',
       tipo:'Palestra'
     },
@@ -467,7 +445,6 @@ $scope.quarta = [
       hora:'18hPM',
       foto: 'breve',
       tipo:'Palestra',
-      alinhamento:'timeline-inverted'
     },
 
     {
@@ -480,7 +457,7 @@ $scope.quarta = [
       website: '',
       resumo: 'O Product Owner (PO) é o ponto central do projeto ágil e é quem exerce a liderança sobre o produto que está sendo desenvolvido. Durante a palestra serão apresentadas quais as suas responsabilidades, os artefatos que o mesmo deve gerir, as características necessárias para ser um bom Product Owner e os desafios encontrados ao exercer este papel.',
       hora:'7:30PM',
-
+      alinhamento:'timeline-inverted',
       foto: 'alinebarbara',
       tipo:'Palestra'
     },
@@ -488,32 +465,18 @@ $scope.quarta = [
     {
       name: 'Java Group',
       place: 'UFLA',
-      tituloPalestra: 'Em breve',
+      tituloPalestra: 'Uma aplicação web rápida utilizando JSP e Hibernate',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
-      resumo: '',
+      resumo: 'O minicurso tem como objetivo criar uma pequena aplicação web utilizando a linguagem Java. Serão abordadas tecnologias como Hibernate, para integrar a aplicação com banco de dados, e o JSP, para criar páginas web dinâmicas.',
       hora:'7:30PM',
-       alinhamento:'timeline-inverted',
-      foto: 'breve',
+      foto: 'javagroup',
       tipo:'Workshop'
     },
 
-    {
-      name: 'Bruno Donizette, Marlon da Silva e Ramon Gomes',
-      place: 'UFLA',
-      tituloPalestra: 'Neo4 o que? Sua vida repleta de grafos!',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      resumo: 'Palestra sobre banco de dados orientado a grafos, como melhorar nosso banco de dados com uma representação mais próxima da realidade.',
-      website: '',
-      hora:'9PM',
-      alinhamento:'',
-      foto: 'brunomarlonramon',
-      tipo:'Palestra'
-    },
+
 ];
 
 $scope.quinta = [
@@ -536,7 +499,7 @@ $scope.quinta = [
     {
       name: 'SEBRAE',
       place: '',
-      tituloPalestra: 'Breve',
+      tituloPalestra: 'Oficina Canvas',
       facebook: '',
       twitter: '',
       linkedin: '',
@@ -544,7 +507,7 @@ $scope.quinta = [
       resumo: '',
       hora:'8AM',
       alinhamento:'timeline-inverted',
-      foto: 'breve',
+      foto: 'sebrae',
       tipo:'Workshop'
     },
 
@@ -623,20 +586,6 @@ $scope.quinta = [
       tipo:'Palestra'
     },
 
-    {
-      name: 'SEBRAE',
-      place: '',
-      tituloPalestra: 'Breve',
-      facebook: '',
-      twitter: '',
-      resumo: '',
-      linkedin: '',
-      website: '',
-      hora:'7:30PM',
-      alinhamento:'timeline-inverted',
-      foto: 'breve',
-      tipo:'Palestra'
-    },
 
     {
       name: 'Vinícius Borriello',
@@ -650,6 +599,7 @@ $scope.quinta = [
       hora:'8PM',
       alinhamento:'',
       foto: 'viniciusborrielo',
+      alinhamento:'timeline-inverted',
       tipo:'Workshop'
     },
 
@@ -663,7 +613,6 @@ $scope.quinta = [
       linkedin: '',
       website: '',
       hora:'9PM',
-      alinhamento:'timeline-inverted',
       foto: 'danielagibertoni',
       tipo:'Palestra'
     },
@@ -703,35 +652,6 @@ $scope.sexta = [
     },
 
 
-    {
-      name: 'Vanessa Me Tonini',
-      place: 'Lambda3',
-      tituloPalestra: 'Métodos ágeis, desenvolvendo software com foco no que importa',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      resumo: 'Esta palestra trará conceitos e ideias de sobre métodos ágeis, apresentando os métodos mais populares como Scrum, Kanban, eXtremming Programming e outros. Compartilharei sobre minha experiência utilizando-os no dia-a-dia, como foi para iniciar, aplicar, e melhorar continuamente o processo de entrega do software, focando naquilo que realmente importa.  ',
-      website: '',
-      hora:'10AM',
-      alinhamento:'',
-      foto: 'VanessaMeTonini',
-      tipo:'Palestra'
-    },
-
-    {
-      name: 'Camilla Gomes',
-      place: '7COMm',
-      tituloPalestra: 'Tornando-se um DevOps sem perder a cabeça',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      resumo: 'Muito se fala sobre as vantagens e pouco se entende sobre a dificuldade de adotar esta cultura em ambientes corporativos. Do mesmo modo se fala muito sobre ferramentas milagrosas que fazem tudo em um click, mas pouco se entende sobre o perfil do profissional para colaborar com este processo. Mas o que é preciso para ser um profissional capaz de trabalhar nos ambientes mais diversos? Nesta palestra vamos ver os caminhos para conquistar um currículo para ser um DevOps e como ingressar na área sem virar o "a pessoa da infra que automatiza coisas e faz tudo​".',
-      website: '',
-      hora:'11AM',
-      alinhamento:'timeline-inverted',
-      foto: 'camillagomes',
-      tipo:'Palestra'
-    },
 
     {
       name: 'Guilherme Vasconcelos',
@@ -808,6 +728,40 @@ $scope.sexta = [
       tipo:'Palestra'
     }
 
+
+];
+
+$scope.sabado = [
+
+ {
+      name: 'Vanessa Me Tonini',
+      place: 'Lambda3',
+      tituloPalestra: 'Métodos ágeis, desenvolvendo software com foco no que importa',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      resumo: 'Esta palestra trará conceitos e ideias de sobre métodos ágeis, apresentando os métodos mais populares como Scrum, Kanban, eXtremming Programming e outros. Compartilharei sobre minha experiência utilizando-os no dia-a-dia, como foi para iniciar, aplicar, e melhorar continuamente o processo de entrega do software, focando naquilo que realmente importa.  ',
+      website: '',
+      hora:'9AM',
+      alinhamento:'',
+      foto: 'VanessaMeTonini',
+      tipo:'Palestra'
+    },
+
+    {
+      name: 'Camilla Gomes',
+      place: '7COMm',
+      tituloPalestra: 'Tornando-se um DevOps sem perder a cabeça',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      resumo: 'Muito se fala sobre as vantagens e pouco se entende sobre a dificuldade de adotar esta cultura em ambientes corporativos. Do mesmo modo se fala muito sobre ferramentas milagrosas que fazem tudo em um click, mas pouco se entende sobre o perfil do profissional para colaborar com este processo. Mas o que é preciso para ser um profissional capaz de trabalhar nos ambientes mais diversos? Nesta palestra vamos ver os caminhos para conquistar um currículo para ser um DevOps e como ingressar na área sem virar o "a pessoa da infra que automatiza coisas e faz tudo​".',
+      website: '',
+      hora:'10AM',
+      alinhamento:'timeline-inverted',
+      foto: 'camillagomes',
+      tipo:'Palestra'
+    },
 
 ];
 

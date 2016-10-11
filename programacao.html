@@ -135,7 +135,7 @@ console.log(exibe);
     <li role="presentation" class="a"><a href="#quinta" aria-controls="settings" role="tab" data-toggle="tab">Quinta</br><span>20/10/2016<span></a></li>
     <li role="presentation" class="a"><a href="#sexta" aria-controls="settings" role="tab" data-toggle="tab">Sexta</br><span>21/10/2016<span></a></li>
     <li role="presentation" class="a"><a href="#sabado" aria-controls="settings" role="tab" data-toggle="tab">Sábado</br><span>22/10/2016<span></a></li>
-    <li role="presentation" class="a"><a href="#domingo" aria-controls="settings" role="tab" data-toggle="tab">Domingo</br><span>23/10/2016<span></a></li>
+    <!--<li role="presentation" class="a"><a href="#domingo" aria-controls="settings" role="tab" data-toggle="tab">Domingo</br><span>23/10/2016<span></a></li>-->
 
   </ul>
 
@@ -395,14 +395,14 @@ console.log(exibe);
 
 
 
-<!--SEXTA-->
+<!--SABADO-->
 <div role="tabpanel" class="tab-pane" id="sabado">
 <div class="container">
   <div class="row">
     <div class="col-lg-12">
      
       <ul class="timeline">      
-        <!--<li ng-repeat="palestra in sexta" class="{{palestra.alinhamento}}">
+        <li ng-repeat="palestra in sabado" class="{{palestra.alinhamento}}">
           <div class="timeline-image">
             <img class="img-circle img-responsive" src="img/palestrantes/{{palestra.foto}}.jpg" alt="">
           </div>
@@ -419,24 +419,29 @@ console.log(exibe);
             </div>
           </div>
           <div class="line"></div>
-        </li>-->
+        </li>
 
-        <li class="timeline-inverted">
+       <li class="">
           <div class="timeline-image">
             <img class="img-circle img-responsive" src="img/avatar.png" alt="">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4>Aguarde</h4>
-              <h4 class="subheading">A programação ainda não aterrisou!</h4>
+              <h4>3PM</h4>
+              <h4 class="subheading">DCCHURRAS - Confraternização</h4>
+              <h2 class="subheading"><span class="place">CIUNI UFLA<span></h2>
+              <p>Não perca!!!</p>
+              <p>Mais informações no <a href="https://www.facebook.com/events/195277674229012/">evento do Facebook.</a></p>
             </div>
             <div class="timeline-body">
               <p class="text-muted">
-                Em breve estará aqui!
+             
               </p>
             </div>
           </div>
         </li>
+
+        
 
       </ul>
     </div>
@@ -509,14 +514,26 @@ console.log(exibe);
 
   <div class="container center padding-top-40" id="patrocinadores">
 
+
+    <div class="row">
+
+      <div class="col-md-12 organizacao">
+        <h1>Patrocinador Diamante</h1>
+
+      <div class="col-md-offset-3 col-md-6"><a target="_blank" href="https://www.hotmart.com.br"><img src="img/patrocinadores/hotmart.png" alt="Hotmart" class="img-responsive"/></a></div>
+     
+       
+     </div>
+    </div>
+
     <div class="row">
 
       <div class="col-md-12 organizacao">
         <h1>Patrocinadores Ouro</h1>
 
-      <div class="col-md-offset-3 col-md-6"><a target="_blank" href="https://www.gerencianet.com.br"><img src="img/patrocinadores/gerencianet.svg" alt="Gerêncianet" class="img-responsive"/></a></div>
-      <div class="margin-top-40 col-md-offset-3 col-md-6"><a target="_blank" href="http://www.gt4w.com.br/"><img src="img/patrocinadores/gt4w.png" alt="GT4W" class="img-responsive"/></a></div>
-       <div class="margin-top-40 col-md-offset-3 col-md-6"><a target="_blank" href="http://www.nic.br/"><img src="img/patrocinadores/nic.png" alt="nic.br" class="img-responsive"/></a></div>
+      <div class="col-md-4"><a target="_blank" href="https://www.gerencianet.com.br"><img src="img/patrocinadores/gerencianet.svg" alt="Gerêncianet" class="img-responsive"/></a></div>
+      <div class=" col-md-4"><a target="_blank" href="http://www.gt4w.com.br/"><img src="img/patrocinadores/gt4w.png" alt="GT4W" class="img-responsive"/></a></div>
+       <div class=" col-md-4"><a target="_blank" href="http://www.nic.br/"><img src="img/patrocinadores/nic.png" alt="nic.br" class="img-responsive"/></a></div>
        
      </div>
     </div>
@@ -526,7 +543,7 @@ console.log(exibe);
       <div class="col-md-12 organizacao">
         <h1>Patrocinador Prata</h1>
 
-      <div class="col-md-offset-4 col-md-3"><a target="_blank" href="http://www.innervision.com.br/"><img src="img/patrocinadores/innervision.svg" alt="Innervision" class="img-responsive"/></a></div>
+      <div class="col-md-offset-5 col-md-2"><a target="_blank" href="http://www.innervision.com.br/"><img src="img/patrocinadores/innervision.svg" alt="Innervision" class="img-responsive"/></a></div>
     
      </div>
     </div>
@@ -536,16 +553,21 @@ console.log(exibe);
 
       <div class="col-md-12 organizacao">
         <h1>Apoio</h1>
+
+      <div class="row">
      <div class="col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/ufla.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
      <div class=" col-md-2"><a target="_blank" href="http://casadocodigo.com.br"><img src="img/apoio/casadocodigo.png" alt="Casa do código" class="img-responsive"/></a></div>
      <div class=" col-md-2"><a target="_blank" href="http://sebrae.com.br"><img src="img/apoio/sebrae.svg" alt="sebrae" class="img-responsive"/></a></div>
      <div class=" col-md-2"><a target="_blank" href="http://www.nintec.ufla.br"><img src="img/apoio/nintec.svg" alt="nintec" class="img-responsive"/></a></div>
      <div class=" col-md-2"><a target="_blank" href="https://www.thoughtworks.com/pt/"><img src="img/apoio/thoughtworks.svg" alt="thoughtworks" class="img-responsive"/></a></div>
-     <div class=" col-md-2"><a target="_blank" href="http://www.inbatec.ufla.br"><img src="img/apoio/inbatec.svg" alt="inbatec" class="img-responsive"/></a></div>
+   </div>
+      <div class="row padding-top-40">
+     <div class="col-md-2"><a target="_blank" href="http://www.inbatec.ufla.br"><img src="img/apoio/inbatec.svg" alt="inbatec" class="img-responsive"/></a></div>
+
+      <div class=" col-md-2"><a target="_blank" href="https://developers.google.com/groups/chapter/110554492619599994308/"><img src="img/apoio/gdglavras.png" alt="GDG Lavras" class="img-responsive"/></a></div>
+  <div class=" col-md-2"><a target="_blank" href="http://www.inbatec.ufla.br"><img src="img/apoio/empreendeufla.png" alt="empreendeufla" class="img-responsive"/></a></div>
+
      
-     
-     <!--<div class="col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/novatec.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
-     <div class="col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/caelum.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>-->
 
      </div>
     </div>
