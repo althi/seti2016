@@ -95,7 +95,7 @@ programacao.controller('programacaoController', function programacaoController($
       foto: 'serenafernandes',
       tipo:'Workshop',
       alinhamento:'timeline-inverted',
-      hora: '2PM',
+      hora: '1PM',
       resumo: 'Vamos falar um pouco sobre Metodologias Ágeis, numa abordagem prática vamos entender onde vivem, o que comem e como se reproduzem os times ágeis. Vamos ser conhecedores das manhas e dos paranauês das metodologias ágeis e saber como atuar em um time ágil. E se você acha que ser ágil significa ser rápido, vou te provar que você está mais que errado(a)!'
     },
 
@@ -160,6 +160,21 @@ programacao.controller('programacaoController', function programacaoController($
     },
 
 
+    {
+      name: 'Empresas Juniores',
+      place: 'Ejs',
+      tituloPalestra: 'Um debate descontraido sobre empresas juniores ',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      hora:'21PM',
+      alinhamento:'',
+      tipo:'Workshop',
+      foto: 'breve',
+      alinhamento:'',
+      resumo: ''
+    },
   ];
 
 $scope.terca = [
@@ -650,7 +665,21 @@ $scope.sexta = [
       foto: 'sergioaugusto',
       tipo:'Palestra'
     },
-
+	
+	    {
+      name: 'Venícios Gustavo Santos',
+      place: 'Lemaf',
+      tituloPalestra: 'Quero ser analista de requisitos ou negócios. Por onde eu começo?',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      foto: 'venicios',
+      hora: '10AM',
+      tipo:'Palestra',
+      alinhamento:'',
+      resumo: 'Currículo, cursos, certificações, idiomas, todos estes fatores são muito importantes, claro. Mas a base desta palestra está fundamentada no desenvolvimento humano e de como colocar todos estes requisitos em prática. As bases do trabalho estão ligadas aos 4 pilares do desenvolvimento: análise e crítica, interação, contribuição e transformação. Ou seja, "o que" se tem como requisito é o motor da máquina, mas "o como" se usa essa máquina, é o combustível e o passaporte para novas oportunidades.',
+    }, 
 
 
     {
@@ -663,7 +692,7 @@ $scope.sexta = [
       website: '',
       resumo: 'No mundo do desenvolvimento sempre enfrentamos alguns problemas como inovação e satisfação do cliente. Como inovar e garantir que o seu cliente saia satisfeito. Metodologias ágeis são um bom caminho para se conseguir isso. Venha entender como isso é possível. Atender as expectativas do cliente , inovar , evitar desperdícios de funcionalidades, entre outros', 
       hora:'1PM',
-      alinhamento:'',
+      alinhamento:'timeline-inverted',
       foto: 'vasconcelos',
       tipo:'Palestra'
     },
@@ -678,7 +707,7 @@ $scope.sexta = [
       linkedin: '',
       website: '',
       hora:'3PM',
-      alinhamento:'timeline-inverted',
+      alinhamento:'',
       foto: 'rodolfodias',
       tipo:'Palestra'
     },
@@ -693,7 +722,7 @@ $scope.sexta = [
       website: '',
       resumo: 'O que é o projeto Adopt a JSR e OpenJDK e como você pode participar.',
       hora:'5PM',
-      alinhamento:'',
+      alinhamento:'timeline-inverted',
       foto: 'cesar',
       tipo:'Palestra'
     },
@@ -708,7 +737,7 @@ $scope.sexta = [
       resumo: '',
       website: '',
       hora:'6PM',
-      alinhamento:'timeline-inverted',
+      alinhamento:'',
       foto: 'matheusnogueira',
       tipo:'Workshop'
     },
@@ -723,7 +752,7 @@ $scope.sexta = [
       resumo: 'Trajetória de um ex-aluno do DCC-UFLA entre graduação, primeiro emprego em  em território brasileiro, experiência no mercado europeu e migração para o vale do silício na California. ',
       website: '',
       hora:'7:30PM',
-      alinhamento:'',
+      alinhamento:'timeline-inverted',
       foto: 'vicentedeluca',
       tipo:'Palestra'
     }
