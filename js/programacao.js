@@ -682,7 +682,7 @@ $scope.sexta = [
       hora: '10AM',
       tipo:'Palestra',
       alinhamento:'',
-      resumo: 'Currículo, cursos, certificações, idiomas, todos estes fatores são muito importantes, claro. Mas a base desta palestra está fundamentada no desenvolvimento humano e de como colocar todos estes requisitos em prática. As bases do trabalho estão ligadas aos 4 pilares do desenvolvimento: análise e crítica, interação, contribuição e transformação. Ou seja, "o que" se tem como requisito é o motor da máquina, mas "o como" se usa essa máquina, é o combustível e o passaporte para novas oportunidades.',
+      resumo: 'Para aqueles acadêmicos que estão na expectativa de ir em busca de uma oportunidade no mercado de trabalho. A palestra "Quero ser analista de requisitos ou negócios. Por onde eu começo?" tem o intuito de nortear aqueles que vislumbram essas competências, assim venho compartilhar minhas experiências em todo território nacional e inclusive internacionais.',
     }, 
 
 

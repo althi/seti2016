@@ -1146,6 +1146,21 @@ font-weight: 600;
 }
 
 
+.btn-login{
+    border-radius: 0;
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+            transition: all 0.3s;
+
+  font-size:12px;
+  line-height:16px;
+  border: 2px solid;
+  padding:8px 15px;
+  background-color: #fff;
+  color: black;
+}
+
+
 
 
 
