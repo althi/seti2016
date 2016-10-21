@@ -79,16 +79,9 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: 'https://br.linkedin.com/in/guilherme-timoteo-819037a',
       website: '',
       foto: 'guilhermetimoteo'
-    }, {
-      name: 'Bruno Castro',
-      place: 'CI&T',
-      tituloPalestra: 'Projetando interfaces imersivas',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      website: 'http://brunocastro.me',
-      foto: 'brunocastro'
-    }, {
+    },
+
+     {
       name: 'Sérgio Rodrigues',
       place: 'Locaweb',
       tituloPalestra: 'Internet of Things: More software less hardware.',
@@ -109,17 +102,7 @@ seti.controller('setiController', function setiController($scope) {
       foto: 'vanessametonini'
     }, 
 
-    {
-      name: 'Márcio Viegas',
-      place: 'ThoughtWorks',
-      tituloPalestra: 'Teoria das Restrições no desenvolvimento Ágil de Software',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      foto: 'marcio',
-      data: ''
-    },  {
+  {
       name: 'Julio Farah',
       place: 'ThoughtWorks',
       tituloPalestra: 'Atacando code smells para melhorar a qualidade do seu código',
@@ -168,7 +151,20 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: 'https://br.linkedin.com/in/yanmagalhaes',
       website: '',
       foto: 'yanmagalhaes'
-    },{
+    },
+
+{
+      name: 'Thiago Almeida',
+      place: 'Progolden / GDG Lavras',
+      tituloPalestra: 'Comunidades GDG e as ferramentas Google para gerar o seu negócio',
+      facebook: 'http://facebook.com/southiago ',
+      twitter: 'http://twitter.com/althi',
+      linkedin: 'https://br.linkedin.com/in/carloslauff ',
+      website: 'http://thiagoam.com.br',
+      foto: 'thiagoalmeidamarques'
+    },  
+
+    {
       name: 'Bárbara Oliveira',
       place: 'Lemaf',
       tituloPalestra: 'O papel do PO em times Scrum',
@@ -308,16 +304,7 @@ seti.controller('setiController', function setiController($scope) {
       linkedin: 'https://br.linkedin.com/in/carloslauff ',
       website: 'http://class365.com.br',
       foto: 'carloslauff'
-    },  {
-      name: 'Guilherme Seabra',
-      place: 'PrimeCode',
-      tituloPalestra: 'Mundo SAP - Carreira, Mercado, Oportunidades e Tecnologias',
-      facebook: 'https://www.facebook.com/guilherme.maia.39',
-      twitter: 'https://twitter.com/guilhermemaias1',
-      linkedin: 'https://www.linkedin.com/in/guilherme-henrique-maia-seabra-6b9b4364?trk=nav_responsive_tab_profile',
-      website: '',
-      foto: 'guilhermeseabra'
-    },
+    },  
     {
       name: 'Bruno Donizeti da Silva',
       place: 'UFLA',
@@ -379,7 +366,7 @@ seti.controller('setiController', function setiController($scope) {
      {
       name: 'André Grützmann',
       place: 'UFLA',
-      tituloPalestra: 'Mesa Redonda: Politicas Públicas',
+      tituloPalestra: 'Mesa-redonda: Participação Social Eletrônica',
       facebook: '',
       twitter: '',
       linkedin: '',
@@ -419,12 +406,99 @@ seti.controller('setiController', function setiController($scope) {
      {
       name: 'JavaGroup',
       place: 'UFLA',
-      tituloPalestra: 'Breve',
+      tituloPalestra: 'Uma aplicação web rápida utilizando JSP e Hibernate',
       facebook: 'http://professores.dcc.ufla.br/~terra/javagroup/',
       twitter: 'http://professores.dcc.ufla.br/~terra/javagroup/',
       linkedin: 'http://professores.dcc.ufla.br/~terra/javagroup/',
       website: 'http://professores.dcc.ufla.br/~terra/javagroup/',
       foto: 'javagroup'
     },
+
+         {
+      name: 'Luiz Augusto G. Costa',
+      place: 'Lemaf',
+      tituloPalestra: 'Onde você está? Transformando a posição das pessoas em dinheiro.',
+      facebook: '',
+      twitter: '',
+      resumo: 'Como o Google, Foursquare e o Facebook utilizam o seu celular para fornecer melhores propagandas. Uma introdução ao tratamento de informação espacial e geomarketing.',
+      linkedin: '',
+      website: '',
+      hora:'19h30PM',
+      alinhamento:'timeline-inverted',
+      foto: 'luiz',
+      tipo:'Palestra'
+    },
+
+        {
+      name: 'Matheus Haddad',
+      place: 'Instituto Haddad',
+      tituloPalestra: 'Startup: criando novos negócios inovadores',
+      facebook: '',
+      twitter: '',
+      linkedin: 'https://www.linkedin.com/in/matheushaddad',
+      website: '',
+      resumo: 'O Product Owner (PO) é o ponto central do projeto ágil e é quem exerce a liderança sobre o produto que está sendo desenvolvido. Durante a palestra serão apresentadas quais as suas responsabilidades, os artefatos que o mesmo deve gerir, as características necessárias para ser um bom Product Owner e os desafios encontrados ao exercer este papel.',
+      hora:'9PM',
+      alinhamento:'timeline-inverted',
+      foto: 'matheushaddad',
+      tipo:'Palestra'
+    },
+
+
+      {
+      name: 'Luiz Gonzada',
+      place: 'Inovacafé',
+      tituloPalestra: 'Para empreender é só começar: da ideia até os primeiros clientes',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      website: '',
+      resumo: 'Apresentação do Parque Tecnológico de Lavras e da Incubadora de Base Tecnológica da UFLA - Inbatec pelo seu coordenador, o Professor Luiz Gonzaga de Castro Junior. Apresentação, em formato de um pitch, das startups convidadas (Mitah, TBIT,Bece Gourmet, DeepNautilus, Even3). ',
+      hora:'7PM',
+      alinhamento:'timeline-inverted',
+      foto: 'luizgonzaga',
+      tipo:'Palestra'
+    },
+
+        {
+      name: 'Marcelo Pimenta',
+      place: 'Laboratorium',
+      tituloPalestra: ' Inovação e o Ecossistema de Startups',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      resumo: 'Marcelo Pimenta abordará em sua palestra o tema: Inovação e o Ecossistema de Startups. Em seguida, um painel sobre o Ecossistema Inovador e seus Atores, com a participação de: Carla Leite  (SEED), Benício José de Oliveira Filho  - Investidor Anjo (São Bernardo do Campo) , João Drumond (San Pedro Valley), Tiago de Almeida Pinto (MDIC)/ DIC fecha parceria com o Porto Digital para levar empresas ao Vale do Silício, Alain Marques (Varginha) abordará o tema: Universidade x Empresa.',
+      website: '',
+      hora:'3PM',
+      alinhamento:'timeline-inverted',
+      foto: 'marcelopimenta',
+      tipo:'Palestra'
+    },
+
+            {
+      name: 'Guilherme Borges',
+      place: 'Progolden',
+      tituloPalestra: ' Mesa-redonda: Participação Social Eletrônica',
+      facebook: ' www.facebook.com/guilhermeborges91',
+      twitter: ' www.facebook.com/guilhermeborges91',
+      linkedin: 'https://br.linkedin.com/in/guilherme-borges-73322281',
+      website: 'http://lattes.cnpq.br/7246743939514758',
+      foto: 'guilhermeborges',
+      tipo:'Palestra'
+    },
+
+            {
+      name: 'Rodrigo Couto',
+      place: 'Arbitrare',
+      tituloPalestra: ' Mesa-redonda: Participação Social Eletrônica',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+       website: '',
+      alinhamento:'timeline-inverted',
+      foto: 'rodrigocouto',
+      tipo:'Palestra'
+    },
+
   ];
 });

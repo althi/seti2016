@@ -311,7 +311,7 @@ section{
  font-family: 'Baloo', cursive;
   font-weight: 300;
   
-  color: #e50051;
+  color: #fff;
   font-size: 40px;
   text-transform: uppercase;
   padding-top: 70px;
@@ -348,7 +348,7 @@ section{
 .oevento a{
 
   font-size: 16px;
-  color: #e50051;
+  color: #ffd400;
   line-height: 30px;
   font-weight: 300;
 }
@@ -1144,6 +1144,9 @@ font-weight: 600;
   border: 2px solid;
   padding:8px 15px;
 }
+
+
+
 
 
 .btn-outlined {

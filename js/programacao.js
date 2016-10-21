@@ -170,7 +170,7 @@ programacao.controller('programacaoController', function programacaoController($
       website: '',
       hora:'21PM',
       alinhamento:'',
-      tipo:'Workshop',
+      tipo:'Palestra',
       foto: 'breve',
       alinhamento:'',
       resumo: ''
@@ -280,17 +280,17 @@ $scope.terca = [
     },
 
       {
-      name: 'Empreendedorismo em Lavras',
-      place: 'Inbatec / Empreende UFLA / Inovacafé',
-      tituloPalestra: 'Breve',
+      name: 'Luiz Gonzada',
+      place: 'Inovacafé',
+      tituloPalestra: 'Para empreender é só começar: da ideia até os primeiros clientes',
       facebook: '',
       twitter: '',
       linkedin: '',
       website: '',
-      resumo: 'Apresentação do Parque Tecnológico de Lavras e da Incubadora de Base Tecnológica da UFLA - Inbatec pelo seu coordenador, o Professor Luiz Gonzaga de Castro Junior. Apresentação, em formato de um pitch, das startups convidadas (Mitah, TBIT,Bece Gourmet, DeepNautilus, Even3). Painel mediado pelo professor Luiz Gonzaga de Castro Junior, com o tema "Para empreender é só começar: da ideia até os primeiros clientes"',
-      hora:'7:30PM',
+      resumo: 'Apresentação do Parque Tecnológico de Lavras e da Incubadora de Base Tecnológica da UFLA - Inbatec pelo seu coordenador, o Professor Luiz Gonzaga de Castro Junior. Apresentação, em formato de um pitch, das startups convidadas (Mitah, TBIT,Bece Gourmet, DeepNautilus, Even3). ',
+      hora:'7PM',
       alinhamento:'timeline-inverted',
-      foto: 'breve',
+      foto: 'luizgonzaga',
       tipo:'Palestra'
     },
 
@@ -356,6 +356,21 @@ $scope.quarta = [
       tipo:'Workshop'
     },
 
+        {
+      name: 'Julio Farah',
+      place: 'Thoughtworks',
+      tituloPalestra: 'Atacando code smells para melhorar a qualidade do seu código',
+      facebook: '',
+      twitter: '',
+      linkedin: '',
+      resumo: 'É inevitável que em algum momento vamos nos deparar com código ~ruim~ (não ideal) na nossa carreira como desenvolvedores. Seja código escrito por nós mesmo, ou por pessoas com contextos e experiências diferentes, em algum momento teremos um pouco de caos a ser colocado em ordem. Nessa palestra vamos aprender a fazer uma faxina de código, utilizando técnicas pra identificar e consertar código legado. ',
+      website: '',
+      hora:'9h30PM',
+     
+      foto: 'juliofarah',
+      tipo:'Palestra'
+    },
+
       {
       name: 'Samir Salim',
       place: 'Thoughtworks',
@@ -365,29 +380,13 @@ $scope.quarta = [
       linkedin: '',
       website: '',
       resumo: 'A busca por felicidade, satisfação, ou melhores condições de trabalho levam a mudanças inesperadas, e temos que nos preparar pra abraçar a mudança.',
-      hora:'9h30AM',
+      hora:'10h30AM',
       foto: 'samirsalim',
-      tipo:'Palestra'
-    },
-
-
-    {
-      name: 'Márcio Viegas',
-      place: 'Thoughtworks',
-      tituloPalestra: 'Teoria das Restrições no desenvolvimento Ágil de Software',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      website: '',
-      resumo: 'A teoria das restrições foi criada por Eliyahu M. Goldratt e apresentada pela primeira vez em seu livro A Meta. Desde então esta teoria tem servido como modelo para gestão de diversos tipos de projetos, inclusive aqueles que utilizam metodologia ágil. Nesta palestra vou falar um pouco mais dos detalhes da teoria e como aplicar o conceito para melhorar o fluxo de trabalho e maximizar a entrega de valor em um projeto.',
-      hora:'11hAM',
-      foto: 'marcio',
       alinhamento:'timeline-inverted',
       tipo:'Palestra'
     },
 
 
-    
 
     {
       name: 'Rubem Paulo Torri Saldanha',
@@ -432,35 +431,6 @@ $scope.quarta = [
       tipo:'Palestra'
     },
 
-    {
-      name: 'Julio Farah',
-      place: 'Thoughtworks',
-      tituloPalestra: 'Atacando code smells para melhorar a qualidade do seu código',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      resumo: 'É inevitável que em algum momento vamos nos deparar com código ~ruim~ (não ideal) na nossa carreira como desenvolvedores. Seja código escrito por nós mesmo, ou por pessoas com contextos e experiências diferentes, em algum momento teremos um pouco de caos a ser colocado em ordem. Nessa palestra vamos aprender a fazer uma faxina de código, utilizando técnicas pra identificar e consertar código legado. ',
-      website: '',
-      hora:'16h30PM',
-      alinhamento:'timeline-inverted',
-      foto: 'juliofarah',
-      tipo:'Palestra'
-    },
-
-
-    {
-      name: 'Aguarde!',
-      place: 'Thoughtworks',
-      tituloPalestra: 'Em breve',
-      facebook: '',
-      twitter: '',
-      linkedin: '',
-      resumo: '',
-      website: '',
-      hora:'18hPM',
-      foto: 'breve',
-      tipo:'Palestra',
-    },
 
     {
       name: 'Aline Dias & Barbara Oliveira',
@@ -477,7 +447,7 @@ $scope.quarta = [
       tipo:'Palestra'
     },
 
-    {
+        {
       name: 'Java Group',
       place: 'UFLA',
       tituloPalestra: 'Uma aplicação web rápida utilizando JSP e Hibernate',
@@ -487,9 +457,27 @@ $scope.quarta = [
       website: '',
       resumo: 'O minicurso tem como objetivo criar uma pequena aplicação web utilizando a linguagem Java. Serão abordadas tecnologias como Hibernate, para integrar a aplicação com banco de dados, e o JSP, para criar páginas web dinâmicas.',
       hora:'7:30PM',
+   
       foto: 'javagroup',
       tipo:'Workshop'
     },
+
+    {
+      name: 'Matheus Haddad',
+      place: 'Instituto Haddad',
+      tituloPalestra: 'Startup: criando novos negócios inovadores',
+      facebook: '',
+      twitter: '',
+      linkedin: 'https://www.linkedin.com/in/matheushaddad',
+      website: '',
+      resumo: 'O Product Owner (PO) é o ponto central do projeto ágil e é quem exerce a liderança sobre o produto que está sendo desenvolvido. Durante a palestra serão apresentadas quais as suas responsabilidades, os artefatos que o mesmo deve gerir, as características necessárias para ser um bom Product Owner e os desafios encontrados ao exercer este papel.',
+      hora:'9PM',
+   alinhamento:'timeline-inverted',
+      foto: 'matheushaddad',
+      tipo:'Palestra'
+    },
+
+
 
 
 ];
@@ -527,17 +515,17 @@ $scope.quinta = [
     },
 
     {
-      name: 'André Grutzman',
-      place: 'UFLA',
-      tituloPalestra: 'Mesa Redonda - Politicas Publicas',
-      facebook: '',
+      name: 'André Grutzman / Guilherme Borges / Rodrigo Couto',
+      place: 'UFLA / Progolden / Arbitrare',
+      tituloPalestra: 'Mesa-redonda: Participação Social Eletrônica',
+      facebook: ' www.facebook.com/guilhermeborges91',
       twitter: '',
-      linkedin: '',
-      website: '',
-      resumo: '',
+      linkedin: 'https://br.linkedin.com/in/guilherme-borges-73322281',
+      website: 'http://lattes.cnpq.br/7246743939514758',
+      resumo: 'As Tecnologias de Informação tem o poder de ampliar a democracia, permitindo que mais pessoas participem das decisões de governantes em todas as esferas. A interação direta entre cidadãos, sistema político e governos é fundamental para isso. Nesta mesa redonda iremos discutir exemplos reais no Brasil, bem como as dificuldades para os avanços da participação social eletrônica no país. Participe!',
       hora:'10AM',
       alinhamento:'',
-      foto: 'andreg',
+      foto: 'mesaredondaandre',
       tipo:'Palestra'
     },
 
@@ -572,17 +560,17 @@ $scope.quinta = [
     },
 
     {
-      name: 'Bruno Castro',
-      place: 'CI&T',
-      tituloPalestra: 'Projetando interfaces imersivas',
+      name: 'Marcelo Pimenta',
+      place: 'Laboratorium',
+      tituloPalestra: ' Inovação e o Ecossistema de Startups',
       facebook: '',
       twitter: '',
       linkedin: '',
-      resumo: 'Vários lançamentos aconteceram neste ano com foco em Realidade virtual e Realidade aumentada, óculos de VR, vídeos conceito e APPs e o mercado para aplicações de realidade virtual e aumentada tendem a crescer exponencialmente. Mas me diga: Você está preparado para projetar interfaces imersivas?',
+      resumo: 'Marcelo Pimenta abordará em sua palestra o tema: Inovação e o Ecossistema de Startups. Em seguida, um painel sobre o Ecossistema Inovador e seus Atores, com a participação de: Carla Leite  (SEED), Benício José de Oliveira Filho  - Investidor Anjo (São Bernardo do Campo) , João Drumond (San Pedro Valley), Tiago de Almeida Pinto (MDIC)/ DIC fecha parceria com o Porto Digital para levar empresas ao Vale do Silício, Alain Marques (Varginha) abordará o tema: Universidade x Empresa.',
       website: '',
       hora:'3PM',
       alinhamento:'timeline-inverted',
-      foto: 'brunocastro',
+      foto: 'marcelopimenta',
       tipo:'Palestra'
     },
 
@@ -601,6 +589,21 @@ $scope.quinta = [
       tipo:'Palestra'
     },
 
+     {
+      name: 'Luiz Augusto Guimarães Costa',
+      place: 'Lemaf',
+      tituloPalestra: 'Onde você está? Transformando a posição das pessoas em dinheiro.',
+      facebook: '',
+      twitter: '',
+      resumo: 'Como o Google, Foursquare e o Facebook utilizam o seu celular para fornecer melhores propagandas. Uma introdução ao tratamento de informação espacial e geomarketing.',
+      linkedin: '',
+      website: '',
+      hora:'19h30PM',
+      alinhamento:'timeline-inverted',
+      foto: 'luiz',
+      tipo:'Palestra'
+    },
+
 
     {
       name: 'Vinícius Borriello',
@@ -614,7 +617,7 @@ $scope.quinta = [
       hora:'8PM',
       alinhamento:'',
       foto: 'viniciusborrielo',
-      alinhamento:'timeline-inverted',
+      alinhamento:'',
       tipo:'Workshop'
     },
 
@@ -629,6 +632,7 @@ $scope.quinta = [
       website: '',
       hora:'9PM',
       foto: 'danielagibertoni',
+      alinhamento:'timeline-inverted',
       tipo:'Palestra'
     },
 ];

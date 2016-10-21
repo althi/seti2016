@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="programacao">
+<head>
+  <meta charset="utf-8">
+  <title>W3PGCC | III SETI - Semana de Tecnologia da Informação</title>
+  <link rel="icon" type="image/png" href="img/ico.png" />
+  <meta name="description" content="A Semana de Tecnologia da Informação (SETI) é um evento que ocorre anualmente no departamento de Ciência da Computação (DCC) da Universidade Federal de Lavras (UFLA). O event será entre os dias 17 e 23 de Outubro de 2015.">
+  <meta name="author" content="thiagoam.com.br" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<!--estilos-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+ <link rel="stylesheet" type="text/css" href="css/menu_topexpand.css" />
+ <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+ <link rel="stylesheet" type="text/css" href="css/animate.css" />
+
+ <link rel="stylesheet" type="text/css" href="css/programacao.css" />
+
+<script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+<script src="js/programacao.js"></script>
+<script src="js/sortApp.js"></script>
+
+    <!--[if IE]>
+
+    <!-- Latest compiled and minified CSS -->
+  
+<!--<script language="JavaScript" type="text/javascript">
+var css = Math.floor((Math.random() * 4) + 1);
+var exibe = '<link rel="stylesheet" href="css/deepSpace.css" />';
+
+
+
+if (css==1) {
+exibe = '<link rel="stylesheet" href="css/deepSpace.css" />';
+} else if(css==2){
+exibe = '<link rel="stylesheet" href="css/shadowNight.css" />';
+} else if(css==3){
+exibe = '<link rel="stylesheet" href="css/deepSpace.css" />';
+}else if(css==4){
+exibe = '<link rel="stylesheet" href="css/horizon.css" />';
+}
+else{
+  exibe = '<link rel="stylesheet" href="css/horizon.css" />';
+}
+document.write(exibe);
+console.log(exibe);
+</script>-->
+
+    <meta property="og:image" content="http://www.seti2016.com.br/img/coverFacebook.jpg">
+    <meta property="og:url" content="http://www.seti2016.com.br">
+    <meta property="og:title" content="W3PGCC | III Semana de Tecnologia da Informação">
+    <meta property="og:description" content=" A III Semana de Tecnologia da Informação é um evento que ocorre anualmente no Departamento de Ciência da Computação da UFLA.">
+    <meta property="og:type" content="website">
+
+
+</head>
+<body ng-controller="programacaoController">
+
+
+
+
+
+    
+      <!-- Fixed navbar -->
+    <nav class="navbar  navbar-fixed-top navbar-seti">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html" class="linkHome">Home</a></li>
+            <li><a href="index.html#oEvento" class="linkOevento">O evento</a></li>
+            <li><a href="index.html#palestrantes"class="linkPalestrantes">Palestrantes</a></li>
+            <li><a href="index.html#aufla"class="linkLocalizacao">Localização</a></li>
+            <li><a href="index.html#patrocinadores"class="linkPatrocinadores">Patrocinadores</a></li>
+            <li><a href="programacao.html"class="linkProgramacao">Programação</a></li>
+             <li><a href="codigodeconduta.html"class="linkProgramacao">Código de conduta</a></li>
+            <!--<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programação <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">(17/10) Segunda-feira</a></li>
+                <li><a href="#">(18/10) Terça-feira</a></li>
+                <li><a href="#">(19/10) Quarta-feira</a></li>
+                <li><a href="#">(20/10) Quinta-feira</a></li>
+                <li><a href="#">(21/10) Sexta-feira</a></li>
+                <li><a href="#">(22/10) Sábado</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Eventos Paralelos</li>
+                <li><a href="#">Seminário do Mestrado</a></li>
+                <li><a href="#">Seminário do grupo de estudos em Engenharia de Software</a></li>
+              </ul>
+            </li>-->
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <!--<li> <a href="#" class="btn btn-outlined btn-inscricao btn-sm" data-wow-delay="0.7s">Inscreva-se</a></li>-->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+<div class="titulo">
+
+   <div class="containerHome container center">
+  
+        <h1>W3PGCC</h1>
+      <h2> Workshop Projetos de Pesquisa da Pós-Graduação em Ciência da Computação</h2>
+
+
+
+    </div>
+
+</div>
+<section class="programacao">
+ 
+   <div class="containerHome container">
+
+    <p class="descw3pgcc">O W3PGCC destina-se à apresentação dos projetos de pesquisa desenvolvidos pelos discentes de mestrado do programa de pós-graduação em Ciência da Computação da UFLA.</p>
+
+    <p class="localw3pgcc">18/10 (terça-feira) - Sala de Seminários do DCC</p>
+
+ <ul class="list-group">
+  
+  <li class="list-group-item">
+    <p class="titulow3pgcc">09:00 - Abertura</p>
+    <p>Pró-reitor Adjunto - Márcio Machado Ladeira</p>
+  </li>
+  <li class="list-group-item">
+    <p class="titulow3pgcc">09:30 Ednaldo Oliveira Lima</p>
+    <p>Geração de Rotas para o Recurrent Mobility Problem</p>
+  </li>
+  
+ <li class="list-group-item">
+<p class="titulow3pgcc">10:00 - Gilson Miranda Júnior</p>
+Protocolo MAC Adaptativo Escalonado com Multiplexação Estatística 
+  </li>
+  <li class="list-group-item">
+<p class="titulow3pgcc">10:30 - Gustavo Figueiredo Araújo</p>
+Protocolo MAC Ass ncrono Anycast para Redes de Sensores Sem Fio 
+  </li>
+  <li class="list-group-item">
+<p class="titulow3pgcc">11:00 - Heitor Scalco Neto</p>
+Sistema de Detecção de Intrusão em Redes de Computadores com Técnicas de Inteligência
+Computacional
+  </li>
+  <li class="list-group-item">
+<p class="titulow3pgcc">11:30 - João Antonio Silva</p>
+Uma Abordagem Incremental para Resolução de Entidades Descritas por Dados Textuais Curtos
+  </li>
+  <li class="list-group-item">
+<p class="titulow3pgcc">14:00 - Camila Bastos</p>
+Identificação e Visualização de Código Morto na Evolução de Sistemas de Software Orientados a
+Objetos
+  </li>
+  <li class="list-group-item">
+<p class="titulow3pgcc">14:30 - Mariana Sousa Bernardes</p>
+EasyBpms: Uma Abordagem para Integração de Sistemas de Informação e Sistemas de
+Gerenciamento de Processos de Negócio
+  </li>
+  <li class="list-group-item">
+<p class="titulow3pgcc">15:00 - Danilo Batista dos Santos</p>
+Melhoria da Qualidade Interna de Sistemas de Software Orientados a Objetos Utilizando Medidas
+de Acoplamento e de Coesão
+  </li>
+  <li class="list-group-item">
+<p class="titulow3pgcc">15:30 - Cláudio Vinícius de Carvalho</p>
+Aplicação das Meta-heurísticas Iterated Local Search e Differential Evolution nos Problemas de
+Reduções de Largura de Banda e de Profile de Matrizes
+  </li>
+  <li class="list-group-item">
+<p class="titulow3pgcc">16:00 - Luciano Gonçalves Moreira</p>
+Sistema de Comunicação V2V Aplicado à Prevenção de Colisões entre Veículos em Rodovias
+Rurais
+  </li>
+  <li class="list-group-item">
+<p class="titulow3pgcc">16:30 - Thiago B. Furtado</p>
+Abordagem Híbrida de Recomendação de Conteúdo Baseada em Tags Adaptativas Aplicada em ıı
+Bibliotecas Digitais
+  </li>
+
+
+
+</ul>
+
+
+
+ </div>
+
+ 
+
+</section>
+
+<footer>
+
+  <div class="container center padding-top-40" id="patrocinadores">
+
+
+    <div class="row">
+
+      <div class="col-md-12 organizacao">
+        <h1>Patrocinador Diamante</h1>
+
+      <div class="col-md-offset-3 col-md-6"><a target="_blank" href="https://www.hotmart.com.br"><img src="img/patrocinadores/hotmart.png" alt="Hotmart" class="img-responsive"/></a></div>
+     
+       
+     </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 organizacao">
+        <h1>Patrocinadores Ouro</h1>
+
+      <div class="col-md-4"><a target="_blank" href="https://www.gerencianet.com.br"><img src="img/patrocinadores/gerencianet.svg" alt="Gerêncianet" class="img-responsive"/></a></div>
+      <div class=" col-md-4"><a target="_blank" href="http://www.gt4w.com.br/"><img src="img/patrocinadores/gt4w.png" alt="GT4W" class="img-responsive"/></a></div>
+       <div class=" col-md-4"><a target="_blank" href="http://www.nic.br/"><img src="img/patrocinadores/nic.png" alt="nic.br" class="img-responsive"/></a></div>
+       
+     </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 organizacao">
+        <h1>Patrocinador Prata</h1>
+
+      <div class="col-md-offset-5 col-md-2"><a target="_blank" href="http://www.innervision.com.br/"><img src="img/patrocinadores/innervision.svg" alt="Innervision" class="img-responsive"/></a></div>
+    
+     </div>
+    </div>
+
+
+    <div class="row">
+
+      <div class="col-md-12 organizacao">
+        <h1>Apoio</h1>
+
+      <div class="row">
+     <div class="col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/ufla.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+     <div class=" col-md-2"><a target="_blank" href="http://casadocodigo.com.br"><img src="img/apoio/casadocodigo.png" alt="Casa do código" class="img-responsive"/></a></div>
+     <div class=" col-md-2"><a target="_blank" href="http://sebrae.com.br"><img src="img/apoio/sebrae.svg" alt="sebrae" class="img-responsive"/></a></div>
+     <div class=" col-md-2"><a target="_blank" href="http://www.nintec.ufla.br"><img src="img/apoio/nintec.svg" alt="nintec" class="img-responsive"/></a></div>
+     <div class=" col-md-2"><a target="_blank" href="https://www.thoughtworks.com/pt/"><img src="img/apoio/thoughtworks.svg" alt="thoughtworks" class="img-responsive"/></a></div>
+   </div>
+      <div class="row padding-top-40">
+     <div class="col-md-2"><a target="_blank" href="http://www.inbatec.ufla.br"><img src="img/apoio/inbatec.svg" alt="inbatec" class="img-responsive"/></a></div>
+
+      <div class=" col-md-2"><a target="_blank" href="https://developers.google.com/groups/chapter/110554492619599994308/"><img src="img/apoio/gdglavras.png" alt="GDG Lavras" class="img-responsive"/></a></div>
+  <div class=" col-md-2"><a target="_blank" href="http://www.inbatec.ufla.br"><img src="img/apoio/empreendeufla.png" alt="empreendeufla" class="img-responsive"/></a></div>
+
+     
+
+     </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12 organizacao">
+        <h1>Organização</h1>
+        <div class="col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/dcc.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>
+      <div class="col-md-2"><a target="_blank" href="http://www.peticsi.dcc.ufla.br"><img src="img/peticsi.png" alt="PETI Computação e Sistemas" class="img-responsive"/></a></div>
+      <div class="col-md-2"><a target="_blank" href="http://www.compjunior.com.br"><img src="img/compjunior.png" alt="Comp Júnior" class="img-responsive"/></a></div>
+      
+
+      <div class="col-md-2"><a target="_blank" href="http://ca.computacao.ufla.br"><img src="img/cacc.png" alt="Centro Acadêmico de Ciência da Computação" class="img-responsive"/></a></div>
+      <div class="col-md-2"><a target="_blank" href="http://www.ca.ufla.br/sistemas/"><img src="img/casi.png" alt="Centro Acadêmico de Sistemas de Informação" class="img-responsive"/></a></div>
+      <!--<div class="col-md-2"><a target="_blank" href="http://dcc.ufla.br"><img src="img/apoio/gdglavras.png" alt="Departamento de Ciência da Computação" class="img-responsive"/></a></div>-->
+     </div>
+    </div>
+
+        <div class="row">
+        <div class="col-md-6">
+          <h1>Contato</h1>
+          <h3><strong>setiufla</strong>@gmail.com</h3>
+          <h3><a href="codigodeconduta.html">Código de conduta</a></h3>
+        </div>
+        <div class="col-md-6">
+
+        <h2>#setiufla</h2>
+        <a href="http://facebook.com/setiufla"><i class="fa fa-3x fa-facebook-official"></i></a>
+        <a href="http://instagram.com/setiufla"><i class="fa fa-3x fa-instagram"></i></a>
+        <a href="http://twitter.com/setiufla"><i class="fa fa-3x fa-twitter-square"></i></a>
+        <a href="https://www.youtube.com/channel/UCHtvp-d8pujKyANPv3NCySA"><i class="fa fa-3x fa-youtube-square"></i></a>
+        </div>
+     </div> 
+
+  </div>
+
+</footer>
+
+
+<div class="roquetContainer hidden-xs hidden-sm">
+
+  <span class="rocket"></span>
+
+</div>
+
+
+  <div class="contato hidden-xs hidden-sm">
+
+  </div>
+
+  <div class="copyrights">
+    <div class="container text-center">
+      <p>Design and code by <a href="http://thiagoam.com.br">Thiago Almeida Marques</a>  | Vectors by <a href="http://thiagoam.com.br">FreePik</a></p>
+    </div>
+  </div>
+
+
+
+
+
+<!-- VIDEO -->
+<div class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <p>One fine body&hellip;</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+</body>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+<!-- scripts -->
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+
+    <script src="js/classie.js"></script>
+    <script src="js/main.js"></script>
+  
+  
+
+      
+      <script src="js/parallax.js"></script>
+      <script src="js/wow.js"></script>
+    
+      <script>
+        new WOW().init();
+    </script>
+
+
+
+
+
+
+
+</body>
+</html>
